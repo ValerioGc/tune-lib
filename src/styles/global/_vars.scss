@@ -1,0 +1,37 @@
+// The measurements the interface is built from. Colour tokens live in global.scss.
+
+// Spacing
+$space_2xs: 0.125rem;
+$space_xs: 0.25rem;
+$space_sm: 0.5rem;
+$space_md: 1rem;
+$space_lg: 1.5rem;
+$space_xl: 2rem;
+
+// Layout
+$titlebar_height: 2.75rem;
+/// Horizontal margin shared by the page content and by the bars above and below it.
+$page_gutter: $space_lg;
+/// Height of a row of the list view. Keep in sync with LIBRARY_ROW_HEIGHT_REM.
+$library_row_height: 3.5rem;
+$scrollbar_size: 0.625rem;
+
+// Radii
+$radius_sm: 4px;
+$radius_md: 8px;
+$radius_lg: 12px;
+
+// Typography
+$font_family_base: 'Segoe UI Variable', 'Segoe UI', system-ui, sans-serif;
+/// For the few places that show a command or a path to be copied as it is written.
+$font_family_mono: 'Cascadia Mono', 'Consolas', ui-monospace, monospace;
+$font_size_base: 1rem;
+$line_height_base: 1.5;
+
+// Motion
+$duration_fast: 120ms;
+$duration_base: 200ms;
+
+// Breakpoints
+$breakpoint_md: 768px;
+$breakpoint_lg: 1200px;

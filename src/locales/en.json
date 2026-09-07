@@ -1,0 +1,579 @@
+{
+  "nav": {
+    "settings": "Settings",
+    "help": "Guide",
+    "backToLibrary": "Back to the library",
+    "about": "About"
+  },
+  "about": {
+    "title": "Info",
+    "description": "Audio player and library manager: it edits tags and cover art straight into the files, leaves them where they are, and plays them without leaving the window.",
+    "website": "Website",
+    "repository": "GitHub project",
+    "changelog": "Changelog",
+    "close": "Close"
+  },
+  "settings": {
+    "title": "Settings",
+    "loading": "Loading settings",
+    "subtitle": "Language, look and behaviour of the application, and its libraries.",
+    "language": {
+      "title": "Language",
+      "description": "Language of the interface, of the menus and of the messages."
+    },
+    "startup": {
+      "title": "Startup and window",
+      "description": "General settings for how the application starts and how its window behaves.",
+      "autostart": "Start when the system starts",
+      "minimized": "Start minimized to the system tray",
+      "closeToTray": "When the window is closed, leave the application in the system tray",
+      "hint": "When the application is minimized to the system tray, a click on the icon reopens the window and a right click lets you stop playback or quit the application."
+    },
+    "playerBehaviour": {
+      "title": "Player",
+      "description": "Settings for the player and the floating player.",
+      "keepOpen": "Leave the player open and minimized when the track is closed",
+      "dock": "Show the floating player when the app goes to the system tray",
+      "orientation": "Floating player layout",
+      "orientations": {
+        "horizontal": "Horizontal",
+        "vertical": "Vertical"
+      },
+      "closeAction": "When the floating player is closed",
+      "closeActions": {
+        "ask": "Ask every time",
+        "dock": "Close the floating player only",
+        "app": "Close the whole application"
+      },
+      "level": "Floating player starts",
+      "levels": {
+        "compact": "Compact",
+        "expanded": "Expanded"
+      },
+      "remembersLevel": "Remember the last level used",
+      "progress": "Progress bar in the floating player",
+      "progressStyles": {
+        "bar": "Bar with times",
+        "line": "Thin line",
+        "none": "None"
+      },
+      "gradient": "Background from the cover in the floating player"
+    },
+    "textSize": {
+      "title": "Text size",
+      "description": "Scales the typography across the whole interface.",
+      "preview": "Preview of the text at the selected size.",
+      "options": {
+        "xsmall": "Very small",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large"
+      }
+    },
+    "theme": {
+      "title": "Theme",
+      "description": "Light or dark appearance, or automatic.",
+      "systemHint": "The system is currently using the {theme} theme.",
+      "options": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+      }
+    },
+    "accent": {
+      "title": "Accent colour",
+      "description": "Colour of the controls, buttons and active elements of the interface.",
+      "swatch": "Colour {color}",
+      "custom": "Custom",
+      "reset": "Default",
+      "hint": "The colour is lightened or darkened automatically so it stays readable on both the light and the dark theme."
+    },
+    "ambience": {
+      "title": "Background and glass",
+      "description": "Soft background built on the accent colour, and translucent surfaces for depth.",
+      "background": "Soft background from the accent colour",
+      "style": "Gradient type",
+      "styles": {
+        "orbs": "Blurred blobs",
+        "linear": "Linear gradient",
+        "spotlight": "Single glow"
+      },
+      "direction": "Direction",
+      "directions": {
+        "topLeft": "From the top left",
+        "top": "From the top",
+        "topRight": "From the top right",
+        "left": "From the left",
+        "right": "From the right",
+        "bottomLeft": "From the bottom left",
+        "bottom": "From the bottom",
+        "bottomRight": "From the bottom right"
+      },
+      "glass": "Glass surfaces (table, cards and panels)",
+      "preview": "Preview",
+      "panels": "Use the same background on the detail windows",
+      "hint": "The second colour of the background comes from the accent, so it changes with it. The two options are independent."
+    },
+    "coverGradient": {
+      "title": "Background colour from the cover",
+      "description": "Use the dominant cover color for the player background and the playing row.",
+      "toggle": "Enable cover gradient",
+      "style": "Gradient shape",
+      "direction": "Gradient origin",
+      "intensity": "Intensity",
+      "transparency": "Player transparency",
+      "blur": "Player blur"
+    },
+    "defaultPlayer": {
+      "title": "Default audio player",
+      "description": "Associate audio files with TuneLib",
+      "message": "Windows requires a manual choice: find TuneLib in default apps and assign the audio formats you want to open here.",
+      "linuxMessage": "On Linux the association is managed by your desktop environment: open its default applications settings, or run this command in a terminal.",
+      "open": "Open settings",
+      "opening": "Opening…",
+      "error": "Error opening the system settings."
+    },
+    "tabs": {
+      "general": "General",
+      "appearance": "Appearance",
+      "library": "Library"
+    },
+    "appearance": {
+      "application": "Application",
+      "player": "Audio player",
+      "library": "Track list"
+    },
+    "libraryName": {
+      "label": "Name",
+      "placeholder": "My library",
+      "save": "Save name",
+      "saving": "Saving…"
+    },
+    "importExport": {
+      "title": "Import / Export",
+      "description": "Settings for importing and exporting the music library.",
+      "import": "Import",
+      "importing": "Importing…",
+      "export": "Export active",
+      "busy": "Import running. The other commands stay locked until it ends.",
+      "strategy": {
+        "label": "Import strategy",
+        "options": {
+          "replace": "Replace the active library",
+          "merge": "Merge and update duplicates",
+          "mergeSkipDuplicates": "Merge and skip duplicates"
+        }
+      },
+      "report": {
+        "summary": "{total} tracks read: {added} added, {updated} updated, {skipped} skipped, {missing} missing files."
+      },
+      "mode": {
+        "label": "What the export carries",
+        "options": {
+          "full": "Whole library",
+          "paths": "File paths only"
+        },
+        "hints": {
+          "full": "Data and covers included: a larger file, but one that opens without the original tracks.",
+          "paths": "Only where the files are: the data is read back from those files on import, so they have to still be in place."
+        }
+      }
+    },
+    "libraries": {
+      "title": "Libraries",
+      "description": "Settings for managing your music libraries."
+    },
+    "coverCache": {
+      "title": "Cover cache",
+      "description": "Cover art is kept on disk, so it does not have to be read out of the files at every start. The cache can be emptied at any time: it rebuilds itself and the library files are left untouched.",
+      "size": "Space used: {size}",
+      "empty": "Space used: 0 MB",
+      "limit": "When the cache goes past {limit}, the covers requested longest ago are removed automatically.",
+      "clear": "Empty the cache",
+      "clearing": "Emptying…",
+      "cleared": "Cache emptied.",
+      "confirm": {
+        "title": "Empty the cover cache?",
+        "message": "The covers kept on disk are removed and read from the files again when they are next needed. The tracks of the library are left untouched.",
+        "cancel": "Cancel",
+        "confirm": "Empty it"
+      },
+      "failed": "The cache could not be emptied."
+    },
+    "banners": {
+      "title": "Library messages",
+      "description": "The summaries that appear at the top of the library — imports, checks, exports — close themselves after the chosen time. A bar under the message shows how long is left.",
+      "duration": "How long messages stay",
+      "seconds": "{count} seconds",
+      "manual": "Until they are closed"
+    }
+  },
+  "library": {
+    "title": "Library",
+    "loading": "Loading library",
+    "name": {
+      "field": "Library name",
+      "placeholder": "My library",
+      "save": "Save the name",
+      "cancel": "Cancel the change",
+      "actions": "Library options",
+      "menu": {
+        "rename": "Rename",
+        "columns": "Columns",
+        "verifyAll": "Verify files",
+        "duplicates": "Find duplicates",
+        "missingInfo": "Missing data",
+        "exportList": "Export list",
+        "export": "Export library",
+        "delete": "Delete library"
+      }
+    },
+    "catalog": {
+      "active": "in use",
+      "trackCount": "no tracks | 1 track | {count} tracks",
+      "open": "Open the “{name}” library",
+      "openShort": "Open",
+      "primary": "primary",
+      "primaryShort": "Primary",
+      "export": "Export the “{name}” library",
+      "exportShort": "Export",
+      "remove": "Delete the “{name}” library",
+      "exported": "Library exported to {path}",
+      "switcher": {
+        "open": "Switch library",
+        "title": "Choose library",
+        "close": "Close"
+      },
+      "create": {
+        "label": "New library",
+        "placeholder": "Name of the new library",
+        "submit": "Create"
+      },
+      "delete": {
+        "title": "Delete the library?",
+        "message": "The \"{name}\" library and its {count} tracks are removed from the list. The audio files stay on disk.",
+        "cancel": "Cancel",
+        "confirm": "Delete library"
+      }
+    },
+    "toolbar": {
+      "add": "Add tracks",
+      "addFiles": "Audio files",
+      "adding": "Importing…",
+      "addingPercent": "Importing… {percent}%",
+      "search": "Search the library",
+      "searchPlaceholder": "Title, album or genre",
+      "count": "no tracks | 1 track | {count} tracks",
+      "missing": "1 missing file | {count} missing files",
+      "addFolder": "Add folder",
+      "editSelected": "Edit {count} selected",
+      "missingInfo": {
+        "active": "Missing: {filter}",
+        "options": {
+          "all": "All",
+          "file": "File",
+          "cover": "Cover",
+          "artist": "Artist",
+          "album": "Album",
+          "year": "Year",
+          "genre": "Genre"
+        }
+      }
+    },
+    "missingInfo": {
+      "title": "Missing data",
+      "description": "Filter the library by the information that still needs to be completed. Choose All to return to the normal view.",
+      "label": "Information",
+      "result": "no tracks found | 1 track found | {count} tracks found",
+      "close": "Close",
+      "filtered": "The view is filtered: only the tracks without {filter} are listed.",
+      "reset": "Remove the filter"
+    },
+    "defaultPlayerBanner": {
+      "title": "You can use TuneLib as your default player",
+      "message": "Open system settings and choose this app for MP3, FLAC, WAV and the other audio formats.",
+      "action": "Set up",
+      "dismiss": "Hide notice"
+    },
+    "columns": {
+      "cover": "Cover",
+      "title": "Name",
+      "artist": "Artist",
+      "album": "Album",
+      "year": "Year",
+      "genre": "Genre",
+      "format": "Format",
+      "path": "Path",
+      "duration": "Duration",
+      "actions": "Actions",
+      "resize": "Resize {column}"
+    },
+    "columnSettings": {
+      "title": "List columns",
+      "description": "Choose visible columns and drag them to reorder them. Cover and Name always stay first; Duration stays required.",
+      "open": "Column settings",
+      "fit": "Fit columns",
+      "dividers": "Show vertical rules between columns",
+      "dividersHint": "Separates the columns of the list with a thin rule.",
+      "moveUp": "Move {column} up",
+      "moveDown": "Move {column} down",
+      "reset": "Reset",
+      "close": "Done"
+    },
+    "sort": {
+      "sortBy": "Sort by {column}",
+      "asc": "ascending",
+      "desc": "descending",
+      "field": "Sort by",
+      "ascending": "Ascending order",
+      "descending": "Descending order"
+    },
+    "row": {
+      "unknown": "—",
+      "noCover": "No cover",
+      "missing": "File no longer on disk",
+      "playing": "Now playing",
+      "actions": "Actions for “{title}”",
+      "remove": "Remove “{title}” from the library",
+      "edit": "Edit the metadata of “{title}”",
+      "menu": {
+        "edit": "Edit",
+        "remove": "Delete"
+      }
+    },
+    "empty": {
+      "title": "The library is empty",
+      "message": "Add your audio files: they stay where they are, only the list is tracked here.",
+      "dropHint": "You can also drop files and folders onto this window."
+    },
+    "noMatches": {
+      "title": "No results",
+      "message": "No track matches the search “{query}”."
+    },
+    "noMissingInfo": {
+      "title": "No missing data",
+      "message": "No track matches the missing-data filter."
+    },
+    "remove": {
+      "title": "Remove this track?",
+      "message": "“{title}” leaves the library. The file on disk is not deleted.",
+      "confirm": "Remove",
+      "cancel": "Cancel"
+    },
+    "report": {
+      "title": "Import result",
+      "added": "1 track added | {count} tracks added",
+      "duplicates": "1 file already in the library | {count} files already in the library",
+      "failed": "1 file not imported | {count} files not imported",
+      "dismiss": "Dismiss"
+    },
+    "duplicates": {
+      "title": "Duplicate tracks",
+      "description": "Tracks held in more than one file, matched by title with its artist or by file name. Removing a copy takes it out of the library: the file stays on disk.",
+      "empty": "No duplicate track: every title is here once.",
+      "copies": "{count} copies",
+      "remove": "Remove this copy of “{title}” from the library",
+      "close": "Close"
+    },
+    "verification": {
+      "summary": "Verification complete: missing files {missing} out of {total} tracks."
+    },
+    "refresh": {
+      "missing": "{count} file is no longer available at the path on record | {count} files are no longer available at the paths on record",
+      "refreshed": "{count} tracks edited outside the app were brought up to date",
+      "recovered": "Found {count} files that were previously missing",
+      "removeMissing": "Remove missing files",
+      "removeMissingTitle": "Remove missing files?",
+      "removeMissingMessage": "{count} tracks will be removed from the library. Files on disk will not be deleted."
+    },
+    "exportList": {
+      "title": "Export track list",
+      "description": "Choose the format and information to include in the file.",
+      "format": "Format",
+      "formats": {
+        "csv": "CSV",
+        "txt": "TXT"
+      },
+      "fieldsLabel": "Information",
+      "fields": {
+        "title": "Name",
+        "artist": "Artist",
+        "album": "Album",
+        "year": "Year",
+        "genre": "Genre",
+        "duration": "Duration",
+        "format": "Format",
+        "path": "Path",
+        "missing": "Missing file"
+      },
+      "cancel": "Cancel",
+      "submit": "Export"
+    },
+    "errors": {
+      "shellUnavailable": "This feature is only available in the desktop application.",
+      "generic": "The operation failed. Please try again.",
+      "invalidLibraryName": "The library name cannot be empty.",
+      "duplicateLibraryName": "A library with this name already exists."
+    },
+    "view": {
+      "label": "View",
+      "table": "List",
+      "preview": "Previews"
+    },
+    "previewSize": {
+      "label": "Preview size",
+      "small": "Small previews",
+      "medium": "Medium previews",
+      "large": "Large previews"
+    },
+    "tabs": {
+      "label": "Library sections",
+      "tracks": "Tracks",
+      "artists": "Artists",
+      "albums": "Albums",
+      "genres": "Genres"
+    },
+    "groups": {
+      "trackCount": "no tracks | 1 track | {count} tracks",
+      "albumCount": "no albums | 1 album | {count} albums",
+      "artistCount": "no artist | 1 artist | {count} artists",
+      "genreCount": "no genre | 1 genre | {count} genres",
+      "openLabel": "Open tracks linked to “{name}”",
+      "albumArtist": "{artists}",
+      "variousArtists": "Various artists",
+      "modalTitle": "Tracks linked to “{name}”",
+      "detailTabs": "Linked detail",
+      "back": "Back to the previous detail",
+      "backTo": "Back to “{name}”",
+      "close": "Close",
+      "columns": {
+        "artist": "Artist",
+        "album": "Album",
+        "albums": "Albums",
+        "artists": "Artists",
+        "genre": "Genre",
+        "tracks": "Tracks",
+        "duration": "Duration",
+        "actions": "Actions"
+      },
+      "unknown": {
+        "artist": "No artist",
+        "album": "No album",
+        "genre": "No genre"
+      }
+    },
+    "playback": {
+      "missingTitle": "Missing file",
+      "unavailable": "“{title}” cannot be played: the file is not available at the path on record."
+    },
+    "importProgress": {
+      "scanning": "Finding files in folders…",
+      "reading": "Reading tracks…",
+      "saving": "Adding tracks and saving the library…",
+      "refreshing": "Refreshing the track list…"
+    }
+  },
+  "metadata": {
+    "title": "Edit metadata",
+    "save": "Save",
+    "saving": "Saving…",
+    "cancel": "Cancel",
+    "bulk": {
+      "title": "Edit {count} tracks",
+      "description": "Enable only the fields to apply to every selected track. The track name stays individual."
+    },
+    "fields": {
+      "title": "Name",
+      "artist": "Artist",
+      "album": "Album",
+      "year": "Year",
+      "genre": "Genre",
+      "genreCustom": "Pick or type a genre"
+    },
+    "cover": {
+      "label": "Cover",
+      "choose": "Choose image…",
+      "remove": "Remove cover",
+      "tooLarge": "The cover inside this file weighs {size}, too much to be shown. The file has not been touched: choosing a new image replaces it.",
+      "batch": {
+        "title": "Update the album cover?",
+        "message": "The album \"{album}\" has {count} other tracks. Apply the same cover change to them too?",
+        "onlyCurrent": "Only this track",
+        "allAlbum": "Whole album"
+      }
+    },
+    "errors": {
+      "titleRequired": "The name cannot be empty.",
+      "titleTooLong": "The name is too long.",
+      "yearOutOfRange": "Enter a valid year (between 1000 and next year).",
+      "coverType": "Only PNG or JPEG images are allowed.",
+      "coverTooLarge": "The image is larger than 5 MB."
+    }
+  },
+  "player": {
+    "nowPlaying": "Now playing",
+    "expand": "Expand the player",
+    "collapse": "Collapse the player",
+    "openLibrary": "Open library",
+    "close": "Close the player",
+    "play": "Play",
+    "pause": "Pause",
+    "stop": "Stop",
+    "previous": "Previous track",
+    "next": "Next track",
+    "shuffle": "Shuffle playback",
+    "repeatOne": "Repeat track",
+    "progress": "Track progress",
+    "volume": "Volume",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "volumeValue": "Volume {value}%",
+    "errors": {
+      "missing": "The file of this track is no longer on disk.",
+      "unsupported": "This audio format cannot be played here.",
+      "shellUnavailable": "Playback is only available in the desktop application.",
+      "generic": "Playback failed."
+    },
+    "related": {
+      "empty": "No other track connected to this one in the library.",
+      "play": "Play “{title}”"
+    }
+  },
+  "mini": {
+    "expand": "Open the application",
+    "close": "Close the floating player",
+    "menu": {
+      "label": "Floating player options",
+      "horizontal": "Lay out horizontally",
+      "vertical": "Lay out vertically",
+      "settings": "Player settings"
+    },
+    "pin": "Keep the mini player always on top",
+    "unpin": "Stop keeping the mini player on top",
+    "confirm": {
+      "title": "Close the mini player?",
+      "message": "Choose whether to close only the mini-player window and leave the application in the system tray, or quit the application completely.",
+      "remember": "Remember this choice",
+      "cancel": "Cancel",
+      "dockOnly": "Close only the mini player",
+      "wholeApp": "Quit the application"
+    },
+    "collapse": "Fewer controls",
+    "expandDock": "Show every control"
+  },
+  "titlebar": {
+    "tray": "Send to the system tray",
+    "minimize": "Minimise",
+    "maximize": "Maximise or restore",
+    "close": "Close the application"
+  },
+  "tray": {
+    "show": "Open TuneLib",
+    "bringToFront": "Bring mini player to front",
+    "stop": "Stop playback",
+    "quit": "Quit"
+  },
+  "common": {
+    "loading": "Loading"
+  }
+}

@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'sha256-w+OB4yWui1/vVdL3Y75OxDE13iHR6JDd3+CQmiq6CJE=' 'sha256-UUSsb6jksuLr//wqTxCdxEYbnigFNRvibWC9opoFAww='; style-src 'self'; img-src 'self' data:; connect-src https://api.github.com; base-uri 'self'; form-action 'none'; object-src 'none'">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TuneLib - Gestor de biblioteca de audio para Windows y Linux</title>
+    <meta name="description" content="Aplicación de escritorio de código abierto para gestionar una biblioteca de archivos de audio: edición de metadatos, carátulas, varias vistas y reproductor integrado. Todo ocurre en tu ordenador, sin conexión y sin telemetría.">
+    <link rel="canonical" href="https://valeriogc.github.io/tune-lib/es/">
+    <link rel="icon" href="../logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="alternate" hreflang="it" href="../it/">
+    <link rel="alternate" hreflang="en" href="../en/">
+    <link rel="alternate" hreflang="fr" href="../fr/">
+    <link rel="alternate" hreflang="es" href="../es/">
+    <link rel="alternate" hreflang="de" href="../de/">
+    <link rel="alternate" hreflang="x-default" href="../en/">
+  </head>
+  <body>
+    <header class="site_header">
+      <nav class="site_nav" aria-label="Navegación del sitio">
+        <a class="brand" href="#top" aria-label="TuneLib">
+          <span class="brand_mark" aria-hidden="true"><img src="../logo.svg" alt=""></span>
+          <span>TuneLib</span>
+        </a>
+        <div class="nav_cluster">
+          <div class="nav_links">
+            <a href="#download">Descarga</a>
+            <a href="#features">Funciones</a>
+            <a href="#formats">Formatos</a>
+            <a href="https://github.com/ValerioGc/tune-lib">GitHub</a>
+          </div>
+          <div class="language_switcher">
+            <details class="lang_picker">
+              <summary class="lang_picker_btn" aria-label="Elige tu idioma">
+                <img src="../flags/flag-es.svg" alt="Español" class="lang_flag" width="20" height="15">
+                <span>ES</span>
+              </summary>
+              <ul class="lang_picker_menu">
+                <li><a href="../it/" lang="it" hreflang="it"><img src="../flags/flag-it.svg" alt="" class="lang_flag" width="20" height="15"> Italiano</a></li>
+                <li><a href="../en/" lang="en" hreflang="en"><img src="../flags/flag-gb.svg" alt="" class="lang_flag" width="20" height="15"> English</a></li>
+                <li><a href="../fr/" lang="fr" hreflang="fr"><img src="../flags/flag-fr.svg" alt="" class="lang_flag" width="20" height="15"> Français</a></li>
+                <li><a aria-current="page" href="../es/" lang="es" hreflang="es"><img src="../flags/flag-es.svg" alt="" class="lang_flag" width="20" height="15"> Español</a></li>
+                <li><a href="../de/" lang="de" hreflang="de"><img src="../flags/flag-de.svg" alt="" class="lang_flag" width="20" height="15"> Deutsch</a></li>
+              </ul>
+            </details>
+          </div>
+        </div>
+      </nav>
+
+      <section id="top" class="hero">
+        <div class="hero_copy">
+          <p class="eyebrow">Escritorio · Windows y Linux</p>
+          <h1>Tu biblioteca de audio, en tu ordenador</h1>
+          <p class="lead">
+            TuneLib registra las pistas que añades tú, edita sus etiquetas y carátulas escribiéndolas directamente en los archivos, y las reproduce sin salir de la aplicación. Sin análisis automático del disco, sin cuenta, sin conexión.
+          </p>
+          <div class="hero_actions">
+            <a class="button button_primary" href="https://github.com/ValerioGc/tune-lib">Ver en GitHub</a>
+            <a class="button" href="#download">Descarga</a>
+          </div>
+        </div>
+        <aside class="hero_panel" aria-label="En resumen">
+          <dl>
+            <div>
+              <dt>Plataformas</dt>
+              <dd>Windows · Linux</dd>
+            </div>
+            <div>
+              <dt>Internet y telemetría</dt>
+              <dd>Nunca necesarios</dd>
+            </div>
+            <div>
+              <dt>Licencia</dt>
+              <dd>Código abierto</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+    </header>
+
+    <main>
+      <section id="download" class="download_section">
+        <div class="section_header">
+          <p class="eyebrow">Última versión</p>
+          <h2>Descargar TuneLib</h2>
+        </div>
+        <div class="download_btns">
+          <div id="dl_primary_card" class="dl_card">
+            <a id="dl_primary" class="button button_primary button_lg" href="https://github.com/ValerioGc/tune-lib/releases/latest">Cargando…</a>
+          </div>
+          <div id="dl_others" class="download_btns"></div>
+        </div>
+        <p class="download_meta" id="dl_meta">
+          <a href="https://github.com/ValerioGc/tune-lib/releases/latest">Todas las versiones</a>
+        </p>
+        <script>
+          (function () {
+            var API = "https://api.github.com/repos/ValerioGc/tune-lib/releases/latest";
+            var RELEASES = "https://github.com/ValerioGc/tune-lib/releases/latest";
+            var STR_FOR    = "Descargar para";
+            var STR_ALL    = "Todas las versiones";
+            var STR_VER    = "Versión";
+            var STR_COPIED = "¡Copiado!";
+      
+            function detectOS() {
+              var pl = (navigator.platform || '').toLowerCase();
+              if (/win/.test(pl)) return 'windows';
+              if (/linux/.test(pl)) return 'linux';
+              return null;
+            }
+      
+            function makeHashEl(full) {
+              var el = document.createElement('code');
+              el.className = 'dl_hash';
+              el.title = 'SHA-256: ' + full;
+              el.textContent = 'SHA-256 ' + full.slice(0, 12) + '…';
+              el.addEventListener('click', function () {
+                navigator.clipboard.writeText(full).then(function () {
+                  var prev = el.textContent;
+                  el.textContent = STR_COPIED;
+                  setTimeout(function () { el.textContent = prev; }, 1500);
+                }).catch(function () {});
+              });
+              return el;
+            }
+      
+            var primaryCard = document.getElementById('dl_primary_card');
+            var primary     = document.getElementById('dl_primary');
+            var others      = document.getElementById('dl_others');
+            var meta        = document.getElementById('dl_meta');
+      
+            fetch(API)
+              .then(function (r) { return r.json(); })
+              .then(function (release) {
+                var version = release.tag_name || '';
+                var assets  = release.assets || [];
+      
+                var platforms = [
+                  { key: 'windows', label: 'Windows', asset: assets.find(function (a) { return /\.exe$/i.test(a.name); }) },
+                  { key: 'linux',   label: 'Linux',   asset: assets.find(function (a) { return /\.AppImage$/i.test(a.name); }) },
+                ].filter(function (p) { return !!p.asset; });
+      
+                if (!platforms.length) return;
+      
+                var detected = detectOS();
+                var main = platforms.find(function (p) { return p.key === detected; }) || platforms[0];
+                var rest = platforms.filter(function (p) { return p !== main; });
+      
+                // Primary button
+                if (primary) {
+                  primary.href = main.asset.browser_download_url;
+                  primary.textContent = STR_FOR + ' ' + main.label;
+                }
+      
+                // Secondary buttons
+                var cardMap = {};
+                cardMap[main.key] = primaryCard;
+      
+                if (others) {
+                  others.innerHTML = '';
+                  rest.forEach(function (p) {
+                    var card = document.createElement('div');
+                    card.className = 'dl_card';
+                    var a = document.createElement('a');
+                    a.href = p.asset.browser_download_url;
+                    a.className = 'button';
+                    a.textContent = p.label;
+                    card.appendChild(a);
+                    others.appendChild(card);
+                    cardMap[p.key] = card;
+                  });
+                }
+      
+                // Version + releases link
+                if (meta && version) {
+                  meta.innerHTML = '';
+                  var span = document.createElement('span');
+                  span.textContent = STR_VER + ' ' + version + ' · ';
+                  var link = document.createElement('a');
+                  link.href = RELEASES;
+                  link.textContent = STR_ALL;
+                  meta.appendChild(span);
+                  meta.appendChild(link);
+                }
+      
+                // Fetch SHA256SUMS.txt and attach hashes to each card
+                var sumsAsset = assets.find(function (a) { return a.name === 'SHA256SUMS.txt'; });
+                if (!sumsAsset) return;
+      
+                fetch(sumsAsset.browser_download_url)
+                  .then(function (r) { return r.text(); })
+                  .then(function (text) {
+                    var hashMap = {};
+                    text.split('\n').forEach(function (line) {
+                      var parts = line.trim().split(/\s+/);
+                      if (parts.length >= 2) hashMap[parts[1]] = parts[0];
+                    });
+                    platforms.forEach(function (p) {
+                      var hash = hashMap[p.asset.name];
+                      var card = cardMap[p.key];
+                      if (hash && card) card.appendChild(makeHashEl(hash));
+                    });
+                  })
+                  .catch(function () { /* checksums unavailable, silently skip */ });
+              })
+              .catch(function () { /* keep static fallback link */ });
+          }());
+        </script>
+      </section>
+
+      <section id="features" class="section">
+        <div class="section_header">
+          <p class="eyebrow">Qué hace</p>
+          <h2>Funciones</h2>
+        </div>
+        <div class="card_grid">
+          <article class="card">
+            <h3>Una biblioteca que decides tú</h3>
+            <p>Sin análisis automático de carpetas: la biblioteca contiene solo los archivos que añades, uno a uno o soltándolos sobre la ventana. Puedes tener varias y pasar de una a otra cuando quieras.</p>
+          </article>
+          <article class="card">
+            <h3>Edición de metadatos</h3>
+            <p>Título, artista, álbum, año, género y carátula se editan desde la aplicación y se reescriben en las etiquetas del archivo, no solo en la base de la biblioteca. La edición múltiple aplica el mismo campo a varias pistas a la vez.</p>
+          </article>
+          <article class="card">
+            <h3>Vista de lista y vista previa</h3>
+            <p>La lista muestra columnas que puedes ordenar, redimensionar y ocultar; las vistas previas disponen las carátulas en una cuadrícula, con un orden propio. Las secciones Artistas, Álbumes y Géneros agrupan las mismas pistas, y cada grupo abre un panel que se puede recorrer: del álbum a su artista, y de ahí a sus álbumes.</p>
+          </article>
+          <article class="card">
+            <h3>Reproductor integrado</h3>
+            <p>Un reproductor anclado abajo, ampliable a pantalla completa, con avance, volumen, silencio, reproducción aleatoria y repetición. La cola es la lista que tienes delante, filtros y orden incluidos, y a pantalla completa el artista, el álbum y el género son enlaces a todo lo relacionado con ellos.</p>
+          </article>
+          <article class="card">
+            <h3>El aspecto que elijas</h3>
+            <p>Tema claro u oscuro, cuatro tamaños de texto, un color de acento a tu gusto y un fondo degradado construido sobre ese color, del que decides forma y origen, con superficies de cristal activables aparte y un reproductor que toma los colores de la carátula en reproducción.</p>
+          </article>
+          <article class="card">
+            <h3>Importación y exportación</h3>
+            <p>Una biblioteca se exporta a un archivo portable y se vuelve a importar en otro sitio, con la fusión ya resuelta: sustituir la que está abierta, añadir solo lo nuevo o actualizar también lo que ya estaba. La exportación lleva toda la biblioteca o solo las rutas de las pistas, lo que mantiene el archivo ligero cuando el audio viaja con él. La lista de pistas se exporta aparte, en texto o CSV.</p>
+          </article>
+          <article class="card">
+            <h3>Archivos siempre al día</h3>
+            <p>Al abrirla, la biblioteca relee sus archivos: las etiquetas editadas con otro programa llegan solas, y los archivos movidos o borrados se avisan en vez de desaparecer en silencio. Un buscador de duplicados reúne las pistas presentes en varios archivos, reconocidas por el título con su artista o por el nombre del archivo.</p>
+          </article>
+          <article class="card">
+            <h3>Reproductor flotante y bandeja del sistema</h3>
+            <p>Al minimizar la app en la bandeja del sistema la música sigue, y en lugar de la ventana aparece un reproductor flotante: carátula, título y mandos en una ventanita que mueves donde quieras, horizontal o vertical, y en primer plano si lo prefieres. La app también puede arrancar con el sistema, ya minimizada.</p>
+          </article>
+          <article class="card">
+            <h3>Abrir archivos de audio con TuneLib</h3>
+            <p>Elige TuneLib en las aplicaciones predeterminadas del sistema para abrir archivos de audio desde el gestor de archivos. En Windows, la aplicación comprueba las asociaciones y oculta el recordatorio cuando todos los formatos compatibles ya están asociados.</p>
+          </article>
+          <article class="card">
+            <h3>Ayuda dentro de la aplicación</h3>
+            <p>El botón ? abre una guía con instrucciones breves, iconos de controles, atajos de teclado y consejos, disponible en los cinco idiomas de la interfaz.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="formats" class="section">
+        <div class="section_header">
+          <p class="eyebrow">Compatibilidad</p>
+          <h2>Formatos admitidos</h2>
+        </div>
+        <div class="format_list" aria-label="Lista de formatos de audio admitidos">
+          <span>MP3</span>
+          <span>FLAC</span>
+          <span>M4A</span>
+          <span>OGG</span>
+          <span>WAV</span>
+        </div>
+        <p class="note">
+          La lectura y la escritura de etiquetas pasan por la misma biblioteca en todos los formatos. La carátula incluida: en cada uno de ellos puede añadirse, sustituirse y quitarse.
+        </p>
+      </section>
+
+      <section class="section section_split">
+        <div>
+          <p class="eyebrow">Privacidad</p>
+          <h2>Todo se queda en tu ordenador</h2>
+          <p>
+            TuneLib no recopila datos, no envía telemetría y no necesita conexión a internet para ninguna función. Lo único que guarda son tus preferencias y los archivos de biblioteca, en local. Tus archivos de audio nunca se copian a otro sitio: la aplicación los lee y reescribe sus etiquetas donde están.
+          </p>
+        </div>
+        <div class="callout">
+          <h3>Aviso de Windows SmartScreen</h3>
+          <p>
+            El instalador todavía no está firmado con un certificado de pago, así que SmartScreen puede mostrar un aviso en el primer inicio. Elige «Más información» y luego «Ejecutar de todas formas» para continuar.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site_footer">
+      <span>TuneLib</span>
+      <a href="https://github.com/ValerioGc/tune-lib">Código fuente en GitHub</a>
+    </footer>
+    <script>
+      document.addEventListener('click', function (e) {
+        document.querySelectorAll('.lang_picker[open]').forEach(function (d) {
+          if (!d.contains(e.target)) d.removeAttribute('open');
+        });
+      });
+    </script>
+  </body>
+</html>

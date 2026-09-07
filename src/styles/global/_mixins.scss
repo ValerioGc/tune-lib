@@ -1,0 +1,86 @@
+@use 'vars' as *;
+
+@mixin from($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin focus_ring {
+  &:focus-visible {
+    outline: 2px solid currentcolor;
+    outline-offset: 2px;
+  }
+}
+
+/// The centred column used by the pages that are read rather than browsed.
+@mixin page_column($width: 46rem) {
+  width: 100%;
+  max-width: $width;
+  margin: 0 auto;
+}
+
+/// The raised surface shared by cards, panels and menus.
+@mixin surface_panel($radius: $radius_md, $background: var(--color_surface)) {
+  border: 1px solid var(--color_border);
+  border-radius: $radius;
+  background-color: $background;
+}
+
+/// A content surface that follows the glass setting.
+@mixin glass_surface($radius: $radius_md) {
+  border: 1px solid var(--surface_glass_border);
+  border-radius: $radius;
+  background-color: var(--surface_glass_background);
+  backdrop-filter: var(--surface_glass_filter);
+}
+
+/// A scrollable region whose wheel events stop at the component boundary.
+@mixin scroll_area($gutter: stable) {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: $gutter;
+}
+
+/// A line of the settings that is ticked rather than filled.
+@mixin settings_check {
+  display: flex;
+  gap: $space_sm;
+  align-items: center;
+  padding: $space_2xs 0;
+  color: var(--color_text);
+  cursor: pointer;
+
+  input[type='checkbox'] {
+    flex-shrink: 0;
+    width: 1.1rem;
+    height: 1.1rem;
+    accent-color: var(--color_accent);
+    cursor: inherit;
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+
+  &:hover input[type='checkbox']:not(:disabled) {
+    outline: 2px solid var(--color_accent_soft);
+    outline-offset: 1px;
+  }
+}
+
+@mixin selectable_text {
+  user-select: text;
+  cursor: text;
+}
+
+@mixin visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

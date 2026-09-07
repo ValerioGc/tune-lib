@@ -1,0 +1,14 @@
+# The repository stores text with LF, and so should a working copy of it.
+#
+# Without this, git rewrites files with CRLF on checkout wherever core.autocrlf is on, and
+# then Prettier, ESLint and the page generator all report as broken what is only a line
+# ending — the whole tree at once, after any merge.
+* text=auto eol=lf
+
+# Not text, whatever a heuristic may think of the bytes.
+*.png binary
+*.jpg binary
+*.ico binary
+*.mp3 binary
+*.flac binary
+*.wav binary

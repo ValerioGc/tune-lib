@@ -1,0 +1,58 @@
+@use 'global/mixins' as *;
+
+// Hidden windows keep their audio engine, but have no animation frames to draw.
+:root[data-window-hidden='true'] {
+  *,
+  *::before,
+  *::after {
+    animation-play-state: paused !important;
+  }
+}
+
+.common_check {
+  @include settings_check;
+}
+
+.common_surface {
+  @include surface_panel;
+}
+
+.common_surface_sm {
+  @include surface_panel($radius_sm);
+}
+
+.common_surface_lg {
+  @include surface_panel($radius_lg);
+}
+
+.common_surface_alt {
+  @include surface_panel($radius_md, var(--color_surface_alt));
+}
+
+.common_surface_alt_lg {
+  @include surface_panel($radius_lg, var(--color_surface_alt));
+}
+
+.common_glass {
+  @include glass_surface;
+}
+
+.common_glass_lg {
+  @include glass_surface($radius_lg);
+}
+
+.common_scroll_area {
+  @include scroll_area;
+}
+
+.common_scroll_area_auto {
+  @include scroll_area(auto);
+}
+
+.common_scroll_area_centered {
+  @include scroll_area(stable both-edges);
+}
+
+.common_visually_hidden {
+  @include visually_hidden;
+}

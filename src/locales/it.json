@@ -1,0 +1,579 @@
+{
+  "nav": {
+    "settings": "Impostazioni",
+    "help": "Guida",
+    "backToLibrary": "Torna alla libreria",
+    "about": "Info"
+  },
+  "about": {
+    "title": "Info",
+    "description": "Player audio e gestione della libreria: modifica tag e copertine direttamente nei file, li lascia dove sono e li riproduce senza uscire dalla finestra.",
+    "website": "Sito web",
+    "repository": "Progetto GitHub",
+    "changelog": "Note di versione",
+    "close": "Chiudi"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "loading": "Caricamento delle impostazioni",
+    "subtitle": "Lingua, aspetto e comportamento dell’applicazione e librerie",
+    "language": {
+      "title": "Lingua",
+      "description": "Lingua dell’interfaccia, dei menu e dei messaggi."
+    },
+    "startup": {
+      "title": "Avvio e finestra",
+      "description": "Impostazioni generali di avvio dell’applicazione e di comportamento della finestra.",
+      "autostart": "Avvia all'accensione del sistema",
+      "minimized": "Parti ridotta nella barra di sistema",
+      "closeToTray": "Alla chiusura della finestra, lascia l’applicazione nella barra di sistema",
+      "hint": "Quando l’applicazione è minimizzata nella barra di sistema, un clic sull’icona riapre la finestra e il tasto destro permette di interrompere la riproduzione o di uscire dall'applicazione."
+    },
+    "playerBehaviour": {
+      "title": "Player",
+      "description": "Impostazioni relative al player e al player flottante.",
+      "keepOpen": "Lascia il player aperto e ridotto, quando chiudi il brano",
+      "dock": "Mostra il player flottante quando riduci l’app nella barra di sistema",
+      "orientation": "Orientamento del player flottante",
+      "orientations": {
+        "horizontal": "Orizzontale",
+        "vertical": "Verticale"
+      },
+      "closeAction": "Chiudendo il player flottante",
+      "closeActions": {
+        "ask": "Chiedi ogni volta",
+        "dock": "Chiudi solo il player flottante",
+        "app": "Chiudi tutta l’applicazione"
+      },
+      "level": "Livello di partenza del player flottante",
+      "levels": {
+        "compact": "Ridotto",
+        "expanded": "Esteso"
+      },
+      "remembersLevel": "Ricorda l’ultimo livello usato",
+      "progress": "Barra di riproduzione nel player flottante",
+      "progressStyles": {
+        "bar": "Barra con i tempi",
+        "line": "Linea sottile",
+        "none": "Nessuna"
+      },
+      "gradient": "Sfondo dalla copertina nel player flottante"
+    },
+    "textSize": {
+      "title": "Dimensione testo",
+      "description": "Scala la tipografia di tutta l'interfaccia.",
+      "preview": "Anteprima del testo alla dimensione scelta.",
+      "options": {
+        "xsmall": "Molto piccolo",
+        "small": "Piccolo",
+        "medium": "Medio",
+        "large": "Grande"
+      }
+    },
+    "theme": {
+      "title": "Tema",
+      "description": "Aspetto chiaro o scuro o automatico.",
+      "systemHint": "Il sistema sta usando il tema {theme}.",
+      "options": {
+        "light": "Chiaro",
+        "dark": "Scuro",
+        "system": "Sistema"
+      }
+    },
+    "accent": {
+      "title": "Colore accent",
+      "description": "Colore dei controlli, dei bottoni e degli elementi attivi dell'interfaccia.",
+      "swatch": "Colore {color}",
+      "custom": "Personalizzato",
+      "reset": "Predefinito",
+      "hint": "Il colore viene schiarito o scurito automaticamente per restare leggibile sul tema chiaro e su quello scuro."
+    },
+    "ambience": {
+      "title": "Sfondo ed effetto vetro",
+      "description": "Sfondo sfumato costruito sul colore accent e superfici traslucide per dare profondità.",
+      "background": "Sfondo sfumato con il colore accent",
+      "style": "Tipo di sfumatura",
+      "styles": {
+        "orbs": "Bolle sfocate",
+        "linear": "Sfumatura lineare",
+        "spotlight": "Alone singolo"
+      },
+      "direction": "Direzione",
+      "directions": {
+        "topLeft": "Da in alto a sinistra",
+        "top": "Dall'alto",
+        "topRight": "Da in alto a destra",
+        "left": "Da sinistra",
+        "right": "Da destra",
+        "bottomLeft": "Da in basso a sinistra",
+        "bottom": "Dal basso",
+        "bottomRight": "Da in basso a destra"
+      },
+      "glass": "Superfici in vetro (tabella, card e pannelli)",
+      "preview": "Anteprima",
+      "panels": "Usa lo stesso sfondo anche sulle finestre di dettaglio",
+      "hint": "Il secondo colore dello sfondo deriva dall'accent, quindi cambia insieme a quello. Le due opzioni sono indipendenti."
+    },
+    "coverGradient": {
+      "title": "Colore sfondo da copertina",
+      "description": "Usa il colore dominante della copertina per lo sfondo del player e della riga in riproduzione.",
+      "toggle": "Abilita gradiente dalla copertina",
+      "style": "Forma del gradiente",
+      "direction": "Origine del gradiente",
+      "intensity": "Intensità",
+      "transparency": "Trasparenza player",
+      "blur": "Blur player"
+    },
+    "defaultPlayer": {
+      "title": "Player audio predefinito",
+      "description": "Associa i file audio a TuneLib",
+      "message": "Windows richiede una scelta manuale: cerca TuneLib nelle app predefinite e assegna i formati audio che vuoi aprire qui.",
+      "linuxMessage": "Su Linux l’associazione viene gestita dal tuo ambiente desktop: aprila dalle sue impostazioni delle applicazioni predefinite, oppure esegui questo comando in un terminale.",
+      "open": "Apri impostazioni",
+      "opening": "Apertura…",
+      "error": "Errore durante l’apertura delle impostazioni di sistema."
+    },
+    "tabs": {
+      "general": "Generale",
+      "appearance": "Aspetto",
+      "library": "Libreria"
+    },
+    "appearance": {
+      "application": "Applicazione",
+      "player": "Player audio",
+      "library": "Elenco brani"
+    },
+    "libraryName": {
+      "label": "Nome",
+      "placeholder": "La mia libreria",
+      "save": "Salva nome",
+      "saving": "Salvataggio…"
+    },
+    "importExport": {
+      "title": "Import / Export",
+      "description": "Impostazioni relative all’importazione e all’esportazione della libreria musicale.",
+      "import": "Importa",
+      "importing": "Importazione…",
+      "export": "Esporta attiva",
+      "busy": "Importazione in corso. Gli altri comandi restano bloccati fino al termine.",
+      "strategy": {
+        "label": "Strategia di import",
+        "options": {
+          "replace": "Sostituisci la libreria attiva",
+          "merge": "Unisci aggiornando i duplicati",
+          "mergeSkipDuplicates": "Unisci saltando i duplicati"
+        }
+      },
+      "report": {
+        "summary": "{total} brani letti: {added} aggiunti, {updated} aggiornati, {skipped} saltati, {missing} file mancanti."
+      },
+      "mode": {
+        "label": "Contenuto dell’esportazione",
+        "options": {
+          "full": "Libreria completa",
+          "paths": "Solo percorsi dei file"
+        },
+        "hints": {
+          "full": "Dati e copertine inclusi: il file è più grande, ma si apre anche senza i brani originali.",
+          "paths": "Salva solo dove si trovano i file: all’importazione i dati vengono riletti dai file stessi, quindi devono essere ancora al loro posto."
+        }
+      }
+    },
+    "libraries": {
+      "title": "Librerie",
+      "description": "Impostazioni relative alla gestione delle librerie musicali."
+    },
+    "coverCache": {
+      "title": "Cache delle copertine",
+      "description": "Le copertine dei brani vengono conservate su disco, per non doverle rileggere dai file a ogni avvio. È possibile svuotare la cache in qualsiasi momento: si ricostruisce da sola e i file della libreria non vengono modificati.",
+      "size": "Spazio occupato: {size}",
+      "empty": "Spazio occupato: 0 MB",
+      "limit": "Quando la cache supera {limit}, le copertine richieste da più tempo vengono rimosse automaticamente.",
+      "clear": "Svuota la cache",
+      "clearing": "Pulizia in corso…",
+      "cleared": "Cache svuotata.",
+      "confirm": {
+        "title": "Svuotare la cache delle copertine?",
+        "message": "Le copertine conservate su disco vengono rimosse e rilette dai file quando servono di nuovo. I brani della libreria non vengono modificati.",
+        "cancel": "Annulla",
+        "confirm": "Svuota"
+      },
+      "failed": "Non è stato possibile svuotare la cache."
+    },
+    "banners": {
+      "title": "Messaggi della libreria",
+      "description": "I riepiloghi che compaiono in cima alla libreria — importazioni, verifiche, esportazioni — si chiudono da soli dopo il tempo scelto. Una barra sotto il messaggio mostra quanto manca.",
+      "duration": "Durata dei messaggi",
+      "seconds": "{count} secondi",
+      "manual": "Finché non li chiudo"
+    }
+  },
+  "library": {
+    "title": "Libreria",
+    "loading": "Caricamento della libreria",
+    "name": {
+      "field": "Nome della libreria",
+      "placeholder": "La mia libreria",
+      "save": "Salva il nome",
+      "cancel": "Annulla la modifica",
+      "actions": "Opzioni della libreria",
+      "menu": {
+        "rename": "Rinomina",
+        "columns": "Colonne",
+        "verifyAll": "Verifica file",
+        "duplicates": "Trova duplicati",
+        "missingInfo": "Dati mancanti",
+        "exportList": "Esporta elenco",
+        "export": "Esporta libreria",
+        "delete": "Elimina libreria"
+      }
+    },
+    "catalog": {
+      "active": "in uso",
+      "trackCount": "nessun brano | 1 brano | {count} brani",
+      "open": "Apri la libreria «{name}»",
+      "openShort": "Apri",
+      "primary": "principale",
+      "primaryShort": "Principale",
+      "export": "Esporta la libreria «{name}»",
+      "exportShort": "Esporta",
+      "remove": "Elimina la libreria «{name}»",
+      "exported": "Libreria esportata in {path}",
+      "switcher": {
+        "open": "Cambia libreria",
+        "title": "Scegli libreria",
+        "close": "Chiudi"
+      },
+      "create": {
+        "label": "Nuova libreria",
+        "placeholder": "Nome della nuova libreria",
+        "submit": "Crea"
+      },
+      "delete": {
+        "title": "Eliminare la libreria?",
+        "message": "La libreria \"{name}\" e i suoi {count} brani vengono rimossi dall'elenco. I file audio restano sul disco.",
+        "cancel": "Annulla",
+        "confirm": "Elimina libreria"
+      }
+    },
+    "toolbar": {
+      "add": "Aggiungi brani",
+      "addFiles": "File audio",
+      "adding": "Importazione in corso…",
+      "addingPercent": "Importazione in corso… {percent}%",
+      "search": "Cerca nella libreria",
+      "searchPlaceholder": "Titolo, album o genere",
+      "count": "nessun brano | 1 brano | {count} brani",
+      "missing": "1 file non trovato | {count} file non trovati",
+      "addFolder": "Aggiungi cartella",
+      "editSelected": "Modifica {count} selezionati",
+      "missingInfo": {
+        "active": "Mancanti: {filter}",
+        "options": {
+          "all": "Tutti",
+          "file": "File",
+          "cover": "Copertina",
+          "artist": "Autore",
+          "album": "Album",
+          "year": "Anno",
+          "genre": "Genere"
+        }
+      }
+    },
+    "missingInfo": {
+      "title": "Dati mancanti",
+      "description": "Filtra la libreria in base all'informazione da completare. Scegli Tutti per tornare alla vista normale.",
+      "label": "Informazione",
+      "result": "nessun brano trovato | 1 brano trovato | {count} brani trovati",
+      "close": "Chiudi",
+      "filtered": "Vista filtrata: sono elencati solo i brani senza {filter}.",
+      "reset": "Rimuovi il filtro"
+    },
+    "defaultPlayerBanner": {
+      "title": "Puoi usare TuneLib come player predefinito",
+      "message": "Apri le impostazioni di sistema e scegli questa app per MP3, FLAC, WAV e gli altri formati audio.",
+      "action": "Imposta",
+      "dismiss": "Nascondi avviso"
+    },
+    "columns": {
+      "cover": "Copertina",
+      "title": "Nome",
+      "artist": "Autore",
+      "album": "Album",
+      "year": "Anno",
+      "genre": "Genere",
+      "format": "Formato",
+      "path": "Percorso",
+      "duration": "Durata",
+      "actions": "Azioni",
+      "resize": "Ridimensiona {column}"
+    },
+    "columnSettings": {
+      "title": "Colonne elenco",
+      "description": "Scegli le colonne visibili e trascinale per riordinarle. Copertina e Nome restano sempre in testa; Durata resta obbligatoria.",
+      "open": "Impostazioni colonne",
+      "fit": "Adatta colonne",
+      "dividers": "Mostra i bordi verticali tra le colonne",
+      "dividersHint": "Separa le colonne dell'elenco con una linea sottile.",
+      "moveUp": "Sposta {column} su",
+      "moveDown": "Sposta {column} giù",
+      "reset": "Ripristina",
+      "close": "Fine"
+    },
+    "sort": {
+      "sortBy": "Ordina per {column}",
+      "asc": "crescente",
+      "desc": "decrescente",
+      "field": "Ordina per",
+      "ascending": "Ordine crescente",
+      "descending": "Ordine decrescente"
+    },
+    "row": {
+      "unknown": "—",
+      "noCover": "Nessuna copertina",
+      "missing": "File non più presente su disco",
+      "playing": "In riproduzione",
+      "actions": "Azioni per «{title}»",
+      "remove": "Rimuovi «{title}» dalla libreria",
+      "edit": "Modifica i metadati di «{title}»",
+      "menu": {
+        "edit": "Modifica",
+        "remove": "Elimina"
+      }
+    },
+    "empty": {
+      "title": "La libreria è vuota",
+      "message": "Aggiungi i tuoi file audio: restano dove sono, qui viene tracciato solo l'elenco.",
+      "dropHint": "Puoi anche trascinare file e cartelle in questa finestra."
+    },
+    "noMatches": {
+      "title": "Nessun risultato",
+      "message": "Nessun brano corrisponde alla ricerca «{query}»."
+    },
+    "noMissingInfo": {
+      "title": "Nessun dato mancante",
+      "message": "Nessun brano corrisponde al filtro sui dati mancanti."
+    },
+    "remove": {
+      "title": "Rimuovere il brano?",
+      "message": "«{title}» viene tolto dalla libreria. Il file su disco non viene cancellato.",
+      "confirm": "Rimuovi",
+      "cancel": "Annulla"
+    },
+    "report": {
+      "title": "Esito dell'importazione",
+      "added": "1 brano aggiunto | {count} brani aggiunti",
+      "duplicates": "1 file già in libreria | {count} file già in libreria",
+      "failed": "1 file non importato | {count} file non importati",
+      "dismiss": "Chiudi"
+    },
+    "duplicates": {
+      "title": "Brani duplicati",
+      "description": "Brani presenti in più file, riconosciuti dal titolo con il suo autore o dal nome del file. Rimuovere una copia la toglie dalla libreria: il file resta sul disco.",
+      "empty": "Nessun brano duplicato: ogni titolo è presente una volta sola.",
+      "copies": "{count} copie",
+      "remove": "Rimuovi questa copia di «{title}» dalla libreria",
+      "close": "Chiudi"
+    },
+    "verification": {
+      "summary": "Verifica completata: file mancanti {missing} su {total} brani."
+    },
+    "refresh": {
+      "missing": "{count} file non risulta più disponibile nel percorso registrato | {count} file non risultano più disponibili nei percorsi registrati",
+      "refreshed": "Aggiornati {count} brani modificati fuori dall’app",
+      "recovered": "Trovati di nuovo {count} file precedentemente mancanti",
+      "removeMissing": "Rimuovi file mancanti",
+      "removeMissingTitle": "Rimuovere i file mancanti?",
+      "removeMissingMessage": "{count} brani verranno rimossi dalla libreria. I file sul disco non verranno eliminati."
+    },
+    "exportList": {
+      "title": "Esporta elenco brani",
+      "description": "Scegli formato e informazioni da includere nel file.",
+      "format": "Formato",
+      "formats": {
+        "csv": "CSV",
+        "txt": "TXT"
+      },
+      "fieldsLabel": "Informazioni",
+      "fields": {
+        "title": "Nome",
+        "artist": "Autore",
+        "album": "Album",
+        "year": "Anno",
+        "genre": "Genere",
+        "duration": "Durata",
+        "format": "Formato",
+        "path": "Percorso",
+        "missing": "File mancante"
+      },
+      "cancel": "Annulla",
+      "submit": "Esporta"
+    },
+    "errors": {
+      "shellUnavailable": "Questa funzione è disponibile solo nell'applicazione desktop.",
+      "generic": "Operazione non riuscita. Riprova.",
+      "invalidLibraryName": "Il nome della libreria non può essere vuoto.",
+      "duplicateLibraryName": "Esiste già una libreria con questo nome."
+    },
+    "view": {
+      "label": "Vista",
+      "table": "Elenco",
+      "preview": "Anteprime"
+    },
+    "previewSize": {
+      "label": "Dimensione delle anteprime",
+      "small": "Anteprime piccole",
+      "medium": "Anteprime medie",
+      "large": "Anteprime grandi"
+    },
+    "tabs": {
+      "label": "Sezioni libreria",
+      "tracks": "Brani",
+      "artists": "Autori",
+      "albums": "Album",
+      "genres": "Generi"
+    },
+    "groups": {
+      "trackCount": "nessun brano | 1 brano | {count} brani",
+      "albumCount": "nessun album | 1 album | {count} album",
+      "artistCount": "nessun autore | 1 autore | {count} autori",
+      "genreCount": "nessun genere | 1 genere | {count} generi",
+      "openLabel": "Apri i brani collegati a «{name}»",
+      "albumArtist": "{artists}",
+      "variousArtists": "Artisti vari",
+      "modalTitle": "Brani collegati a «{name}»",
+      "detailTabs": "Dettaglio collegamenti",
+      "back": "Torna al dettaglio precedente",
+      "backTo": "Torna a «{name}»",
+      "close": "Chiudi",
+      "columns": {
+        "artist": "Autore",
+        "album": "Album",
+        "albums": "Album",
+        "artists": "Autori",
+        "genre": "Genere",
+        "tracks": "Brani",
+        "duration": "Durata",
+        "actions": "Azioni"
+      },
+      "unknown": {
+        "artist": "Senza autore",
+        "album": "Senza album",
+        "genre": "Senza genere"
+      }
+    },
+    "playback": {
+      "missingTitle": "File mancante",
+      "unavailable": "«{title}» non può essere riprodotto: il file non risulta disponibile nel percorso registrato."
+    },
+    "importProgress": {
+      "scanning": "Ricerca dei file nelle cartelle…",
+      "reading": "Lettura dei brani…",
+      "saving": "Inserimento e salvataggio della libreria…",
+      "refreshing": "Aggiornamento della lista dei brani…"
+    }
+  },
+  "metadata": {
+    "title": "Modifica metadati",
+    "save": "Salva",
+    "saving": "Salvataggio…",
+    "cancel": "Annulla",
+    "bulk": {
+      "title": "Modifica {count} brani",
+      "description": "Abilita solo i campi da applicare a tutti i brani selezionati. Il nome del brano resta individuale."
+    },
+    "fields": {
+      "title": "Nome",
+      "artist": "Autore",
+      "album": "Album",
+      "year": "Anno",
+      "genre": "Genere",
+      "genreCustom": "Scegli o scrivi un genere"
+    },
+    "cover": {
+      "label": "Copertina",
+      "choose": "Scegli immagine…",
+      "remove": "Rimuovi copertina",
+      "tooLarge": "La copertina di questo file pesa {size} ed è troppo grande per essere mostrata. Il file non è stato toccato: scegliendo una nuova immagine la sostituisci.",
+      "batch": {
+        "title": "Aggiornare la copertina dell'album?",
+        "message": "L’album \"{album}\" ha altri {count} brani. Vuoi applicare la stessa modifica alla copertina anche a loro?",
+        "onlyCurrent": "Solo questo brano",
+        "allAlbum": "Tutto l'album"
+      }
+    },
+    "errors": {
+      "titleRequired": "Il nome non può essere vuoto.",
+      "titleTooLong": "Il nome è troppo lungo.",
+      "yearOutOfRange": "Inserisci un anno valido (fra 1000 e l'anno prossimo).",
+      "coverType": "Sono ammesse solo immagini PNG o JPEG.",
+      "coverTooLarge": "L'immagine supera i 5 MB."
+    }
+  },
+  "player": {
+    "nowPlaying": "In riproduzione",
+    "expand": "Espandi il player",
+    "collapse": "Riduci il player",
+    "openLibrary": "Apri libreria",
+    "close": "Chiudi il player",
+    "play": "Riproduci",
+    "pause": "Metti in pausa",
+    "stop": "Interrompi",
+    "previous": "Brano precedente",
+    "next": "Brano successivo",
+    "shuffle": "Riproduzione casuale",
+    "repeatOne": "Ripeti brano",
+    "progress": "Avanzamento del brano",
+    "volume": "Volume",
+    "mute": "Disattiva audio",
+    "unmute": "Riattiva audio",
+    "volumeValue": "Volume {value}%",
+    "errors": {
+      "missing": "Il file di questo brano non è più presente su disco.",
+      "unsupported": "Questo formato audio non è riproducibile qui.",
+      "shellUnavailable": "La riproduzione è disponibile solo nell'applicazione desktop.",
+      "generic": "Riproduzione non riuscita."
+    },
+    "related": {
+      "empty": "Nessun altro brano collegato in questa libreria.",
+      "play": "Riproduci «{title}»"
+    }
+  },
+  "mini": {
+    "expand": "Apri l’applicazione",
+    "close": "Chiudi il player flottante",
+    "menu": {
+      "label": "Opzioni del player flottante",
+      "horizontal": "Disponi in orizzontale",
+      "vertical": "Disponi in verticale",
+      "settings": "Impostazioni del player"
+    },
+    "pin": "Tieni il mini player sempre in primo piano",
+    "unpin": "Disattiva il mini player sempre in primo piano",
+    "confirm": {
+      "title": "Chiudere il mini player?",
+      "message": "Scegli se chiudere solo la finestra del mini player e lasciare l’applicazione nella barra di sistema, oppure uscire completamente dall’app.",
+      "remember": "Ricorda la scelta",
+      "cancel": "Annulla",
+      "dockOnly": "Chiudi solo il mini player",
+      "wholeApp": "Esci dall’applicazione"
+    },
+    "collapse": "Riduci i comandi",
+    "expandDock": "Mostra tutti i comandi"
+  },
+  "titlebar": {
+    "tray": "Riduci nella barra di sistema",
+    "minimize": "Riduci a icona",
+    "maximize": "Ingrandisci o ripristina",
+    "close": "Chiudi l'applicazione"
+  },
+  "tray": {
+    "show": "Apri TuneLib",
+    "bringToFront": "Porta in primo piano",
+    "stop": "Interrompi la riproduzione",
+    "quit": "Esci"
+  },
+  "common": {
+    "loading": "Caricamento"
+  }
+}

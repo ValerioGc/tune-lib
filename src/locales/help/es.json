@@ -1,0 +1,293 @@
+{
+  "title": "Guía",
+  "loading": "Cargando la guía",
+  "subtitle": "Cómo añadir música, escucharla y gestionar la biblioteca.",
+  "where": "Dónde:",
+  "position": "Tema {index} de {total}",
+  "topics": {
+    "start": {
+      "title": "Primeros pasos",
+      "where": "se aplica la primera vez que se abre la aplicación.",
+      "figure": "La barra superior de la biblioteca: por ahí entra la música la primera vez.",
+      "tip": "Una biblioteca ya exportada desde otra instalación se importa desde {settings} → Biblioteca, sin empezar de nuevo por las carpetas.",
+      "sections": [
+        {
+          "title": "Incorporación de la música",
+          "text": "{addFolder} incorpora de una vez una carpeta entera y sus subcarpetas."
+        },
+        {
+          "title": "Reproducción de una canción",
+          "text": "{gesture} en una canción inicia la reproducción. La lista visible se convierte en la cola de reproducción."
+        },
+        {
+          "title": "Personalización de la aplicación",
+          "text": "{settings}, en la barra de título, reúne el idioma, la apariencia y el comportamiento del reproductor."
+        }
+      ]
+    },
+    "import": {
+      "title": "Añadir pistas y carpetas",
+      "where": "barra superior de la Biblioteca, o soltando sobre la ventana.",
+      "figure": "Los comandos que añaden pistas y carpetas.",
+      "tip": "Los archivos se quedan donde están: si una carpeta se mueve tras la importación, sus pistas figuran como ausentes hasta que se importan desde la nueva ubicación.",
+      "sections": [
+        {
+          "title": "Elección de archivos o carpetas",
+          "text": "{addFiles} abre la elección de uno o varios archivos de audio, {addFolder} importa toda la música de una carpeta y sus subcarpetas. También se pueden soltar archivos o carpetas en la ventana: la biblioteca se ilumina para indicar que está lista."
+        },
+        {
+          "title": "Formatos compatibles",
+          "text": "Formatos que lee: MP3, FLAC, M4A, OGG y WAV."
+        },
+        {
+          "title": "Resultado de la importación",
+          "text": "El mismo archivo nunca entra dos veces: si ya está, se cuenta entre los omitidos. Al final un resumen dice qué se ha añadido, qué ya estaba y qué no se ha podido importar; una importación limpia se cierra sola."
+        }
+      ]
+    },
+    "organize": {
+      "title": "Buscar, filtrar y ordenar",
+      "where": "barra superior, cabeceras de columna y menú de la biblioteca.",
+      "figure": "El campo de búsqueda y el menú de la biblioteca, con los filtros y las herramientas.",
+      "tip": "La ordenación, la búsqueda y los filtros no tocan los archivos: solo cambian cómo se muestra la lista.",
+      "sections": [
+        {
+          "title": "Búsqueda de una canción",
+          "text": "El campo de búsqueda filtra la lista por título, artista, álbum, género o ruta."
+        },
+        {
+          "title": "Orden de la lista",
+          "text": "Un clic en una cabecera ordena la lista; un segundo clic en la misma columna invierte el orden. En las vistas de vista previa, sin cabeceras, el orden se elige en el selector junto al conmutador de vista."
+        },
+        {
+          "title": "Datos incompletos",
+          "text": "«Datos faltantes», en el menú de la biblioteca, deja en pantalla solo las pistas sin carátula, artista, álbum, año o género."
+        }
+      ]
+    },
+    "views": {
+      "title": "Vistas, pestañas y enlaces",
+      "where": "los dos iconos a la derecha de la barra, y las pestañas debajo.",
+      "figure": "El selector entre lista y miniaturas, al final de la barra.",
+      "tip": "La vista, el tamaño de las miniaturas y la disposición de las columnas se recuerdan por separado en cada pestaña.",
+      "sections": [
+        {
+          "title": "Formas de explorar",
+          "text": "El icono de líneas muestra las columnas, el de cuadrícula las carátulas; la elección se recuerda. Las pestañas Pistas, Artistas, Álbumes y Géneros agrupan la misma biblioteca de cuatro formas."
+        },
+        {
+          "title": "Canciones relacionadas",
+          "text": "Un clic en un artista, un álbum o un género abre la ventana de las pistas conectadas. El botón arriba a la izquierda de esa ventana vuelve atrás y dice adónde lleva."
+        },
+        {
+          "title": "Columnas de la lista",
+          "text": "Qué columnas muestra la lista, y en qué orden, se ajusta en «Columnas», en el menú de la biblioteca."
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Editar los metadatos",
+      "where": "menú de tres puntos en la fila o en la tarjeta, o clic derecho en la fila.",
+      "figure": "El menú de tres puntos en la fila de la pista.",
+      "tip": "Una edición sobre muchas pistas es más segura después de probar con una sola: el cambio se escribe en los archivos y no se deshace.",
+      "sections": [
+        {
+          "title": "Apertura del editor",
+          "text": "El menú de tres puntos, igual que el clic derecho en la fila, contiene la entrada Editar. Se pueden cambiar título, artista, álbum, año y género; el género se elige entre los ya presentes o se escribe. «Elegir imagen…» sustituye la carátula (PNG o JPEG, hasta 5 MB)."
+        },
+        {
+          "title": "Guardado en los archivos",
+          "text": "{save} escribe los cambios en las etiquetas del archivo, no solo en la biblioteca. Un campo vacío elimina ese dato del archivo."
+        },
+        {
+          "title": "Edición de varias canciones",
+          "text": "Con varias pistas seleccionadas mediante {ctrl} o {shift} aparece «Editar seleccionadas»: escribe el mismo valor en todas."
+        }
+      ]
+    },
+    "files": {
+      "title": "Trabajar con los archivos",
+      "where": "menú de la biblioteca y menú de tres puntos de la fila.",
+      "tip": "Un archivo marcado como ausente que aún existe casi siempre se ha movido: se vuelve a importar desde su nueva ubicación y se quita la entrada antigua.",
+      "sections": [
+        {
+          "title": "Comprobación de archivos ausentes",
+          "text": "«Verificar archivos», en el menú de la biblioteca, repite la comprobación cuando se solicita y dice cuántos faltan. Una pista cuyo archivo ya no existe no se puede editar ni reproducir, pero sigue en la lista hasta que se quita."
+        },
+        {
+          "title": "Búsqueda de duplicados",
+          "text": "«Buscar duplicados» lista las pistas presentes en varios archivos, reconocidas por el título con su artista o por el nombre del archivo."
+        },
+        {
+          "title": "Retirada de la biblioteca",
+          "text": "«Eliminar», en el menú de la fila, saca la pista de la lista sin borrar nada del disco."
+        }
+      ]
+    },
+    "player": {
+      "title": "Escuchar la música",
+      "where": "doble clic en una fila o una tarjeta; el reproductor aparece abajo.",
+      "figure": "El reproductor en la parte inferior, con los controles y la barra de progreso.",
+      "tip": "Detener rebobina sin vaciar la cola: la pista vuelve a empezar desde el principio.",
+      "sections": [
+        {
+          "title": "Inicio de la reproducción",
+          "text": "{gesture} en una canción inicia la reproducción. La lista visible se convierte en la cola de reproducción."
+        },
+        {
+          "title": "Mandos de reproducción",
+          "text": "{play} y {pause} gobiernan la escucha. La barra de progreso se arrastra para desplazarse por la canción, mientras que el deslizador ajusta el volumen. Aleatorio y Repetir canción cambian cómo se reproduce la cola."
+        },
+        {
+          "title": "Reproductor a pantalla completa",
+          "text": "La flecha arriba a la derecha del reproductor abre la vista a pantalla completa, la X cierra la reproducción. En esa vista, artista, álbum y género son enlaces: abren las pistas conectadas, desde las que se puede lanzar otra."
+        }
+      ]
+    },
+    "dock": {
+      "title": "Reproductor flotante",
+      "where": "aparece al minimizar la app en la bandeja del sistema mientras suena algo.",
+      "figure": "El reproductor flotante y sus controles.",
+      "tip": "La posición del reproductor flotante se recuerda: vuelve donde se dejó.",
+      "sections": [
+        {
+          "title": "Escucha en segundo plano",
+          "text": "El botón con el guion bajo, en la barra de título, envía la app a la bandeja del sistema: la reproducción continúa. Si hay una pista sonando aparece el reproductor flotante: una ventanita con carátula, título y mandos."
+        },
+        {
+          "title": "Posición y orientación",
+          "text": "Se mueve arrastrándolo desde cualquier punto libre. Su menú lo cambia entre horizontal y vertical y decide si se mantiene en primer plano."
+        },
+        {
+          "title": "Vuelta a la biblioteca o cierre",
+          "text": "El botón de expandir devuelve la aplicación a la pantalla y cierra el reproductor flotante. Al cerrarlo se pregunta si salir de la aplicación o dejarla en la bandeja: la respuesta se puede recordar."
+        }
+      ]
+    },
+    "shortcuts": {
+      "title": "Atajos y gestos",
+      "where": "la lista de pistas, el reproductor y las ventanas de detalle.",
+      "tip": "El campo de búsqueda actúa a la vez sobre título, artista, álbum, género y ruta: suele bastar una palabra.",
+      "sections": [
+        {
+          "title": "Reproducción y menús",
+          "text": "Doble clic en una fila o en una tarjeta: comienza la reproducción. Clic derecho en una fila: abre el mismo menú que los tres puntos."
+        },
+        {
+          "title": "Selección y teclado",
+          "text": "{ctrl} + clic añade una pista a la selección, {shift} + clic toma todo el intervalo. {esc} cierra la ventana abierta y, desde la vista a pantalla completa del reproductor, vuelve a la biblioteca."
+        },
+        {
+          "title": "Arrastre",
+          "text": "Soltar archivos o carpetas sobre la ventana los importa sin pasar por los botones. Arrastrar el borde entre dos encabezados cambia el ancho de una columna; el comando junto al engranaje las ajusta al contenido."
+        }
+      ]
+    },
+    "libraries": {
+      "title": "Varias bibliotecas",
+      "where": "icono de las dos flechas junto al nombre, y {settings} → Biblioteca.",
+      "figure": "El icono de dos flechas junto al nombre de la biblioteca.",
+      "tip": "La biblioteca principal es la que se abre al iniciar: se ajusta a la que más se usa.",
+      "sections": [
+        {
+          "title": "Creación y cambio de biblioteca",
+          "text": "El icono de las dos flechas junto al nombre abre el cambio rápido de biblioteca. En {settings} → Biblioteca se crea una nueva desde el campo en lo alto de la sección."
+        },
+        {
+          "title": "Gestión de la biblioteca seleccionada",
+          "text": "La selección de una biblioteca en la lista activa los mandos de arriba: exportar, renombrar y marcar como principal."
+        },
+        {
+          "title": "Eliminación de una biblioteca",
+          "text": "Eliminar una biblioteca quita solo su lista: los archivos de audio no se tocan."
+        }
+      ]
+    },
+    "transfer": {
+      "title": "Importar y exportar",
+      "where": "menú de la biblioteca y {settings} → Biblioteca.",
+      "figure": "La sección de importación y exportación de los ajustes.",
+      "tip": "Para llevar la biblioteca a otro equipo, se exporta el archivo y se importa en la otra instalación: las rutas deben seguir llevando a los mismos archivos de audio.",
+      "sections": [
+        {
+          "title": "Guardado de una biblioteca",
+          "text": "«Exportar biblioteca» guarda un archivo con la lista de pistas y sus datos, carátulas incluidas."
+        },
+        {
+          "title": "Importación de una biblioteca",
+          "text": "Importar una biblioteca pregunta cómo unirla: sustituir la abierta, añadir solo las pistas nuevas, o actualizar también las que ya están. Al final un resumen dice cuántas pistas entraron, cuántas se actualizaron, cuántas se omitieron y qué archivos no se encontraron."
+        },
+        {
+          "title": "Exportación de una lista",
+          "text": "«Exportar lista» guarda en cambio un archivo de texto o CSV con los campos elegidos: sirve para leer la biblioteca en otro sitio. Una lista exportada no contiene audio: solo remite a dónde están los archivos en el disco."
+        }
+      ]
+    },
+    "appearance": {
+      "title": "Aspecto",
+      "where": "{settings} → Aspecto.",
+      "tip": "Si la interfaz resulta pesada en un equipo lento, desactivar el efecto cristal y el fondo degradado aligera el dibujado.",
+      "sections": [
+        {
+          "title": "Legibilidad y tema",
+          "text": "Tamaño del texto: cuatro pasos, de muy pequeño a grande, que escalan toda la interfaz. Tema: claro, oscuro o el del sistema."
+        },
+        {
+          "title": "Colores y superficies",
+          "text": "Color de acento: el color de los mandos, de la selección y del fondo degradado. Fondo y efecto cristal: activa el degradado construido sobre el acento, elige su forma y su origen, y vuelve translúcidas las superficies. También puede llevarse a las ventanas de detalle."
+        },
+        {
+          "title": "Fondo del reproductor",
+          "text": "Color de fondo desde la carátula: el reproductor toma el color de la carátula; transparencia, intensidad, desenfoque, forma y origen son ajustables. Cada elección se aplica al momento y se recuerda para la próxima vez."
+        }
+      ]
+    },
+    "settings": {
+      "title": "Inicio, ventana y generales",
+      "where": "{settings} → General, y barra de título.",
+      "figure": "El engranaje de la barra de título, que abre los ajustes.",
+      "tip": "Iniciar con el sistema e iniciar minimizado van juntos: con ambos, la aplicación ya espera en la bandeja del sistema.",
+      "sections": [
+        {
+          "title": "Idioma e inicio",
+          "text": "Idioma: italiano, inglés, francés, español y alemán, con efecto inmediato. Inicio y ventana: arrancar la app con el sistema, empezar minimizada en la bandeja, y quedarse ahí al cerrar en vez de salir. Desde la bandeja, un clic reabre la ventana y el botón derecho ofrece detener la reproducción o salir."
+        },
+        {
+          "title": "Preferencias del reproductor",
+          "text": "Reproductor: mantiene el reproductor abierto tras cerrar la pista y ajusta el reproductor flotante — aparición, primer plano, disposición y comportamiento al cerrarse. Reproductor de audio predeterminado: en Windows abre los ajustes del sistema para asociar los archivos de audio a esta app; en Linux la asociación la gestiona el entorno de escritorio, y la sección muestra el comando que hay que ejecutar."
+        },
+        {
+          "title": "Acerca de la aplicación",
+          "text": "El botón «i» de la barra de título abre la información: versión, sitio, proyecto en GitHub, notas de versión y versiones publicadas."
+        }
+      ]
+    },
+    "storage": {
+      "title": "Archivos originales y datos de la aplicación",
+      "where": "vale en todas partes; la caché de portadas está en {settings} → Biblioteca.",
+      "tip": "Vaciar la caché de carátulas no pierde nada: se releen de los archivos cuando vuelven a hacer falta.",
+      "sections": [
+        {
+          "title": "Archivos originales",
+          "text": "La importación de los archivos no supone una copia: se leen donde están, sin moverlos ni renombrarlos. La biblioteca solo guarda la referencia a su ubicación. Quitar una canción de la lista, igual que eliminar una biblioteca, no borra nada del disco."
+        },
+        {
+          "title": "Cambios de metadatos",
+          "text": "Guardar los metadatos modifica las etiquetas del archivo de audio. Una nueva carátula también se guarda en el archivo."
+        },
+        {
+          "title": "Caché de carátulas",
+          "text": "{settings} → Biblioteca muestra el espacio ocupado por las carátulas y permite vaciar la caché."
+        }
+      ]
+    }
+  },
+  "index": "Índice",
+  "tip": "Consejo",
+  "playGesture": "Doble clic",
+  "keys": {
+    "ctrl": "Ctrl",
+    "shift": "Mayús",
+    "esc": "Esc"
+  }
+}

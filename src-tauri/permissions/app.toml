@@ -1,0 +1,59 @@
+[[permission]]
+identifier = "main-commands"
+description = "Commands used by the main application window."
+commands.allow = [
+  "app_info",
+  "is_default_audio_player",
+  "set_close_to_tray",
+  "set_tray_menu",
+  "open_mini_player",
+  "open_mini_close_confirmation",
+  "close_mini_player",
+  "set_mini_player_always_on_top",
+  "set_mini_player_shape",
+  "quit_app",
+  "library_info",
+  "rename_library",
+  "add_tracks",
+  "remove_track",
+  "list_tracks",
+  "refresh_library_from_disk",
+  "refresh_track",
+  "verify_track_file",
+  "export_track_list",
+  "heavy_cover_bytes",
+  "cover_cache_size",
+  "clear_cover_cache",
+  "write_metadata",
+  "write_cover",
+  "rename_track_file",
+  "prepare_playback",
+  "prepare_external_playback",
+  "startup_audio_file",
+  "list_libraries",
+  "create_library",
+  "switch_library",
+  "delete_library",
+  "export_library",
+  "import_library",
+]
+
+[[permission]]
+identifier = "mini-commands"
+description = "Window controls used by the floating player."
+commands.allow = [
+  "set_close_to_tray",
+  "open_mini_close_confirmation",
+  "close_mini_player",
+  "set_mini_player_shape",
+  "set_mini_player_always_on_top",
+]
+
+[[permission]]
+identifier = "confirmation-commands"
+description = "Commands used to remember and apply the close decision."
+commands.allow = [
+  "set_close_to_tray",
+  "close_mini_player",
+  "quit_app",
+]

@@ -1,0 +1,293 @@
+{
+  "title": "Guide",
+  "loading": "Loading the guide",
+  "subtitle": "How music is added, played and managed in the library.",
+  "where": "Where:",
+  "position": "Topic {index} of {total}",
+  "topics": {
+    "start": {
+      "title": "First steps",
+      "where": "applies the first time the application is opened.",
+      "figure": "The toolbar at the top of the library: this is where the music comes in the first time.",
+      "tip": "A library already exported from another installation is imported from {settings} → Library, without starting from the folders again.",
+      "sections": [
+        {
+          "title": "Adding the music",
+          "text": "{addFolder} brings in a whole folder and its subfolders in a single operation."
+        },
+        {
+          "title": "Playing a track",
+          "text": "{gesture} on a track starts playback. The displayed list becomes the playback queue."
+        },
+        {
+          "title": "Customizing the application",
+          "text": "{settings}, in the title bar, gathers the language, the appearance and the player behavior."
+        }
+      ]
+    },
+    "import": {
+      "title": "Adding tracks and folders",
+      "where": "top bar of the Library, or by dropping onto the window.",
+      "figure": "The commands that add tracks and folders.",
+      "tip": "The files stay where they are: when a folder is moved after the import, its tracks read as missing until they are imported again from the new place.",
+      "sections": [
+        {
+          "title": "Choosing files or folders",
+          "text": "{addFiles} opens the choice of one or more audio files, {addFolder} imports all the music in a folder and its subfolders. Files and folders can also be dropped onto the window: the library lights up to say it is ready for them."
+        },
+        {
+          "title": "Supported formats",
+          "text": "Formats read: MP3, FLAC, M4A, OGG and WAV."
+        },
+        {
+          "title": "Result of the import",
+          "text": "The same file never enters twice: one already in the library is counted among the skipped ones. A summary then says what was added, what was already there and what could not be imported; a clean import closes itself."
+        }
+      ]
+    },
+    "organize": {
+      "title": "Searching, filtering and sorting",
+      "where": "top bar, column headers and library menu.",
+      "figure": "The search field and the library menu, with the filters and the tools.",
+      "tip": "Sorting, searching and filtering never touch the files: they only change the way the list is shown.",
+      "sections": [
+        {
+          "title": "Finding a track",
+          "text": "The search field filters the list by title, artist, album, genre or path."
+        },
+        {
+          "title": "Order of the list",
+          "text": "A click on a column header sorts the list; a second click on the same column turns the order around. In the preview views, which have no headers, the order is chosen from the sort control beside the view switch."
+        },
+        {
+          "title": "Missing metadata",
+          "text": "\"Missing data\", in the library menu, leaves on screen only the tracks without a cover, an artist, an album, a year or a genre."
+        }
+      ]
+    },
+    "views": {
+      "title": "Views, tabs and connections",
+      "where": "the two icons on the right of the bar, and the tabs under it.",
+      "figure": "The switch between list and cards, at the end of the toolbar.",
+      "tip": "The view, the size of the cards and the layout of the columns are remembered separately for each tab.",
+      "sections": [
+        {
+          "title": "Ways of browsing",
+          "text": "The list icon shows the columns, the grid icon shows the covers; the choice is remembered. The Tracks, Artists, Albums and Genres tabs gather the same library in four ways."
+        },
+        {
+          "title": "Related tracks",
+          "text": "A click on an artist, an album or a genre opens the window of the tracks connected to it. The button at the top left of that window goes back, and names where it lands."
+        },
+        {
+          "title": "Columns of the list",
+          "text": "Which columns the list shows, and in which order, is set from \"Columns\" in the library menu."
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Editing the metadata",
+      "where": "the three dots menu on the row or on the card, or a right click on the row.",
+      "figure": "The three-dot menu on the row of the track.",
+      "tip": "An edit over many tracks is safer once a single one has been tried: the change is written into the files and cannot be undone.",
+      "sections": [
+        {
+          "title": "Opening the editor",
+          "text": "The three dots menu, like a right click on the row, holds the Edit entry. Title, artist, album, year and genre can be changed; the genre can be picked among the ones already in the library or typed. \"Choose image…\" replaces the cover (PNG or JPEG, up to 5 MB)."
+        },
+        {
+          "title": "Saving to the files",
+          "text": "{save} writes the changes into the tags of the file, not only into the library. A field left empty removes that value from the file."
+        },
+        {
+          "title": "Editing several tracks at once",
+          "text": "With several tracks selected through {ctrl} or {shift}, \"Edit selected\" appears: it writes the same value on all of them."
+        }
+      ]
+    },
+    "files": {
+      "title": "Working on the files",
+      "where": "library menu and the three dots menu on the row.",
+      "tip": "A file reported missing that still exists has almost always been moved: it is imported again from its new place, and the old entry removed.",
+      "sections": [
+        {
+          "title": "Checking the missing files",
+          "text": "\"Check files\", in the library menu, runs the check on request and says how many are missing. A track whose file is gone can be neither edited nor played, but stays listed until it is removed."
+        },
+        {
+          "title": "Finding duplicates",
+          "text": "\"Find duplicates\" lists the tracks held in more than one file, matched by title with its artist or by file name."
+        },
+        {
+          "title": "Removing from the library",
+          "text": "\"Delete\", in the row menu, takes the track out of the list without deleting anything from the disk."
+        }
+      ]
+    },
+    "player": {
+      "title": "Listening to the music",
+      "where": "double click a row or a card; the player appears at the bottom.",
+      "figure": "The player along the bottom, with the controls and the progress bar.",
+      "tip": "Stop rewinds without emptying the queue: the track starts again from the beginning.",
+      "sections": [
+        {
+          "title": "Starting playback",
+          "text": "{gesture} on a track starts playback. The displayed list becomes the playback queue."
+        },
+        {
+          "title": "Playback controls",
+          "text": "{play} and {pause} govern the listening. The progress bar is dragged to seek within the track, while the slider sets the volume. Shuffle and Repeat one change how the queue plays."
+        },
+        {
+          "title": "The full player",
+          "text": "The arrow at the top right of the player opens the full view, the X closes the playback. In that view artist, album and genre are links: they open the connected tracks, from which another one can be started."
+        }
+      ]
+    },
+    "dock": {
+      "title": "Floating player",
+      "where": "appears when the app goes to the system tray while something is playing.",
+      "figure": "The floating player and its controls.",
+      "tip": "The place the floating player was left in is remembered: it comes back where it was.",
+      "sections": [
+        {
+          "title": "Listening in the background",
+          "text": "The low dash button, in the title bar, sends the app to the system tray: the playback carries on. With a track playing, the floating player appears: a small window with cover, title and controls."
+        },
+        {
+          "title": "Position and orientation",
+          "text": "It is moved by dragging it from any free spot. Its menu turns it between horizontal and vertical, and decides whether it stays above other windows."
+        },
+        {
+          "title": "Back to the library, or closed",
+          "text": "The expand button brings the application back on screen and closes the floating player. Closing it asks whether to quit the application or leave it in the system tray: the answer can be remembered."
+        }
+      ]
+    },
+    "shortcuts": {
+      "title": "Shortcuts and gestures",
+      "where": "the track list, the player and the detail windows.",
+      "tip": "The search field works on title, artist, album, genre and path at once: one word is usually enough to narrow the list.",
+      "sections": [
+        {
+          "title": "Playback and menus",
+          "text": "Double-click on a row or on a card: playback starts. Right-click on a row: the same menu as the three dots opens."
+        },
+        {
+          "title": "Selection and keyboard",
+          "text": "{ctrl} + click adds a track to the selection, {shift} + click takes the whole range. {esc} closes the open window and, from the full player view, returns to the library."
+        },
+        {
+          "title": "Dragging",
+          "text": "Dropping files or folders on the window imports them without going through the buttons. Dragging the edge between two headings changes the width of a column; the command next to the gear fits them to their content."
+        }
+      ]
+    },
+    "libraries": {
+      "title": "More than one library",
+      "where": "the two arrows icon beside the name, and {settings} → Library.",
+      "figure": "The two-arrow icon next to the name of the library.",
+      "tip": "The primary library is the one that opens at launch: it is set to the one used most.",
+      "sections": [
+        {
+          "title": "Creating and switching libraries",
+          "text": "The two arrows icon beside the name opens the quick switch between libraries. In {settings} → Library a new library is created from the field at the top of the section."
+        },
+        {
+          "title": "Managing the selected library",
+          "text": "Picking a library from the list arms the commands above it: export, rename and set as main."
+        },
+        {
+          "title": "Deleting a library",
+          "text": "Deleting a library removes only its list: the audio files are left untouched."
+        }
+      ]
+    },
+    "transfer": {
+      "title": "Importing and exporting",
+      "where": "library menu and {settings} → Library.",
+      "figure": "The import and export section of the settings.",
+      "tip": "To carry the library to another computer, the file is exported and imported on the other installation: the paths still have to lead to the same audio files.",
+      "sections": [
+        {
+          "title": "Saving a library",
+          "text": "\"Export library\" saves a file with the list of tracks and their data, covers included."
+        },
+        {
+          "title": "Importing a library",
+          "text": "Importing a library asks how to merge it: replace the open one, add only the new tracks, or update the ones already there as well. A summary then says how many tracks entered, how many were updated, how many skipped and which files could not be found."
+        },
+        {
+          "title": "Exporting a list",
+          "text": "\"Export list\" saves instead a text or CSV file with the chosen fields: it is meant to be read elsewhere. An exported list holds no audio: it only refers to where the files sit on disk."
+        }
+      ]
+    },
+    "appearance": {
+      "title": "Appearance",
+      "where": "{settings} → Appearance.",
+      "tip": "If the interface feels heavy on a slow machine, turning the glass effect and the ambient background off lightens the drawing.",
+      "sections": [
+        {
+          "title": "Readability and theme",
+          "text": "Text size: four steps, from very small to large, scaling the whole interface. Theme: light, dark, or the one of the system."
+        },
+        {
+          "title": "Colors and surfaces",
+          "text": "Accent colour: the colour of the controls, of the selection and of the gradient background. Background and glass: turns on the gradient built from the accent, picks its shape and its origin, and makes the surfaces translucent. It can be carried onto the detail windows too."
+        },
+        {
+          "title": "Player background",
+          "text": "Background colour from the cover: the player takes its colour from the cover of the track; transparency, intensity, blur, shape and origin are all adjustable. Every choice applies at once and is remembered for the next time."
+        }
+      ]
+    },
+    "settings": {
+      "title": "Startup, window and general",
+      "where": "{settings} → General, and the title bar.",
+      "figure": "The gear in the title bar, which opens the settings.",
+      "tip": "Start with the system and start minimised work together: with both on, the app is already waiting in the system tray.",
+      "sections": [
+        {
+          "title": "Language and startup",
+          "text": "Language: Italian, English, French, Spanish and German, applied immediately. Startup and window: start the app with the system, start minimized in the system tray, and stay there on close instead of quitting. From the tray a click reopens the window, a right click offers to stop the playback or to quit."
+        },
+        {
+          "title": "Player preferences",
+          "text": "Player: keeps the player open after the track is closed, and sets the floating player — when it appears, whether it stays on top, its layout and what closing it does. Default audio player: on Windows it opens the system settings to associate audio files with this app; on Linux the association belongs to the desktop environment, and the section shows the command to run."
+        },
+        {
+          "title": "About the app",
+          "text": "The \"i\" button in the title bar opens the about window: version, website, project on GitHub, release notes and published releases."
+        }
+      ]
+    },
+    "storage": {
+      "title": "Original files and app data",
+      "where": "everywhere; the cover cache is in {settings} → Library.",
+      "tip": "Emptying the cover cache loses nothing: the covers are read from the files again when they are next needed.",
+      "sections": [
+        {
+          "title": "Original files",
+          "text": "Importing files does not copy them: they are read where they sit, and are neither moved nor renamed. The library keeps only the reference to their place. Taking a track out of the list, like deleting a library, deletes nothing from the disk."
+        },
+        {
+          "title": "Metadata changes",
+          "text": "Saving the metadata updates the tags in the audio file. A replacement cover is written into the file as well."
+        },
+        {
+          "title": "Cover cache",
+          "text": "{settings} → Library shows how much space the covers use and clears the cache."
+        }
+      ]
+    }
+  },
+  "index": "Index",
+  "tip": "Tip",
+  "playGesture": "Double-click",
+  "keys": {
+    "ctrl": "Ctrl",
+    "shift": "Shift",
+    "esc": "Esc"
+  }
+}

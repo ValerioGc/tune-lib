@@ -1,0 +1,579 @@
+{
+  "nav": {
+    "settings": "Paramètres",
+    "help": "Guide",
+    "backToLibrary": "Retour à la bibliothèque",
+    "about": "À propos"
+  },
+  "about": {
+    "title": "Info",
+    "description": "Lecteur audio et gestionnaire de bibliothèque : il modifie les tags et les pochettes directement dans les fichiers, les laisse où ils sont et les lit sans quitter la fenêtre.",
+    "website": "Site web",
+    "repository": "Projet GitHub",
+    "changelog": "Changelog",
+    "close": "Fermer"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "loading": "Chargement des paramètres",
+    "subtitle": "Langue, apparence et comportement de l’application, et ses bibliothèques.",
+    "language": {
+      "title": "Langue",
+      "description": "Langue de l’interface, des menus et des messages."
+    },
+    "startup": {
+      "title": "Démarrage et fenêtre",
+      "description": "Réglages généraux du démarrage de l’application et du comportement de la fenêtre.",
+      "autostart": "Démarrer avec le système",
+      "minimized": "Démarrer réduite dans la zone de notification",
+      "closeToTray": "À la fermeture de la fenêtre, laisser l’application dans la zone de notification",
+      "hint": "Lorsque l’application est réduite dans la zone de notification, un clic sur l’icône rouvre la fenêtre et un clic droit permet d’arrêter la lecture ou de quitter l’application."
+    },
+    "playerBehaviour": {
+      "title": "Lecteur",
+      "description": "Réglages du lecteur et du lecteur flottant.",
+      "keepOpen": "Laisser le lecteur ouvert et réduit à la fermeture du morceau",
+      "dock": "Afficher le lecteur flottant quand l’app passe dans la zone de notification",
+      "orientation": "Disposition du lecteur flottant",
+      "orientations": {
+        "horizontal": "Horizontale",
+        "vertical": "Verticale"
+      },
+      "closeAction": "À la fermeture du lecteur flottant",
+      "closeActions": {
+        "ask": "Demander à chaque fois",
+        "dock": "Fermer le lecteur flottant seul",
+        "app": "Fermer toute l’application"
+      },
+      "level": "Niveau de départ du lecteur flottant",
+      "levels": {
+        "compact": "Réduit",
+        "expanded": "Étendu"
+      },
+      "remembersLevel": "Retenir le dernier niveau utilisé",
+      "progress": "Barre de lecture du lecteur flottant",
+      "progressStyles": {
+        "bar": "Barre avec les durées",
+        "line": "Ligne fine",
+        "none": "Aucune"
+      },
+      "gradient": "Fond depuis la pochette dans le lecteur flottant"
+    },
+    "textSize": {
+      "title": "Taille du texte",
+      "description": "Met à l'échelle la typographie de toute l'interface.",
+      "preview": "Aperçu du texte à la taille choisie.",
+      "options": {
+        "xsmall": "Très petit",
+        "small": "Petite",
+        "medium": "Moyenne",
+        "large": "Grande"
+      }
+    },
+    "theme": {
+      "title": "Thème",
+      "description": "Apparence claire ou sombre, ou automatique.",
+      "systemHint": "Le système utilise actuellement le thème {theme}.",
+      "options": {
+        "light": "Clair",
+        "dark": "Sombre",
+        "system": "Système"
+      }
+    },
+    "accent": {
+      "title": "Couleur d'accentuation",
+      "description": "Couleur des contrôles, des boutons et des éléments actifs de l'interface.",
+      "swatch": "Couleur {color}",
+      "custom": "Personnalisée",
+      "reset": "Par défaut",
+      "hint": "La couleur est éclaircie ou assombrie automatiquement pour rester lisible sur le thème clair comme sur le sombre."
+    },
+    "ambience": {
+      "title": "Arrière-plan et effet verre",
+      "description": "Arrière-plan dégradé construit sur la couleur d'accentuation, et surfaces translucides pour donner de la profondeur.",
+      "background": "Arrière-plan dégradé à partir de la couleur d'accentuation",
+      "style": "Type de dégradé",
+      "styles": {
+        "orbs": "Bulles floutées",
+        "linear": "Dégradé linéaire",
+        "spotlight": "Halo unique"
+      },
+      "direction": "Direction",
+      "directions": {
+        "topLeft": "Depuis le haut à gauche",
+        "top": "Depuis le haut",
+        "topRight": "Depuis le haut à droite",
+        "left": "Depuis la gauche",
+        "right": "Depuis la droite",
+        "bottomLeft": "Depuis le bas à gauche",
+        "bottom": "Depuis le bas",
+        "bottomRight": "Depuis le bas à droite"
+      },
+      "glass": "Surfaces en verre (tableau, cartes et panneaux)",
+      "preview": "Aperçu",
+      "panels": "Utiliser le même fond sur les fenêtres de détail",
+      "hint": "La seconde couleur de l'arrière-plan dérive de la couleur d'accentuation et change donc avec elle. Les deux options sont indépendantes."
+    },
+    "coverGradient": {
+      "title": "Couleur de fond d’après la pochette",
+      "description": "Utilise la couleur dominante de la pochette pour l'arrière-plan du lecteur et la ligne en cours de lecture.",
+      "toggle": "Activer le dégradé depuis la pochette",
+      "style": "Forme du dégradé",
+      "direction": "Origine du dégradé",
+      "intensity": "Intensité",
+      "transparency": "Transparence du lecteur",
+      "blur": "Flou du lecteur"
+    },
+    "defaultPlayer": {
+      "title": "Lecteur audio par défaut",
+      "description": "Associer les fichiers audio à TuneLib",
+      "message": "Windows demande un choix manuel : trouvez TuneLib dans les applications par défaut et attribuez-lui les formats audio à ouvrir ici.",
+      "linuxMessage": "Sous Linux, l’association est gérée par votre environnement de bureau : ouvrez ses paramètres d’applications par défaut ou lancez cette commande dans un terminal.",
+      "open": "Ouvrir les paramètres",
+      "opening": "Ouverture…",
+      "error": "Erreur lors de l’ouverture des paramètres système."
+    },
+    "tabs": {
+      "general": "Général",
+      "appearance": "Apparence",
+      "library": "Bibliothèque"
+    },
+    "appearance": {
+      "application": "Application",
+      "player": "Lecteur audio",
+      "library": "Liste des morceaux"
+    },
+    "libraryName": {
+      "label": "Nom",
+      "placeholder": "Ma bibliothèque",
+      "save": "Enregistrer le nom",
+      "saving": "Enregistrement…"
+    },
+    "importExport": {
+      "title": "Import / Export",
+      "description": "Réglages relatifs à l’importation et à l’exportation de la bibliothèque musicale.",
+      "import": "Importer",
+      "importing": "Import en cours…",
+      "export": "Exporter l'active",
+      "busy": "Import en cours. Les autres commandes restent bloquées jusqu’à la fin.",
+      "strategy": {
+        "label": "Stratégie d'import",
+        "options": {
+          "replace": "Remplacer la bibliothèque active",
+          "merge": "Fusionner et mettre à jour les doublons",
+          "mergeSkipDuplicates": "Fusionner et ignorer les doublons"
+        }
+      },
+      "report": {
+        "summary": "{total} morceaux lus : {added} ajoutés, {updated} mis à jour, {skipped} ignorés, {missing} fichiers manquants."
+      },
+      "mode": {
+        "label": "Contenu de l’export",
+        "options": {
+          "full": "Bibliothèque complète",
+          "paths": "Chemins des fichiers seulement"
+        },
+        "hints": {
+          "full": "Données et pochettes incluses : un fichier plus lourd, mais qui s’ouvre sans les morceaux d’origine.",
+          "paths": "Seulement l’emplacement des fichiers : les données sont relues dans ces fichiers à l’import, ils doivent donc être toujours là."
+        }
+      }
+    },
+    "libraries": {
+      "title": "Bibliothèques",
+      "description": "Réglages relatifs à la gestion des bibliothèques musicales."
+    },
+    "coverCache": {
+      "title": "Cache des pochettes",
+      "description": "Les pochettes sont conservées sur le disque, pour ne pas devoir les relire dans les fichiers à chaque démarrage. Le cache peut être vidé à tout moment : il se reconstruit seul et les fichiers de la bibliothèque ne sont pas modifiés.",
+      "size": "Espace occupé : {size}",
+      "empty": "Espace utilisé : 0 Mo",
+      "limit": "Lorsque le cache dépasse {limit}, les pochettes demandées il y a le plus longtemps sont supprimées automatiquement.",
+      "clear": "Vider le cache",
+      "clearing": "Nettoyage…",
+      "cleared": "Cache vidé.",
+      "confirm": {
+        "title": "Vider le cache des pochettes ?",
+        "message": "Les pochettes conservées sur le disque sont supprimées puis relues dans les fichiers dès qu’elles resservent. Les morceaux de la bibliothèque ne sont pas modifiés.",
+        "cancel": "Annuler",
+        "confirm": "Vider"
+      },
+      "failed": "Le cache n’a pas pu être vidé."
+    },
+    "banners": {
+      "title": "Messages de la bibliothèque",
+      "description": "Les récapitulatifs affichés en haut de la bibliothèque — imports, vérifications, exports — se ferment d’eux-mêmes après la durée choisie. Une barre sous le message indique le temps restant.",
+      "duration": "Durée des messages",
+      "seconds": "{count} secondes",
+      "manual": "Jusqu’à leur fermeture"
+    }
+  },
+  "library": {
+    "title": "Bibliothèque",
+    "loading": "Chargement de la bibliothèque",
+    "name": {
+      "field": "Nom de la bibliothèque",
+      "placeholder": "Ma bibliothèque",
+      "save": "Enregistrer le nom",
+      "cancel": "Annuler la modification",
+      "actions": "Options de la bibliothèque",
+      "menu": {
+        "rename": "Renommer",
+        "columns": "Colonnes",
+        "verifyAll": "Vérifier les fichiers",
+        "duplicates": "Trouver les doublons",
+        "missingInfo": "Données manquantes",
+        "exportList": "Exporter la liste",
+        "export": "Exporter la bibliothèque",
+        "delete": "Supprimer la bibliothèque"
+      }
+    },
+    "catalog": {
+      "active": "en cours d'utilisation",
+      "trackCount": "aucun morceau | 1 morceau | {count} morceaux",
+      "open": "Ouvrir la bibliothèque « {name} »",
+      "openShort": "Ouvrir",
+      "primary": "principale",
+      "primaryShort": "Principale",
+      "export": "Exporter la bibliothèque « {name} »",
+      "exportShort": "Exporter",
+      "remove": "Supprimer la bibliothèque « {name} »",
+      "exported": "Bibliothèque exportée vers {path}",
+      "switcher": {
+        "open": "Changer de bibliothèque",
+        "title": "Choisir une bibliothèque",
+        "close": "Fermer"
+      },
+      "create": {
+        "label": "Nouvelle bibliothèque",
+        "placeholder": "Nom de la nouvelle bibliothèque",
+        "submit": "Créer"
+      },
+      "delete": {
+        "title": "Supprimer la bibliothèque ?",
+        "message": "La bibliothèque « {name} » et ses {count} morceaux sont retirés de la liste. Les fichiers audio restent sur le disque.",
+        "cancel": "Annuler",
+        "confirm": "Supprimer la bibliothèque"
+      }
+    },
+    "toolbar": {
+      "add": "Ajouter des morceaux",
+      "addFiles": "Fichiers audio",
+      "adding": "Import en cours…",
+      "addingPercent": "Import en cours… {percent} %",
+      "search": "Rechercher dans la bibliothèque",
+      "searchPlaceholder": "Titre, album ou genre",
+      "count": "aucun morceau | 1 morceau | {count} morceaux",
+      "missing": "1 fichier manquant | {count} fichiers manquants",
+      "addFolder": "Ajouter un dossier",
+      "editSelected": "Modifier {count} sélectionnés",
+      "missingInfo": {
+        "active": "Manquant : {filter}",
+        "options": {
+          "all": "Tout",
+          "file": "Fichier",
+          "cover": "Pochette",
+          "artist": "Artiste",
+          "album": "Album",
+          "year": "Année",
+          "genre": "Genre"
+        }
+      }
+    },
+    "missingInfo": {
+      "title": "Données manquantes",
+      "description": "Filtrez la bibliothèque par les informations qui restent à compléter. Choisissez Tout pour revenir à la vue normale.",
+      "label": "Information",
+      "result": "aucun morceau trouvé | 1 morceau trouvé | {count} morceaux trouvés",
+      "close": "Fermer",
+      "filtered": "Vue filtrée : seuls les morceaux sans {filter} sont listés.",
+      "reset": "Retirer le filtre"
+    },
+    "defaultPlayerBanner": {
+      "title": "Vous pouvez utiliser TuneLib comme lecteur par défaut",
+      "message": "Ouvrez les paramètres système et choisissez cette application pour le MP3, le FLAC, le WAV et les autres formats audio.",
+      "action": "Configurer",
+      "dismiss": "Masquer l'avis"
+    },
+    "columns": {
+      "cover": "Pochette",
+      "title": "Nom",
+      "artist": "Artiste",
+      "album": "Album",
+      "year": "Année",
+      "genre": "Genre",
+      "format": "Format",
+      "path": "Chemin",
+      "duration": "Durée",
+      "actions": "Actions",
+      "resize": "Redimensionner {column}"
+    },
+    "columnSettings": {
+      "title": "Colonnes de la liste",
+      "description": "Choisissez les colonnes visibles et faites-les glisser pour les réordonner. Pochette et Nom restent toujours en tête ; Durée reste obligatoire.",
+      "open": "Réglages des colonnes",
+      "fit": "Ajuster les colonnes",
+      "dividers": "Afficher les filets verticaux entre les colonnes",
+      "dividersHint": "Sépare les colonnes de la liste par un filet fin.",
+      "moveUp": "Déplacer {column} vers le haut",
+      "moveDown": "Déplacer {column} vers le bas",
+      "reset": "Réinitialiser",
+      "close": "Terminé"
+    },
+    "sort": {
+      "sortBy": "Trier par {column}",
+      "asc": "croissant",
+      "desc": "décroissant",
+      "field": "Trier par",
+      "ascending": "Ordre croissant",
+      "descending": "Ordre décroissant"
+    },
+    "row": {
+      "unknown": "—",
+      "noCover": "Pas de pochette",
+      "missing": "Fichier absent du disque",
+      "playing": "En cours de lecture",
+      "actions": "Actions pour « {title} »",
+      "remove": "Retirer « {title} » de la bibliothèque",
+      "edit": "Modifier les métadonnées de « {title} »",
+      "menu": {
+        "edit": "Modifier",
+        "remove": "Supprimer"
+      }
+    },
+    "empty": {
+      "title": "La bibliothèque est vide",
+      "message": "Ajoutez vos fichiers audio : ils restent où ils sont, seule la liste est suivie ici.",
+      "dropHint": "Vous pouvez aussi déposer fichiers et dossiers sur cette fenêtre."
+    },
+    "noMatches": {
+      "title": "Aucun résultat",
+      "message": "Aucun morceau ne correspond à la recherche « {query} »."
+    },
+    "noMissingInfo": {
+      "title": "Aucune donnée manquante",
+      "message": "Aucun morceau ne correspond au filtre des données manquantes."
+    },
+    "remove": {
+      "title": "Retirer ce morceau ?",
+      "message": "« {title} » quitte la bibliothèque. Le fichier sur le disque n'est pas supprimé.",
+      "confirm": "Retirer",
+      "cancel": "Annuler"
+    },
+    "report": {
+      "title": "Résultat de l'import",
+      "added": "1 morceau ajouté | {count} morceaux ajoutés",
+      "duplicates": "1 fichier déjà dans la bibliothèque | {count} fichiers déjà dans la bibliothèque",
+      "failed": "1 fichier non importé | {count} fichiers non importés",
+      "dismiss": "Masquer"
+    },
+    "duplicates": {
+      "title": "Morceaux en double",
+      "description": "Morceaux présents dans plusieurs fichiers, reconnus par le titre avec son artiste ou par le nom du fichier. Retirer une copie la sort de la bibliothèque : le fichier reste sur le disque.",
+      "empty": "Aucun doublon : chaque titre n’est présent qu’une fois.",
+      "copies": "{count} copies",
+      "remove": "Retirer cette copie de « {title} » de la bibliothèque",
+      "close": "Fermer"
+    },
+    "verification": {
+      "summary": "Vérification terminée : {missing} fichiers manquants sur {total} morceaux."
+    },
+    "refresh": {
+      "missing": "{count} fichier n’est plus disponible au chemin enregistré | {count} fichiers ne sont plus disponibles aux chemins enregistrés",
+      "refreshed": "{count} morceaux modifiés hors de l’app ont été mis à jour",
+      "recovered": "{count} fichiers auparavant absents ont été retrouvés",
+      "removeMissing": "Retirer les fichiers absents",
+      "removeMissingTitle": "Retirer les fichiers absents ?",
+      "removeMissingMessage": "{count} morceaux seront retirés de la bibliothèque. Les fichiers sur le disque ne seront pas supprimés."
+    },
+    "exportList": {
+      "title": "Exporter la liste des morceaux",
+      "description": "Choisissez le format et les informations à inclure dans le fichier.",
+      "format": "Format",
+      "formats": {
+        "csv": "CSV",
+        "txt": "TXT"
+      },
+      "fieldsLabel": "Informations",
+      "fields": {
+        "title": "Nom",
+        "artist": "Artiste",
+        "album": "Album",
+        "year": "Année",
+        "genre": "Genre",
+        "duration": "Durée",
+        "format": "Format",
+        "path": "Chemin",
+        "missing": "Fichier manquant"
+      },
+      "cancel": "Annuler",
+      "submit": "Exporter"
+    },
+    "errors": {
+      "shellUnavailable": "Cette fonction n'est disponible que dans l'application de bureau.",
+      "generic": "L'opération a échoué. Veuillez réessayer.",
+      "invalidLibraryName": "Le nom de la bibliothèque ne peut pas être vide.",
+      "duplicateLibraryName": "Une bibliothèque portant ce nom existe déjà."
+    },
+    "view": {
+      "label": "Vue",
+      "table": "Liste",
+      "preview": "Aperçus"
+    },
+    "previewSize": {
+      "label": "Taille des aperçus",
+      "small": "Petits aperçus",
+      "medium": "Aperçus moyens",
+      "large": "Grands aperçus"
+    },
+    "tabs": {
+      "label": "Sections de la bibliothèque",
+      "tracks": "Morceaux",
+      "artists": "Artistes",
+      "albums": "Albums",
+      "genres": "Genres"
+    },
+    "groups": {
+      "trackCount": "aucun morceau | 1 morceau | {count} morceaux",
+      "albumCount": "aucun album | 1 album | {count} albums",
+      "artistCount": "aucun artiste | 1 artiste | {count} artistes",
+      "genreCount": "aucun genre | 1 genre | {count} genres",
+      "openLabel": "Ouvrir les morceaux liés à « {name} »",
+      "albumArtist": "{artists}",
+      "variousArtists": "Artistes divers",
+      "modalTitle": "Morceaux liés à « {name} »",
+      "detailTabs": "Détail des liens",
+      "back": "Retour au détail précédent",
+      "backTo": "Retour à « {name} »",
+      "close": "Fermer",
+      "columns": {
+        "artist": "Artiste",
+        "album": "Album",
+        "albums": "Albums",
+        "artists": "Artistes",
+        "genre": "Genre",
+        "tracks": "Morceaux",
+        "duration": "Durée",
+        "actions": "Actions"
+      },
+      "unknown": {
+        "artist": "Sans artiste",
+        "album": "Sans album",
+        "genre": "Sans genre"
+      }
+    },
+    "playback": {
+      "missingTitle": "Fichier manquant",
+      "unavailable": "« {title} » ne peut pas être lu : le fichier n’est pas disponible au chemin enregistré."
+    },
+    "importProgress": {
+      "scanning": "Recherche des fichiers dans les dossiers…",
+      "reading": "Lecture des pistes…",
+      "saving": "Ajout des pistes et enregistrement de la bibliothèque…",
+      "refreshing": "Actualisation de la liste des pistes…"
+    }
+  },
+  "metadata": {
+    "title": "Modifier les métadonnées",
+    "save": "Enregistrer",
+    "saving": "Enregistrement…",
+    "cancel": "Annuler",
+    "bulk": {
+      "title": "Modifier {count} morceaux",
+      "description": "N'activez que les champs à appliquer à chaque morceau sélectionné. Le nom du morceau reste individuel."
+    },
+    "fields": {
+      "title": "Nom",
+      "artist": "Artiste",
+      "album": "Album",
+      "year": "Année",
+      "genre": "Genre",
+      "genreCustom": "Choisissez ou saisissez un genre"
+    },
+    "cover": {
+      "label": "Pochette",
+      "choose": "Choisir une image…",
+      "remove": "Retirer la pochette",
+      "tooLarge": "La pochette contenue dans ce fichier pèse {size}, trop pour être affichée. Le fichier n’a pas été touché : choisir une nouvelle image la remplace.",
+      "batch": {
+        "title": "Mettre à jour la pochette de l'album ?",
+        "message": "L’album \"{album}\" contient {count} autres pistes. Appliquer la même modification de pochette à ces pistes ?",
+        "onlyCurrent": "Ce morceau seulement",
+        "allAlbum": "Tout l'album"
+      }
+    },
+    "errors": {
+      "titleRequired": "Le nom ne peut pas être vide.",
+      "titleTooLong": "Le nom est trop long.",
+      "yearOutOfRange": "Saisissez une année valide (entre 1000 et l'année prochaine).",
+      "coverType": "Seules les images PNG ou JPEG sont acceptées.",
+      "coverTooLarge": "L'image dépasse 5 Mo."
+    }
+  },
+  "player": {
+    "nowPlaying": "En cours de lecture",
+    "expand": "Agrandir le lecteur",
+    "collapse": "Réduire le lecteur",
+    "openLibrary": "Ouvrir la bibliothèque",
+    "close": "Fermer le lecteur",
+    "play": "Lire",
+    "pause": "Mettre en pause",
+    "stop": "Arrêter",
+    "previous": "Morceau précédent",
+    "next": "Morceau suivant",
+    "shuffle": "Lecture aléatoire",
+    "repeatOne": "Répéter le morceau",
+    "progress": "Progression du morceau",
+    "volume": "Volume",
+    "mute": "Couper le son",
+    "unmute": "Rétablir le son",
+    "volumeValue": "Volume {value} %",
+    "errors": {
+      "missing": "Le fichier de ce morceau n'est plus sur le disque.",
+      "unsupported": "Ce format audio ne peut pas être lu ici.",
+      "shellUnavailable": "La lecture n'est disponible que dans l'application de bureau.",
+      "generic": "Échec de la lecture."
+    },
+    "related": {
+      "empty": "Aucun autre morceau lié dans cette bibliothèque.",
+      "play": "Lire « {title} »"
+    }
+  },
+  "mini": {
+    "expand": "Ouvrir l’application",
+    "close": "Fermer le lecteur flottant",
+    "menu": {
+      "label": "Options du lecteur flottant",
+      "horizontal": "Disposer à l’horizontale",
+      "vertical": "Disposer à la verticale",
+      "settings": "Paramètres du lecteur"
+    },
+    "pin": "Garder le mini-lecteur toujours au premier plan",
+    "unpin": "Ne plus garder le mini-lecteur au premier plan",
+    "confirm": {
+      "title": "Fermer le mini-lecteur ?",
+      "message": "Choisissez de fermer uniquement la fenêtre du mini-lecteur et de laisser l’application dans la zone de notification, ou de quitter complètement l’application.",
+      "remember": "Retenir ce choix",
+      "cancel": "Annuler",
+      "dockOnly": "Fermer uniquement le mini-lecteur",
+      "wholeApp": "Quitter l’application"
+    },
+    "collapse": "Moins de commandes",
+    "expandDock": "Afficher toutes les commandes"
+  },
+  "titlebar": {
+    "tray": "Réduire dans la zone de notification",
+    "minimize": "Réduire",
+    "maximize": "Agrandir ou restaurer",
+    "close": "Fermer l'application"
+  },
+  "tray": {
+    "show": "Ouvrir TuneLib",
+    "bringToFront": "Mettre le mini-player au premier plan",
+    "stop": "Arrêter la lecture",
+    "quit": "Quitter"
+  },
+  "common": {
+    "loading": "Chargement"
+  }
+}

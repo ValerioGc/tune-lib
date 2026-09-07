@@ -1,0 +1,31 @@
+# Changelog
+
+All notable changes to TuneLib are documented in this file.
+
+The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project
+adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+Every released version needs a `## [X.Y.Z] - YYYY-MM-DD` section here: the release workflow
+reads it with `scripts/extract-changelog.cjs` and refuses to publish a tag without one.
+
+## [Unreleased]
+
+## [1.0.0] - 2026-08-21
+
+### Added
+
+- Persistent library of manually added tracks, with several libraries side by side and a
+  switcher next to the library name.
+- Adding files through the system dialog or by dropping them on the window, and removing
+  an entry without deleting the file on disk.
+- Metadata editing for title, artist, album, year, genre and cover art, written back into
+  the tags of MP3, FLAC, M4A, OGG and WAV files. Bulk editing across a selection.
+- List view with sortable, resizable, reorderable and hideable columns, and preview view
+  with cover art on a grid; the chosen view is remembered.
+- Artists, Albums and Genres sections, each opening a detail panel for the group.
+- Text search, missing-information filter and reporting of files that moved or disappeared.
+- Player docked at the bottom of the window and expandable to full page, with seeking,
+  volume, shuffle, repeat-one, and the visible list as its queue.
+- Settings for language (Italian and English), text size, light/dark/system theme, accent
+  colour, ambient background and glass surfaces.
+- In-app guide, custom window titlebar and cover-derived colour for the player.

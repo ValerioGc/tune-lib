@@ -1,0 +1,293 @@
+{
+  "title": "Anleitung",
+  "loading": "Anleitung wird geladen",
+  "subtitle": "Musik hinzufügen, anhören und die Bibliothek verwalten.",
+  "where": "Wo:",
+  "position": "Thema {index} von {total}",
+  "topics": {
+    "start": {
+      "title": "Erste Schritte",
+      "where": "gilt beim ersten Öffnen der Anwendung.",
+      "figure": "Die obere Leiste der Bibliothek: Hier kommt die Musik beim ersten Mal herein.",
+      "tip": "Eine bereits aus einer anderen Installation exportierte Bibliothek wird über {settings} → Bibliothek importiert, statt wieder bei den Ordnern zu beginnen.",
+      "sections": [
+        {
+          "title": "Musik hinzufügen",
+          "text": "Mit {addFolder} wird ein ganzer Ordner samt Unterordnern auf einmal übernommen."
+        },
+        {
+          "title": "Einen Titel abspielen",
+          "text": "{gesture} auf einen Titel startet die Wiedergabe. Die angezeigte Liste wird zur Wiedergabewarteschlange."
+        },
+        {
+          "title": "Die Anwendung anpassen",
+          "text": "{settings} in der Titelleiste versammelt Sprache, Darstellung und Player-Verhalten."
+        }
+      ]
+    },
+    "import": {
+      "title": "Titel und Ordner hinzufügen",
+      "where": "obere Leiste der Bibliothek, oder per Ablegen auf dem Fenster.",
+      "figure": "Die Befehle, die Titel und Ordner hinzufügen.",
+      "tip": "Die Dateien bleiben, wo sie sind: Wird ein Ordner nach dem Import verschoben, gelten seine Titel als fehlend, bis sie vom neuen Ort erneut importiert werden.",
+      "sections": [
+        {
+          "title": "Dateien oder Ordner auswählen",
+          "text": "{addFiles} öffnet die Auswahl einer oder mehrerer Audiodateien, {addFolder} importiert die ganze Musik eines Ordners samt Unterordnern. Dateien oder Ordner lassen sich auch auf das Fenster ziehen: Die Bibliothek leuchtet auf und ist bereit."
+        },
+        {
+          "title": "Unterstützte Formate",
+          "text": "Gelesene Formate: MP3, FLAC, M4A, OGG und WAV."
+        },
+        {
+          "title": "Ergebnis des Imports",
+          "text": "Dieselbe Datei kommt nie zweimal hinein: eine bereits vorhandene zählt zu den übersprungenen. Am Ende sagt eine Übersicht, was hinzugekommen ist, was schon da war und was nicht importiert werden konnte; ein sauberer Import schließt sich von selbst."
+        }
+      ]
+    },
+    "organize": {
+      "title": "Suchen, filtern und sortieren",
+      "where": "obere Leiste, Spaltenköpfe und Bibliotheksmenü.",
+      "figure": "Das Suchfeld und das Bibliotheksmenü mit Filtern und Werkzeugen.",
+      "tip": "Sortierung, Suche und Filter rühren die Dateien nicht an: Geändert wird nur die Darstellung der Liste.",
+      "sections": [
+        {
+          "title": "Einen Titel finden",
+          "text": "Das Suchfeld filtert die Liste nach Titel, Interpret, Album, Genre oder Pfad."
+        },
+        {
+          "title": "Reihenfolge der Liste",
+          "text": "Ein Klick auf einen Spaltenkopf sortiert; ein zweiter Klick auf dieselbe Spalte dreht die Reihenfolge um. In den Kachelansichten, die keine Spaltenköpfe haben, dient der Sortierwähler neben dem Ansichtsschalter."
+        },
+        {
+          "title": "Fehlende Metadaten",
+          "text": "„Fehlende Daten“ im Bibliotheksmenü lässt nur Titel ohne Cover, Interpret, Album, Jahr oder Genre stehen."
+        }
+      ]
+    },
+    "views": {
+      "title": "Ansichten, Reiter und Verbindungen",
+      "where": "die beiden Symbole rechts in der Leiste und die Reiter darunter.",
+      "figure": "Der Umschalter zwischen Liste und Vorschaukarten am Ende der Leiste.",
+      "tip": "Ansicht, Größe der Vorschaukarten und Anordnung der Spalten werden für jeden Reiter getrennt gemerkt.",
+      "sections": [
+        {
+          "title": "Arten zu blättern",
+          "text": "Das Listensymbol zeigt die Spalten, das Rastersymbol die Cover; die Wahl wird gemerkt. Die Reiter Titel, Interpreten, Alben und Genres fassen dieselbe Bibliothek auf vier Arten zusammen."
+        },
+        {
+          "title": "Zugehörige Titel",
+          "text": "Ein Klick auf einen Interpreten, ein Album oder ein Genre öffnet das Fenster der verbundenen Titel. Die Schaltfläche oben links in diesem Fenster führt zurück und nennt, wohin."
+        },
+        {
+          "title": "Spalten der Liste",
+          "text": "Welche Spalten die Liste zeigt und in welcher Reihenfolge, stellt „Spalten“ im Bibliotheksmenü ein."
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Metadaten bearbeiten",
+      "where": "Drei-Punkte-Menü der Zeile oder der Karte, oder Rechtsklick auf die Zeile.",
+      "figure": "Das Drei-Punkte-Menü in der Zeile des Titels.",
+      "tip": "Eine Änderung an vielen Titeln ist nach einem einzelnen Versuch sicherer: Geschrieben wird in die Dateien, und das lässt sich nicht rückgängig machen.",
+      "sections": [
+        {
+          "title": "Editor öffnen",
+          "text": "Das Drei-Punkte-Menü enthält, wie der Rechtsklick auf die Zeile, den Eintrag Bearbeiten. Titel, Interpret, Album, Jahr und Genre lassen sich ändern; das Genre wird aus den vorhandenen gewählt oder geschrieben. „Bild wählen…“ ersetzt das Cover (PNG oder JPEG, bis 5 MB)."
+        },
+        {
+          "title": "In Dateien speichern",
+          "text": "Mit {save} werden die Änderungen in die Tags der Datei geschrieben, nicht nur in die Bibliothek. Ein leer gelassenes Feld entfernt die Angabe aus der Datei."
+        },
+        {
+          "title": "Mehrere Titel bearbeiten",
+          "text": "Sind mehrere Titel mit {ctrl} oder {shift} gewählt, erscheint „Auswahl bearbeiten“: es schreibt denselben Wert auf alle."
+        }
+      ]
+    },
+    "files": {
+      "title": "Mit den Dateien arbeiten",
+      "where": "Bibliotheksmenü und Drei-Punkte-Menü der Zeile.",
+      "tip": "Eine als fehlend gemeldete Datei, die es noch gibt, wurde fast immer verschoben: Ein erneuter Import vom neuen Ort behebt das, der alte Eintrag wird danach entfernt.",
+      "sections": [
+        {
+          "title": "Fehlende Dateien prüfen",
+          "text": "„Dateien prüfen“ im Bibliotheksmenü wiederholt die Prüfung auf Wunsch und nennt die Zahl der fehlenden. Ein Titel, dessen Datei fehlt, lässt sich weder bearbeiten noch abspielen, bleibt aber gelistet, bis er entfernt wird."
+        },
+        {
+          "title": "Duplikate finden",
+          "text": "„Duplikate finden“ listet Titel, die in mehreren Dateien liegen, erkannt am Titel mit seinem Interpreten oder am Dateinamen."
+        },
+        {
+          "title": "Aus der Bibliothek entfernen",
+          "text": "„Löschen“ im Zeilenmenü nimmt den Titel aus der Liste, ohne etwas von der Festplatte zu entfernen."
+        }
+      ]
+    },
+    "player": {
+      "title": "Musik hören",
+      "where": "Doppelklick auf eine Zeile oder Karte; der Player erscheint unten.",
+      "figure": "Der Player am unteren Rand mit den Bedienelementen und der Fortschrittsleiste.",
+      "tip": "Stopp setzt zurück, ohne die Warteschlange zu leeren: Der Titel beginnt wieder von vorn.",
+      "sections": [
+        {
+          "title": "Wiedergabe starten",
+          "text": "{gesture} auf einen Titel startet die Wiedergabe. Die angezeigte Liste wird zur Wiedergabewarteschlange."
+        },
+        {
+          "title": "Wiedergabe steuern",
+          "text": "{play} und {pause} steuern die Wiedergabe. Der Fortschrittsbalken wird gezogen, um im Titel zu springen, der Regler stellt die Lautstärke ein. Zufallswiedergabe und Titel wiederholen ändern die Wiedergabe der Warteschlange."
+        },
+        {
+          "title": "Vollbild-Player",
+          "text": "Der Pfeil oben rechts öffnet die Vollbildansicht, das Kreuz beendet die Wiedergabe. Im Vollbild sind Interpret, Album und Genre Verweise: sie öffnen die verbundenen Titel, von wo ein anderer gestartet werden kann."
+        }
+      ]
+    },
+    "dock": {
+      "title": "Schwebender Player",
+      "where": "erscheint, wenn die App bei laufender Wiedergabe in den Infobereich geht.",
+      "figure": "Der schwebende Player und seine Bedienelemente.",
+      "tip": "Die Position des schwebenden Players wird gemerkt: Er kehrt dorthin zurück, wo er zuletzt stand.",
+      "sections": [
+        {
+          "title": "Im Hintergrund weiterhören",
+          "text": "Die Schaltfläche mit dem tiefen Strich in der Titelleiste schickt die App in den Infobereich: die Wiedergabe läuft weiter. Läuft ein Titel, erscheint der schwebende Player: ein kleines Fenster mit Cover, Titel und Bedienelementen."
+        },
+        {
+          "title": "Position und Ausrichtung",
+          "text": "Er wird an jeder freien Stelle mit der Maus verschoben. Sein Menü stellt ihn waagerecht oder senkrecht und entscheidet, ob er im Vordergrund bleibt."
+        },
+        {
+          "title": "Zurück zur Bibliothek oder schließen",
+          "text": "Die Schaltfläche zum Vergrößern holt die Anwendung zurück und schließt den schwebenden Player. Beim Schließen wird gefragt, ob die Anwendung beendet oder im Infobereich gelassen wird: die Antwort lässt sich merken."
+        }
+      ]
+    },
+    "shortcuts": {
+      "title": "Kürzel und Gesten",
+      "where": "die Titelliste, der Player und die Detailfenster.",
+      "tip": "Das Suchfeld greift auf Titel, Interpret, Album, Genre und Pfad zugleich: Ein Wort genügt meist, um die Liste einzugrenzen.",
+      "sections": [
+        {
+          "title": "Wiedergabe und Menüs",
+          "text": "Doppelklick auf eine Zeile oder eine Karte: Die Wiedergabe beginnt. Rechtsklick auf eine Zeile: öffnet dasselbe Menü wie die drei Punkte."
+        },
+        {
+          "title": "Auswahl und Tastatur",
+          "text": "{ctrl} + Klick nimmt einen Titel zusätzlich in die Auswahl, {shift} + Klick den ganzen Bereich. {esc} schließt das offene Fenster und führt aus der Vollbildansicht des Players zurück zur Bibliothek."
+        },
+        {
+          "title": "Ziehen",
+          "text": "Dateien oder Ordner auf das Fenster zu ziehen importiert sie ohne den Umweg über die Schaltflächen. Das Ziehen der Kante zwischen zwei Überschriften ändert die Breite einer Spalte; der Befehl neben dem Zahnrad passt sie an ihren Inhalt an."
+        }
+      ]
+    },
+    "libraries": {
+      "title": "Mehrere Bibliotheken",
+      "where": "Doppelpfeil-Symbol neben dem Namen und {settings} → Bibliothek.",
+      "figure": "Das Doppelpfeil-Symbol neben dem Namen der Bibliothek.",
+      "tip": "Die Hauptbibliothek wird beim Start geöffnet: Dafür dient die am häufigsten genutzte.",
+      "sections": [
+        {
+          "title": "Bibliothek erstellen oder wechseln",
+          "text": "Das Doppelpfeil-Symbol neben dem Namen öffnet den schnellen Wechsel. Unter {settings} → Bibliothek wird eine neue Bibliothek im Feld oben in der Sektion angelegt."
+        },
+        {
+          "title": "Ausgewählte Bibliothek verwalten",
+          "text": "Die Auswahl einer Bibliothek in der Liste stellt die Befehle darüber scharf: exportieren, umbenennen und als Haupt setzen."
+        },
+        {
+          "title": "Bibliothek löschen",
+          "text": "Eine Bibliothek zu löschen entfernt nur ihre Liste: die Audiodateien bleiben unberührt."
+        }
+      ]
+    },
+    "transfer": {
+      "title": "Importieren und exportieren",
+      "where": "Bibliotheksmenü und {settings} → Bibliothek.",
+      "figure": "Der Bereich Import und Export in den Einstellungen.",
+      "tip": "Um die Bibliothek auf einen anderen Rechner zu bringen, wird die Datei exportiert und dort importiert: Die Pfade müssen weiterhin zu denselben Audiodateien führen.",
+      "sections": [
+        {
+          "title": "Bibliothek speichern",
+          "text": "„Bibliothek exportieren“ speichert eine Datei mit der Titelliste und ihren Daten, Cover eingeschlossen."
+        },
+        {
+          "title": "Bibliothek importieren",
+          "text": "Der Import einer Bibliothek fragt, wie zusammengeführt wird: die offene ersetzen, nur neue Titel hinzufügen, oder auch vorhandene aktualisieren. Danach sagt eine Übersicht, wie viele Titel hinzukamen, aktualisiert oder übersprungen wurden und welche Dateien fehlen."
+        },
+        {
+          "title": "Liste exportieren",
+          "text": "„Liste exportieren“ speichert dagegen eine Text- oder CSV-Datei mit den gewählten Feldern: zum Lesen anderswo. Eine exportierte Liste enthält kein Audio: sie verweist immer nur darauf, wo die Dateien liegen."
+        }
+      ]
+    },
+    "appearance": {
+      "title": "Aussehen",
+      "where": "{settings} → Aussehen.",
+      "tip": "Wirkt die Oberfläche auf einem langsamen Rechner träge, entlastet das Abschalten von Glaseffekt und Verlaufshintergrund die Darstellung.",
+      "sections": [
+        {
+          "title": "Lesbarkeit und Design",
+          "text": "Textgröße: vier Stufen, von sehr klein bis groß, die die ganze Oberfläche skalieren. Thema: hell, dunkel oder das des Systems."
+        },
+        {
+          "title": "Farben und Oberflächen",
+          "text": "Akzentfarbe: die Farbe der Bedienelemente, der Auswahl und des Verlaufshintergrunds. Hintergrund und Glaseffekt: schaltet den aus dem Akzent gebauten Verlauf ein, wählt Form und Ursprung und macht die Flächen durchscheinend. Er lässt sich auch auf die Detailfenster übertragen."
+        },
+        {
+          "title": "Player-Hintergrund",
+          "text": "Hintergrundfarbe aus dem Cover: der Player nimmt die Farbe des Covers; Transparenz, Intensität, Unschärfe, Form und Ursprung sind einstellbar. Jede Wahl gilt sofort und wird für das nächste Mal gemerkt."
+        }
+      ]
+    },
+    "settings": {
+      "title": "Start, Fenster und Allgemeines",
+      "where": "{settings} → Allgemein und Titelleiste.",
+      "figure": "Das Zahnrad in der Titelleiste, das die Einstellungen öffnet.",
+      "tip": "Mit dem System starten und minimiert starten gehören zusammen: Mit beiden wartet die App bereits im Infobereich.",
+      "sections": [
+        {
+          "title": "Sprache und Start",
+          "text": "Sprache: Italienisch, Englisch, Französisch, Spanisch und Deutsch, sofort wirksam. Start und Fenster: die App mit dem System starten, minimiert im Infobereich beginnen und beim Schließen dort bleiben statt zu beenden. Aus dem Infobereich öffnet ein Klick das Fenster, die rechte Maustaste bietet an, die Wiedergabe zu beenden oder zu schließen."
+        },
+        {
+          "title": "Player-Einstellungen",
+          "text": "Player: hält den Player nach dem Schließen des Titels offen und stellt den schwebenden Player ein — Erscheinen, Vordergrund, Anordnung und was sein Schließen bewirkt. Standard-Audioplayer: unter Windows öffnet er die Systemeinstellungen, um Audiodateien dieser App zuzuordnen; unter Linux gehört die Zuordnung der Desktop-Umgebung, und der Abschnitt zeigt den auszuführenden Befehl."
+        },
+        {
+          "title": "Über die Anwendung",
+          "text": "Die Schaltfläche „i“ in der Titelleiste öffnet die Informationen: Version, Webseite, Projekt auf GitHub, Versionshinweise und veröffentlichte Versionen."
+        }
+      ]
+    },
+    "storage": {
+      "title": "Originaldateien und Daten der Anwendung",
+      "where": "gilt überall; der Cover-Cache liegt unter {settings} → Bibliothek.",
+      "tip": "Das Leeren des Cover-Caches verliert nichts: Die Bilder werden bei Bedarf erneut aus den Dateien gelesen.",
+      "sections": [
+        {
+          "title": "Originaldateien",
+          "text": "Der Import der Dateien bedeutet keine Kopie: Gelesen werden sie dort, wo sie liegen, ohne verschoben oder umbenannt zu werden. Die Bibliothek führt nur den Verweis auf ihren Fundort. Einen Titel aus der Liste zu nehmen oder eine Bibliothek zu löschen löscht nichts von der Festplatte."
+        },
+        {
+          "title": "Änderungen an den Metadaten",
+          "text": "Beim Speichern der Metadaten werden die Tags in der Audiodatei geändert. Auch ein neues Cover wird in der Datei gespeichert."
+        },
+        {
+          "title": "Cover-Cache",
+          "text": "{settings} → Bibliothek zeigt den Speicherplatz der Cover und leert den Cache."
+        }
+      ]
+    }
+  },
+  "index": "Inhalt",
+  "tip": "Tipp",
+  "playGesture": "Doppelklick",
+  "keys": {
+    "ctrl": "Strg",
+    "shift": "Umschalt",
+    "esc": "Esc"
+  }
+}

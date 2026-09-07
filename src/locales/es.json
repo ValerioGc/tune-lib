@@ -1,0 +1,579 @@
+{
+  "nav": {
+    "settings": "Ajustes",
+    "help": "Guía",
+    "backToLibrary": "Volver a la biblioteca",
+    "about": "Información"
+  },
+  "about": {
+    "title": "Info",
+    "description": "Reproductor de audio y gestor de biblioteca: edita etiquetas y carátulas directamente en los archivos, los deja donde están y los reproduce sin salir de la ventana.",
+    "website": "Sitio web",
+    "repository": "Proyecto en GitHub",
+    "changelog": "Changelog",
+    "close": "Cerrar"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "loading": "Cargando los ajustes",
+    "subtitle": "Idioma, aspecto y comportamiento de la aplicación y sus bibliotecas.",
+    "language": {
+      "title": "Idioma",
+      "description": "Idioma de la interfaz, de los menús y de los mensajes."
+    },
+    "startup": {
+      "title": "Inicio y ventana",
+      "description": "Ajustes generales de inicio de la aplicación y de comportamiento de la ventana.",
+      "autostart": "Iniciar con el sistema",
+      "minimized": "Iniciar minimizada en la bandeja del sistema",
+      "closeToTray": "Al cerrar la ventana, deja la aplicación en la bandeja del sistema",
+      "hint": "Cuando la aplicación está minimizada en la bandeja del sistema, un clic en el icono reabre la ventana y el botón derecho permite detener la reproducción o salir de la aplicación."
+    },
+    "playerBehaviour": {
+      "title": "Reproductor",
+      "description": "Ajustes del reproductor y del reproductor flotante.",
+      "keepOpen": "Dejar el reproductor abierto y minimizado al cerrar la pista",
+      "dock": "Mostrar el reproductor flotante cuando la app pasa a la bandeja del sistema",
+      "orientation": "Disposición del reproductor flotante",
+      "orientations": {
+        "horizontal": "Horizontal",
+        "vertical": "Vertical"
+      },
+      "closeAction": "Al cerrar el reproductor flotante",
+      "closeActions": {
+        "ask": "Preguntar cada vez",
+        "dock": "Cerrar solo el reproductor flotante",
+        "app": "Cerrar toda la aplicación"
+      },
+      "level": "Nivel inicial del reproductor flotante",
+      "levels": {
+        "compact": "Reducido",
+        "expanded": "Ampliado"
+      },
+      "remembersLevel": "Recordar el último nivel usado",
+      "progress": "Barra de reproducción en el reproductor flotante",
+      "progressStyles": {
+        "bar": "Barra con tiempos",
+        "line": "Línea fina",
+        "none": "Ninguna"
+      },
+      "gradient": "Fondo desde la carátula en el reproductor flotante"
+    },
+    "textSize": {
+      "title": "Tamaño del texto",
+      "description": "Escala la tipografía de toda la interfaz.",
+      "preview": "Vista previa del texto en el tamaño elegido.",
+      "options": {
+        "xsmall": "Muy pequeño",
+        "small": "Pequeño",
+        "medium": "Mediano",
+        "large": "Grande"
+      }
+    },
+    "theme": {
+      "title": "Tema",
+      "description": "Aspecto claro u oscuro, o automático.",
+      "systemHint": "El sistema está usando el tema {theme}.",
+      "options": {
+        "light": "Claro",
+        "dark": "Oscuro",
+        "system": "Sistema"
+      }
+    },
+    "accent": {
+      "title": "Color de acento",
+      "description": "Color de los controles, los botones y los elementos activos de la interfaz.",
+      "swatch": "Color {color}",
+      "custom": "Personalizado",
+      "reset": "Predeterminado",
+      "hint": "El color se aclara u oscurece automáticamente para seguir siendo legible tanto en el tema claro como en el oscuro."
+    },
+    "ambience": {
+      "title": "Fondo y efecto cristal",
+      "description": "Fondo degradado construido sobre el color de acento, y superficies translúcidas para dar profundidad.",
+      "background": "Fondo degradado a partir del color de acento",
+      "style": "Tipo de degradado",
+      "styles": {
+        "orbs": "Burbujas difuminadas",
+        "linear": "Degradado lineal",
+        "spotlight": "Halo único"
+      },
+      "direction": "Dirección",
+      "directions": {
+        "topLeft": "Desde arriba a la izquierda",
+        "top": "Desde arriba",
+        "topRight": "Desde arriba a la derecha",
+        "left": "Desde la izquierda",
+        "right": "Desde la derecha",
+        "bottomLeft": "Desde abajo a la izquierda",
+        "bottom": "Desde abajo",
+        "bottomRight": "Desde abajo a la derecha"
+      },
+      "glass": "Superficies de cristal (tabla, tarjetas y paneles)",
+      "preview": "Vista previa",
+      "panels": "Usar el mismo fondo en las ventanas de detalle",
+      "hint": "El segundo color del fondo deriva del acento, así que cambia con él. Las dos opciones son independientes."
+    },
+    "coverGradient": {
+      "title": "Color de fondo desde la carátula",
+      "description": "Usa el color dominante de la carátula para el fondo del reproductor y la fila en reproducción.",
+      "toggle": "Activar el degradado desde la carátula",
+      "style": "Forma del degradado",
+      "direction": "Origen del degradado",
+      "intensity": "Intensidad",
+      "transparency": "Transparencia del reproductor",
+      "blur": "Desenfoque del reproductor"
+    },
+    "defaultPlayer": {
+      "title": "Reproductor de audio predeterminado",
+      "description": "Asocia los archivos de audio a TuneLib",
+      "message": "Windows exige una elección manual: busca TuneLib en las aplicaciones predeterminadas y asígnale los formatos de audio que quieras abrir aquí.",
+      "linuxMessage": "En Linux, la asociación la gestiona tu entorno de escritorio: abre sus ajustes de aplicaciones predeterminadas o ejecuta este comando en un terminal.",
+      "open": "Abrir los ajustes",
+      "opening": "Abriendo…",
+      "error": "Error al abrir los ajustes del sistema."
+    },
+    "tabs": {
+      "general": "General",
+      "appearance": "Aspecto",
+      "library": "Biblioteca"
+    },
+    "appearance": {
+      "application": "Aplicación",
+      "player": "Reproductor de audio",
+      "library": "Lista de pistas"
+    },
+    "libraryName": {
+      "label": "Nombre",
+      "placeholder": "Mi biblioteca",
+      "save": "Guardar el nombre",
+      "saving": "Guardando…"
+    },
+    "importExport": {
+      "title": "Importar / Exportar",
+      "description": "Ajustes de importación y exportación de la biblioteca musical.",
+      "import": "Importar",
+      "importing": "Importando…",
+      "export": "Exportar la activa",
+      "busy": "Importación en curso. Los demás comandos quedan bloqueados hasta que termine.",
+      "strategy": {
+        "label": "Estrategia de importación",
+        "options": {
+          "replace": "Reemplazar la biblioteca activa",
+          "merge": "Combinar y actualizar los duplicados",
+          "mergeSkipDuplicates": "Combinar y omitir los duplicados"
+        }
+      },
+      "report": {
+        "summary": "{total} pistas leídas: {added} añadidas, {updated} actualizadas, {skipped} omitidas, {missing} archivos ausentes."
+      },
+      "mode": {
+        "label": "Contenido de la exportación",
+        "options": {
+          "full": "Biblioteca completa",
+          "paths": "Solo rutas de los archivos"
+        },
+        "hints": {
+          "full": "Datos y carátulas incluidos: un archivo más grande, pero que se abre sin las pistas originales.",
+          "paths": "Solo dónde están los archivos: los datos se releen de esos archivos al importar, así que deben seguir en su sitio."
+        }
+      }
+    },
+    "libraries": {
+      "title": "Bibliotecas",
+      "description": "Ajustes de gestión de las bibliotecas musicales."
+    },
+    "coverCache": {
+      "title": "Caché de portadas",
+      "description": "Las portadas se guardan en el disco, para no tener que leerlas de los archivos en cada arranque. La caché se puede vaciar en cualquier momento: se reconstruye sola y los archivos de la biblioteca no se modifican.",
+      "size": "Espacio ocupado: {size}",
+      "empty": "Espacio ocupado: 0 MB",
+      "limit": "Cuando la caché supera {limit}, las portadas solicitadas hace más tiempo se eliminan automáticamente.",
+      "clear": "Vaciar la caché",
+      "clearing": "Vaciando…",
+      "cleared": "Caché vaciada.",
+      "confirm": {
+        "title": "¿Vaciar la caché de carátulas?",
+        "message": "Las carátulas guardadas en el disco se eliminan y se vuelven a leer de los archivos cuando hagan falta. Las pistas de la biblioteca no se modifican.",
+        "cancel": "Cancelar",
+        "confirm": "Vaciar"
+      },
+      "failed": "No se ha podido vaciar la caché."
+    },
+    "banners": {
+      "title": "Mensajes de la biblioteca",
+      "description": "Los resúmenes que aparecen en la parte superior de la biblioteca — importaciones, comprobaciones, exportaciones — se cierran solos tras el tiempo elegido. Una barra bajo el mensaje muestra cuánto queda.",
+      "duration": "Duración de los mensajes",
+      "seconds": "{count} segundos",
+      "manual": "Hasta cerrarlos"
+    }
+  },
+  "library": {
+    "title": "Biblioteca",
+    "loading": "Cargando la biblioteca",
+    "name": {
+      "field": "Nombre de la biblioteca",
+      "placeholder": "Mi biblioteca",
+      "save": "Guardar el nombre",
+      "cancel": "Cancelar el cambio",
+      "actions": "Opciones de la biblioteca",
+      "menu": {
+        "rename": "Renombrar",
+        "columns": "Columnas",
+        "verifyAll": "Verificar los archivos",
+        "duplicates": "Buscar duplicados",
+        "missingInfo": "Datos ausentes",
+        "exportList": "Exportar la lista",
+        "export": "Exportar la biblioteca",
+        "delete": "Eliminar la biblioteca"
+      }
+    },
+    "catalog": {
+      "active": "en uso",
+      "trackCount": "ninguna pista | 1 pista | {count} pistas",
+      "open": "Abrir la biblioteca «{name}»",
+      "openShort": "Abrir",
+      "primary": "principal",
+      "primaryShort": "Principal",
+      "export": "Exportar la biblioteca «{name}»",
+      "exportShort": "Exportar",
+      "remove": "Eliminar la biblioteca «{name}»",
+      "exported": "Biblioteca exportada a {path}",
+      "switcher": {
+        "open": "Cambiar de biblioteca",
+        "title": "Elegir biblioteca",
+        "close": "Cerrar"
+      },
+      "create": {
+        "label": "Nueva biblioteca",
+        "placeholder": "Nombre de la nueva biblioteca",
+        "submit": "Crear"
+      },
+      "delete": {
+        "title": "¿Eliminar la biblioteca?",
+        "message": "La biblioteca «{name}» y sus {count} pistas se quitan de la lista. Los archivos de audio permanecen en el disco.",
+        "cancel": "Cancelar",
+        "confirm": "Eliminar la biblioteca"
+      }
+    },
+    "toolbar": {
+      "add": "Añadir pistas",
+      "addFiles": "Archivos de audio",
+      "adding": "Importando…",
+      "addingPercent": "Importando… {percent}%",
+      "search": "Buscar en la biblioteca",
+      "searchPlaceholder": "Título, álbum o género",
+      "count": "ninguna pista | 1 pista | {count} pistas",
+      "missing": "1 archivo ausente | {count} archivos ausentes",
+      "addFolder": "Añadir carpeta",
+      "editSelected": "Editar {count} seleccionadas",
+      "missingInfo": {
+        "active": "Ausente: {filter}",
+        "options": {
+          "all": "Todo",
+          "file": "Archivo",
+          "cover": "Carátula",
+          "artist": "Artista",
+          "album": "Álbum",
+          "year": "Año",
+          "genre": "Género"
+        }
+      }
+    },
+    "missingInfo": {
+      "title": "Datos ausentes",
+      "description": "Filtra la biblioteca por la información que aún falta por completar. Elige Todo para volver a la vista normal.",
+      "label": "Información",
+      "result": "ninguna pista encontrada | 1 pista encontrada | {count} pistas encontradas",
+      "close": "Cerrar",
+      "filtered": "Vista filtrada: solo se listan las pistas sin {filter}.",
+      "reset": "Quitar el filtro"
+    },
+    "defaultPlayerBanner": {
+      "title": "Puedes usar TuneLib como reproductor predeterminado",
+      "message": "Abre los ajustes del sistema y elige esta aplicación para MP3, FLAC, WAV y los demás formatos de audio.",
+      "action": "Configurar",
+      "dismiss": "Ocultar el aviso"
+    },
+    "columns": {
+      "cover": "Carátula",
+      "title": "Nombre",
+      "artist": "Artista",
+      "album": "Álbum",
+      "year": "Año",
+      "genre": "Género",
+      "format": "Formato",
+      "path": "Ruta",
+      "duration": "Duración",
+      "actions": "Acciones",
+      "resize": "Redimensionar {column}"
+    },
+    "columnSettings": {
+      "title": "Columnas de la lista",
+      "description": "Elige las columnas visibles y arrástralas para reordenarlas. Carátula y Nombre van siempre delante; Duración es obligatoria.",
+      "open": "Ajustes de columnas",
+      "fit": "Ajustar las columnas",
+      "dividers": "Mostrar las líneas verticales entre columnas",
+      "dividersHint": "Separa las columnas de la lista con una línea fina.",
+      "moveUp": "Subir {column}",
+      "moveDown": "Bajar {column}",
+      "reset": "Restablecer",
+      "close": "Listo"
+    },
+    "sort": {
+      "sortBy": "Ordenar por {column}",
+      "asc": "ascendente",
+      "desc": "descendente",
+      "field": "Ordenar por",
+      "ascending": "Orden ascendente",
+      "descending": "Orden descendente"
+    },
+    "row": {
+      "unknown": "—",
+      "noCover": "Sin carátula",
+      "missing": "El archivo ya no está en el disco",
+      "playing": "En reproducción",
+      "actions": "Acciones para «{title}»",
+      "remove": "Quitar «{title}» de la biblioteca",
+      "edit": "Editar los metadatos de «{title}»",
+      "menu": {
+        "edit": "Editar",
+        "remove": "Eliminar"
+      }
+    },
+    "empty": {
+      "title": "La biblioteca está vacía",
+      "message": "Añade tus archivos de audio: se quedan donde están, aquí solo se registra la lista.",
+      "dropHint": "También puedes soltar archivos y carpetas sobre esta ventana."
+    },
+    "noMatches": {
+      "title": "Sin resultados",
+      "message": "Ninguna pista coincide con la búsqueda «{query}»."
+    },
+    "noMissingInfo": {
+      "title": "No falta ningún dato",
+      "message": "Ninguna pista coincide con el filtro de datos ausentes."
+    },
+    "remove": {
+      "title": "¿Quitar esta pista?",
+      "message": "«{title}» sale de la biblioteca. El archivo del disco no se elimina.",
+      "confirm": "Quitar",
+      "cancel": "Cancelar"
+    },
+    "report": {
+      "title": "Resultado de la importación",
+      "added": "1 pista añadida | {count} pistas añadidas",
+      "duplicates": "1 archivo ya estaba en la biblioteca | {count} archivos ya estaban en la biblioteca",
+      "failed": "1 archivo no importado | {count} archivos no importados",
+      "dismiss": "Descartar"
+    },
+    "duplicates": {
+      "title": "Pistas duplicadas",
+      "description": "Pistas presentes en varios archivos, reconocidas por el título con su artista o por el nombre del archivo. Quitar una copia la saca de la biblioteca: el archivo permanece en el disco.",
+      "empty": "Ninguna pista duplicada: cada título aparece una sola vez.",
+      "copies": "{count} copias",
+      "remove": "Quitar esta copia de «{title}» de la biblioteca",
+      "close": "Cerrar"
+    },
+    "verification": {
+      "summary": "Verificación terminada: {missing} archivos ausentes de {total} pistas."
+    },
+    "refresh": {
+      "missing": "{count} archivo ya no está disponible en la ruta registrada | {count} archivos ya no están disponibles en las rutas registradas",
+      "refreshed": "Se han actualizado {count} pistas modificadas fuera de la app",
+      "recovered": "Se encontraron de nuevo {count} archivos que faltaban",
+      "removeMissing": "Eliminar archivos ausentes",
+      "removeMissingTitle": "¿Eliminar archivos ausentes?",
+      "removeMissingMessage": "Se quitarán {count} pistas de la biblioteca. Los archivos del disco no se eliminarán."
+    },
+    "exportList": {
+      "title": "Exportar la lista de pistas",
+      "description": "Elige el formato y la información que se incluirá en el archivo.",
+      "format": "Formato",
+      "formats": {
+        "csv": "CSV",
+        "txt": "TXT"
+      },
+      "fieldsLabel": "Información",
+      "fields": {
+        "title": "Nombre",
+        "artist": "Artista",
+        "album": "Álbum",
+        "year": "Año",
+        "genre": "Género",
+        "duration": "Duración",
+        "format": "Formato",
+        "path": "Ruta",
+        "missing": "Archivo ausente"
+      },
+      "cancel": "Cancelar",
+      "submit": "Exportar"
+    },
+    "errors": {
+      "shellUnavailable": "Esta función solo está disponible en la aplicación de escritorio.",
+      "generic": "La operación ha fallado. Inténtalo de nuevo.",
+      "invalidLibraryName": "El nombre de la biblioteca no puede estar vacío.",
+      "duplicateLibraryName": "Ya existe una biblioteca con este nombre."
+    },
+    "view": {
+      "label": "Vista",
+      "table": "Lista",
+      "preview": "Vistas previas"
+    },
+    "previewSize": {
+      "label": "Tamaño de las vistas previas",
+      "small": "Vistas previas pequeñas",
+      "medium": "Vistas previas medianas",
+      "large": "Vistas previas grandes"
+    },
+    "tabs": {
+      "label": "Secciones de la biblioteca",
+      "tracks": "Pistas",
+      "artists": "Artistas",
+      "albums": "Álbumes",
+      "genres": "Géneros"
+    },
+    "groups": {
+      "trackCount": "ninguna pista | 1 pista | {count} pistas",
+      "albumCount": "ningún álbum | 1 álbum | {count} álbumes",
+      "artistCount": "ningún artista | 1 artista | {count} artistas",
+      "genreCount": "ningún género | 1 género | {count} géneros",
+      "openLabel": "Abrir las pistas vinculadas a «{name}»",
+      "albumArtist": "{artists}",
+      "variousArtists": "Varios artistas",
+      "modalTitle": "Pistas vinculadas a «{name}»",
+      "detailTabs": "Detalle de los vínculos",
+      "back": "Volver al detalle anterior",
+      "backTo": "Volver a «{name}»",
+      "close": "Cerrar",
+      "columns": {
+        "artist": "Artista",
+        "album": "Álbum",
+        "albums": "Álbumes",
+        "artists": "Artistas",
+        "genre": "Género",
+        "tracks": "Pistas",
+        "duration": "Duración",
+        "actions": "Acciones"
+      },
+      "unknown": {
+        "artist": "Sin artista",
+        "album": "Sin álbum",
+        "genre": "Sin género"
+      }
+    },
+    "playback": {
+      "missingTitle": "Archivo ausente",
+      "unavailable": "«{title}» no se puede reproducir: el archivo no está disponible en la ruta registrada."
+    },
+    "importProgress": {
+      "scanning": "Buscando archivos en las carpetas…",
+      "reading": "Leyendo pistas…",
+      "saving": "Añadiendo pistas y guardando la biblioteca…",
+      "refreshing": "Actualizando la lista de pistas…"
+    }
+  },
+  "metadata": {
+    "title": "Editar metadatos",
+    "save": "Guardar",
+    "saving": "Guardando…",
+    "cancel": "Cancelar",
+    "bulk": {
+      "title": "Editar {count} pistas",
+      "description": "Activa solo los campos que quieras aplicar a cada pista seleccionada. El nombre de la pista sigue siendo individual."
+    },
+    "fields": {
+      "title": "Nombre",
+      "artist": "Artista",
+      "album": "Álbum",
+      "year": "Año",
+      "genre": "Género",
+      "genreCustom": "Elige o escribe un género"
+    },
+    "cover": {
+      "label": "Carátula",
+      "choose": "Elegir imagen…",
+      "remove": "Quitar la carátula",
+      "tooLarge": "La portada de este archivo pesa {size}, demasiado para mostrarla. El archivo no se ha tocado: al elegir una imagen nueva la sustituyes.",
+      "batch": {
+        "title": "¿Actualizar la carátula del álbum?",
+        "message": "El álbum \"{album}\" tiene otras {count} pistas. ¿Aplicarles también el mismo cambio de portada?",
+        "onlyCurrent": "Solo esta pista",
+        "allAlbum": "Todo el álbum"
+      }
+    },
+    "errors": {
+      "titleRequired": "El nombre no puede estar vacío.",
+      "titleTooLong": "El nombre es demasiado largo.",
+      "yearOutOfRange": "Introduce un año válido (entre 1000 y el año que viene).",
+      "coverType": "Solo se admiten imágenes PNG o JPEG.",
+      "coverTooLarge": "La imagen supera los 5 MB."
+    }
+  },
+  "player": {
+    "nowPlaying": "En reproducción",
+    "expand": "Ampliar el reproductor",
+    "collapse": "Reducir el reproductor",
+    "openLibrary": "Abrir la biblioteca",
+    "close": "Cerrar el reproductor",
+    "play": "Reproducir",
+    "pause": "Pausar",
+    "stop": "Detener",
+    "previous": "Pista anterior",
+    "next": "Pista siguiente",
+    "shuffle": "Reproducción aleatoria",
+    "repeatOne": "Repetir la pista",
+    "progress": "Progreso de la pista",
+    "volume": "Volumen",
+    "mute": "Silenciar",
+    "unmute": "Activar sonido",
+    "volumeValue": "Volumen {value} %",
+    "errors": {
+      "missing": "El archivo de esta pista ya no está en el disco.",
+      "unsupported": "Este formato de audio no puede reproducirse aquí.",
+      "shellUnavailable": "La reproducción solo está disponible en la aplicación de escritorio.",
+      "generic": "La reproducción ha fallado."
+    },
+    "related": {
+      "empty": "Ninguna otra pista conectada en esta biblioteca.",
+      "play": "Reproducir «{title}»"
+    }
+  },
+  "mini": {
+    "expand": "Abrir la aplicación",
+    "close": "Cerrar el reproductor flotante",
+    "menu": {
+      "label": "Opciones del reproductor flotante",
+      "horizontal": "Disponer en horizontal",
+      "vertical": "Disponer en vertical",
+      "settings": "Ajustes del reproductor"
+    },
+    "pin": "Mantener el mini reproductor siempre en primer plano",
+    "unpin": "Dejar de mantener el mini reproductor en primer plano",
+    "confirm": {
+      "title": "¿Cerrar el mini reproductor?",
+      "message": "Elige si quieres cerrar solo la ventana del mini reproductor y dejar la aplicación en la bandeja del sistema, o salir de la aplicación por completo.",
+      "remember": "Recordar esta elección",
+      "cancel": "Cancelar",
+      "dockOnly": "Cerrar solo el mini reproductor",
+      "wholeApp": "Salir de la aplicación"
+    },
+    "collapse": "Menos mandos",
+    "expandDock": "Mostrar todos los mandos"
+  },
+  "titlebar": {
+    "tray": "Minimizar en la bandeja del sistema",
+    "minimize": "Minimizar",
+    "maximize": "Maximizar o restaurar",
+    "close": "Cerrar la aplicación"
+  },
+  "tray": {
+    "show": "Abrir TuneLib",
+    "bringToFront": "Traer el minirreproductor al frente",
+    "stop": "Detener la reproducción",
+    "quit": "Salir"
+  },
+  "common": {
+    "loading": "Cargando"
+  }
+}

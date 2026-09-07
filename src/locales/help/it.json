@@ -1,0 +1,293 @@
+{
+  "title": "Guida",
+  "loading": "Caricamento della guida",
+  "subtitle": "Come aggiungere la musica, ascoltarla e gestire la libreria.",
+  "where": "Dove:",
+  "position": "Argomento {index} di {total}",
+  "topics": {
+    "start": {
+      "title": "Primi passi",
+      "where": "vale per la prima apertura dell’applicazione.",
+      "figure": "La barra in alto della libreria: da qui si aggiunge la musica la prima volta.",
+      "tip": "Una libreria già esportata da un’altra installazione si importa da {settings} → Libreria, senza ripartire dalle cartelle.",
+      "sections": [
+        {
+          "title": "Aggiunta della musica",
+          "text": "{addFolder} porta in libreria un’intera cartella e le sue sottocartelle in una sola operazione."
+        },
+        {
+          "title": "Riproduzione di un brano",
+          "text": "{gesture} su un brano ne avvia la riproduzione. L’elenco visualizzato diventa la coda di riproduzione."
+        },
+        {
+          "title": "Personalizzazione dell’applicazione",
+          "text": "{settings}, nella barra del titolo, raccoglie lingua, aspetto e comportamento del player."
+        }
+      ]
+    },
+    "import": {
+      "title": "Aggiungere brani e cartelle",
+      "where": "barra in alto della Libreria, oppure trascinando sulla finestra.",
+      "figure": "I comandi per aggiungere brani e cartelle.",
+      "tip": "I file restano dove sono: se una cartella viene spostata dopo l’importazione, i suoi brani risultano mancanti finché non vengono reimportati dalla nuova posizione.",
+      "sections": [
+        {
+          "title": "Scelta di file o cartelle",
+          "text": "{addFiles} apre la scelta di uno o più file audio, {addFolder} importa tutta la musica di una cartella e delle sue sottocartelle. In alternativa, trascinando file o cartelle nella finestra, la libreria si illumina per segnalare che è pronta a riceverli."
+        },
+        {
+          "title": "Formati supportati",
+          "text": "Formati letti: MP3, FLAC, M4A, OGG e WAV."
+        },
+        {
+          "title": "Esito dell’importazione",
+          "text": "Lo stesso file non entra due volte: se è già in libreria viene contato tra quelli saltati. Al termine compare un riepilogo con i brani aggiunti, quelli già presenti e quelli non importati; se non ci sono stati problemi si chiude da solo."
+        }
+      ]
+    },
+    "organize": {
+      "title": "Cercare, filtrare e ordinare",
+      "where": "barra in alto, intestazioni delle colonne e menu della libreria.",
+      "figure": "Il campo di ricerca e il menu della libreria, con filtri e strumenti.",
+      "tip": "Ordinamento, ricerca e filtri non toccano i file: cambiano solo il modo in cui l’elenco viene mostrato.",
+      "sections": [
+        {
+          "title": "Ricerca di un brano",
+          "text": "Il campo di ricerca filtra l’elenco per titolo, autore, album, genere o percorso."
+        },
+        {
+          "title": "Ordine dell’elenco",
+          "text": "Un clic su un’intestazione di colonna ordina l’elenco; un secondo clic sulla stessa colonna inverte l’ordine. Nelle viste ad anteprima, prive di intestazioni, l’ordinamento si sceglie dal selettore accanto all’interruttore di vista."
+        },
+        {
+          "title": "Dati mancanti",
+          "text": "\"Dati mancanti\", nel menu della libreria, lascia a schermo solo i brani a cui manca copertina, autore, album, anno o genere."
+        }
+      ]
+    },
+    "views": {
+      "title": "Viste, schede e collegamenti",
+      "where": "le due icone a destra nella barra e le schede sotto di essa.",
+      "figure": "L’interruttore tra elenco e anteprime, in fondo alla barra.",
+      "tip": "Vista, dimensione delle anteprime e disposizione delle colonne vengono ricordate separatamente per ogni scheda.",
+      "sections": [
+        {
+          "title": "Modalità di esplorazione",
+          "text": "L’icona a righe mostra l’elenco con le colonne, quella a griglia le anteprime delle copertine; la scelta viene ricordata. Le schede Brani, Autori, Album e Generi raggruppano la stessa libreria in quattro modi."
+        },
+        {
+          "title": "Brani collegati",
+          "text": "Un clic su un autore, un album o un genere apre la finestra dei brani collegati. Il pulsante in alto a sinistra della finestra torna al dettaglio precedente e ne indica la destinazione."
+        },
+        {
+          "title": "Colonne dell’elenco",
+          "text": "Quali dati mostrare nell’elenco, e in quale ordine, si imposta da \"Colonne\" nel menu della libreria."
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Modificare i metadati",
+      "where": "menu con i tre puntini sulla riga o sulla scheda del brano, oppure clic destro sulla riga.",
+      "figure": "Il menu con i tre puntini sulla riga del brano.",
+      "tip": "Una modifica su molti brani è più sicura dopo averne provato uno solo: la scrittura avviene nei file e non si annulla.",
+      "sections": [
+        {
+          "title": "Apertura della modifica",
+          "text": "Il menu con i tre puntini, come il clic destro sulla riga, contiene la voce Modifica. Sono modificabili nome, autore, album, anno e genere; il genere si può scegliere tra quelli già in libreria oppure scrivere. \"Scegli immagine…\" sostituisce la copertina (PNG o JPEG, fino a 5 MB)."
+        },
+        {
+          "title": "Salvataggio nei file",
+          "text": "{save} scrive le modifiche nei tag del file, non solo nella libreria. Un campo lasciato vuoto rimuove il dato dal file."
+        },
+        {
+          "title": "Modifica di più brani insieme",
+          "text": "Con più brani selezionati tramite {ctrl} o {shift} compare \"Modifica selezionati\": scrive lo stesso valore su tutti quelli scelti."
+        }
+      ]
+    },
+    "files": {
+      "title": "Operazioni sui file",
+      "where": "menu della libreria e menu con i tre puntini sulla riga.",
+      "tip": "Un file segnalato come mancante che esiste ancora è quasi sempre stato spostato: va reimportato dalla nuova posizione, rimuovendo la voce precedente.",
+      "sections": [
+        {
+          "title": "Controllo dei file mancanti",
+          "text": "\"Verifica file\", nel menu della libreria, rifà il controllo su richiesta e riepiloga quanti mancano. Un brano il cui file non è più presente non si può modificare né riprodurre, ma resta in elenco finché non viene rimosso."
+        },
+        {
+          "title": "Ricerca dei duplicati",
+          "text": "\"Trova duplicati\" elenca i brani presenti in più file, riconosciuti dal titolo con il suo autore o dal nome del file."
+        },
+        {
+          "title": "Rimozione dalla libreria",
+          "text": "\"Elimina\", nel menu della riga, toglie il brano dall’elenco senza cancellare nulla dal disco."
+        }
+      ]
+    },
+    "player": {
+      "title": "Ascoltare la musica",
+      "where": "doppio clic su una riga o su una scheda; il player compare in basso.",
+      "figure": "Il player in basso, con i comandi e la barra di avanzamento.",
+      "tip": "Il comando di stop azzera l’avanzamento senza svuotare la coda: il brano riparte dall’inizio.",
+      "sections": [
+        {
+          "title": "Avvio della riproduzione",
+          "text": "{gesture} su un brano ne avvia la riproduzione. L’elenco visualizzato diventa la coda di riproduzione."
+        },
+        {
+          "title": "Comandi di ascolto",
+          "text": "{play} e {pause} governano l’ascolto. La barra di avanzamento si trascina per spostarsi nel brano, mentre lo slider regola il volume. Casuale e Ripeti brano cambiano l’ordine di ascolto."
+        },
+        {
+          "title": "Player a tutto schermo",
+          "text": "La freccia in alto a destra del player apre la vista a tutto schermo, la X chiude la riproduzione. In quella vista autore, album e genere sono collegamenti: aprono i brani collegati, dai quali se ne può avviare un altro."
+        }
+      ]
+    },
+    "dock": {
+      "title": "Player flottante",
+      "where": "compare riducendo l’app nella barra di sistema mentre suona qualcosa.",
+      "figure": "Il player flottante e i suoi comandi.",
+      "tip": "La posizione del player flottante viene ricordata: alla riapertura torna dove era stato lasciato.",
+      "sections": [
+        {
+          "title": "Ascolto in secondo piano",
+          "text": "Il pulsante con il trattino basso, nella barra del titolo, manda l’app nella barra di sistema: la riproduzione continua. Se c’è un brano in ascolto compare il player flottante, una finestrella con copertina, titolo e comandi."
+        },
+        {
+          "title": "Posizione e orientamento",
+          "text": "Si sposta trascinandolo da qualunque punto libero. Il suo menu cambia l’orientamento tra orizzontale e verticale e decide se restare sempre in primo piano."
+        },
+        {
+          "title": "Ritorno alla libreria o chiusura",
+          "text": "Il pulsante di espansione riporta a schermo l’applicazione e chiude il player flottante. Alla chiusura viene chiesto se uscire dall’applicazione o lasciarla nella barra di sistema: la risposta si può ricordare."
+        }
+      ]
+    },
+    "shortcuts": {
+      "title": "Scorciatoie e gesti",
+      "where": "elenco dei brani, player e finestre di dettaglio.",
+      "tip": "Il campo di ricerca lavora insieme su titolo, autore, album, genere e percorso: una sola parola basta per restringere l’elenco.",
+      "sections": [
+        {
+          "title": "Riproduzione e menu",
+          "text": "Doppio clic su una riga o su una scheda: avvia la riproduzione. Clic destro su una riga: apre lo stesso menu dei tre puntini."
+        },
+        {
+          "title": "Selezione e tastiera",
+          "text": "{ctrl} + clic aggiunge un brano alla selezione, {shift} + clic seleziona tutto l’intervallo. {esc} chiude la finestra aperta e, dalla vista a tutto schermo del player, riporta alla libreria."
+        },
+        {
+          "title": "Trascinamento",
+          "text": "Il trascinamento di file o cartelle sulla finestra li importa senza passare dai pulsanti. Il trascinamento del bordo tra due intestazioni ne cambia la larghezza; il comando accanto all’ingranaggio le adatta al contenuto."
+        }
+      ]
+    },
+    "libraries": {
+      "title": "Più librerie",
+      "where": "icona con le due frecce accanto al nome, e {settings} → Libreria.",
+      "figure": "L’icona con le due frecce accanto al nome della libreria.",
+      "tip": "La libreria principale è quella che si apre all’avvio: si imposta su quella usata più spesso.",
+      "sections": [
+        {
+          "title": "Creazione e cambio di libreria",
+          "text": "L’icona con le due frecce accanto al nome apre il cambio rapido di libreria. In {settings} → Libreria una nuova libreria si crea dal campo in cima alla sezione."
+        },
+        {
+          "title": "Gestione della libreria selezionata",
+          "text": "La selezione di una libreria dall’elenco attiva i comandi sopra di esso: esporta, rinomina e imposta come principale."
+        },
+        {
+          "title": "Eliminazione di una libreria",
+          "text": "Eliminare una libreria toglie solo il suo elenco: i file audio non vengono toccati."
+        }
+      ]
+    },
+    "transfer": {
+      "title": "Importare ed esportare",
+      "where": "menu della libreria e {settings} → Libreria.",
+      "figure": "La sezione di importazione ed esportazione nelle impostazioni.",
+      "tip": "Per portare la libreria su un altro computer si esporta il file e lo si importa sulla nuova installazione: i percorsi devono però condurre agli stessi file audio.",
+      "sections": [
+        {
+          "title": "Salvataggio di una libreria",
+          "text": "\"Esporta libreria\" salva un file con l’elenco dei brani e i loro dati, copertine comprese."
+        },
+        {
+          "title": "Importazione di una libreria",
+          "text": "L’importazione di una libreria chiede come unirla: sostituire quella aperta, aggiungere solo i brani nuovi o aggiornare anche quelli già presenti. Al termine un riepilogo dice quanti brani sono entrati, quanti aggiornati, quanti saltati e quali file non sono stati trovati."
+        },
+        {
+          "title": "Esportazione di un elenco",
+          "text": "\"Esporta elenco\" salva invece un file di testo o CSV con i campi scelti: serve per leggere la libreria altrove. Un elenco esportato non contiene i file audio: riporta soltanto riferimenti alla loro posizione sul disco."
+        }
+      ]
+    },
+    "appearance": {
+      "title": "Aspetto",
+      "where": "{settings} → Aspetto.",
+      "tip": "Se l’interfaccia risulta pesante su una macchina lenta, la disattivazione dell’effetto vetro e dello sfondo sfumato alleggerisce il disegno.",
+      "sections": [
+        {
+          "title": "Leggibilità e tema",
+          "text": "Dimensione del testo: quattro passi, da molto piccolo a grande, che scalano tutta l’interfaccia. Tema: chiaro, scuro o come il sistema."
+        },
+        {
+          "title": "Colori e superfici",
+          "text": "Colore accent: il colore dei comandi, delle selezioni e dello sfondo sfumato. Sfondo ed effetto vetro: attiva la sfumatura costruita sul colore accent, ne sceglie la forma e l’origine, e rende traslucide le superfici. Può essere portato anche sulle finestre di dettaglio."
+        },
+        {
+          "title": "Sfondo del player",
+          "text": "Colore sfondo da copertina: il player prende il colore dalla copertina del brano; trasparenza, intensità, sfocatura, forma e origine sono regolabili. Ogni scelta si applica subito e viene ricordata alla prossima apertura."
+        }
+      ]
+    },
+    "settings": {
+      "title": "Avvio, finestra e generali",
+      "where": "{settings} → Generale, e barra del titolo.",
+      "figure": "L’ingranaggio nella barra del titolo, che apre le impostazioni.",
+      "tip": "Avvio con il sistema e avvio ridotto lavorano insieme: con entrambi attivi l’app è già pronta nella barra di sistema.",
+      "sections": [
+        {
+          "title": "Lingua e avvio",
+          "text": "Lingua: italiano, inglese, francese, spagnolo e tedesco, con effetto immediato. Avvio e finestra: avviare l’app con il sistema, partire ridotta nella barra di sistema e restarci alla chiusura invece di uscire. Dalla barra di sistema il clic riapre la finestra, il tasto destro offre di interrompere la riproduzione o uscire."
+        },
+        {
+          "title": "Preferenze del player",
+          "text": "Player: mantiene il player aperto dopo la chiusura del brano e regola il player flottante — comparsa, primo piano, orientamento e comportamento alla sua chiusura. Player audio predefinito: su Windows apre le impostazioni di sistema per associare i file audio a questa app; su Linux l’associazione la gestisce l’ambiente desktop, e la sezione mostra il comando da eseguire."
+        },
+        {
+          "title": "Informazioni sull’app",
+          "text": "Il pulsante con la \"i\" nella barra del titolo apre le informazioni: versione, sito, progetto su GitHub, note di versione e versioni pubblicate."
+        }
+      ]
+    },
+    "storage": {
+      "title": "File originali e dati dell’app",
+      "where": "vale ovunque; la cache delle copertine si trova in {settings} → Libreria.",
+      "tip": "Svuotare la cache delle copertine non comporta perdite: le copertine vengono rilette dai file quando servono di nuovo.",
+      "sections": [
+        {
+          "title": "File originali",
+          "text": "L’importazione dei file non comporta la copia: i file vengono letti dove si trovano, senza essere spostati né rinominati. La libreria conserva soltanto il riferimento alla loro posizione. La rimozione di un brano dall’elenco, come l’eliminazione di una libreria, non cancella nulla dal disco."
+        },
+        {
+          "title": "Modifiche ai metadati",
+          "text": "Il salvataggio dei metadati modifica i tag del file audio. Anche una nuova copertina viene scritta nel file."
+        },
+        {
+          "title": "Cache delle copertine",
+          "text": "{settings} → Libreria mostra lo spazio occupato dalle copertine e consente di svuotare la cache."
+        }
+      ]
+    }
+  },
+  "index": "Indice",
+  "tip": "Suggerimento",
+  "playGesture": "Doppio clic",
+  "keys": {
+    "ctrl": "Ctrl",
+    "shift": "Maiusc",
+    "esc": "Esc"
+  }
+}

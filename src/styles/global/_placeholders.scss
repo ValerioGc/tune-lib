@@ -1,0 +1,32 @@
+// Reusable declaration groups for component-local selectors. Placeholders emit no CSS
+// until a component extends them, so they can be made available through additionalData.
+
+%stack {
+  display: flex;
+  flex-direction: column;
+}
+
+%inline_center {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+%focus_ring {
+  &:focus-visible {
+    outline: 2px solid currentcolor;
+    outline-offset: 2px;
+  }
+}

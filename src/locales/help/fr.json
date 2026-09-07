@@ -1,0 +1,293 @@
+{
+  "title": "Guide",
+  "loading": "Chargement du guide",
+  "subtitle": "Comment ajouter de la musique, l’écouter et gérer la bibliothèque.",
+  "where": "Où :",
+  "position": "Sujet {index} sur {total}",
+  "topics": {
+    "start": {
+      "title": "Premiers pas",
+      "where": "concerne la première ouverture de l’application.",
+      "figure": "La barre en haut de la bibliothèque : c’est par là que la musique entre la première fois.",
+      "tip": "Une bibliothèque déjà exportée depuis une autre installation s’importe depuis Réglages → Bibliothèque, sans repartir des dossiers.",
+      "sections": [
+        {
+          "title": "Ajout de la musique",
+          "text": "« Ajouter un dossier » importe en une seule fois un dossier entier et ses sous-dossiers."
+        },
+        {
+          "title": "Lecture d’un morceau",
+          "text": "{gesture} sur un morceau lance la lecture. La liste affichée devient la file de lecture."
+        },
+        {
+          "title": "Personnalisation de l’application",
+          "text": "{settings}, dans la barre de titre, réunit la langue, l’apparence et le comportement du lecteur."
+        }
+      ]
+    },
+    "import": {
+      "title": "Ajouter des morceaux et des dossiers",
+      "where": "barre du haut de la Bibliothèque, ou en déposant sur la fenêtre.",
+      "figure": "Les commandes qui ajoutent des morceaux et des dossiers.",
+      "tip": "Les fichiers restent où ils sont : si un dossier est déplacé après l’import, ses morceaux sont signalés manquants jusqu’à un nouvel import depuis le nouvel emplacement.",
+      "sections": [
+        {
+          "title": "Choix des fichiers ou des dossiers",
+          "text": "« Ajouter des morceaux » ouvre le choix d’un ou plusieurs fichiers audio, « Ajouter un dossier » importe toute la musique d’un dossier et de ses sous-dossiers. Des fichiers ou des dossiers peuvent aussi être déposés sur la fenêtre : la bibliothèque s’éclaire pour dire qu’elle est prête."
+        },
+        {
+          "title": "Formats pris en charge",
+          "text": "Formats lus : MP3, FLAC, M4A, OGG et WAV."
+        },
+        {
+          "title": "Résultat de l’import",
+          "text": "Un même fichier n’entre jamais deux fois : s’il est déjà là, il est compté parmi les ignorés. Un récapitulatif indique ensuite ce qui a été ajouté, ce qui était déjà présent et ce qui n’a pas pu être importé ; un import sans souci se referme seul."
+        }
+      ]
+    },
+    "organize": {
+      "title": "Chercher, filtrer et trier",
+      "where": "barre du haut, en-têtes de colonnes et menu de la bibliothèque.",
+      "figure": "Le champ de recherche et le menu de la bibliothèque, avec les filtres et les outils.",
+      "tip": "Le tri, la recherche et les filtres ne touchent jamais aux fichiers : ils ne changent que l’affichage de la liste.",
+      "sections": [
+        {
+          "title": "Recherche d’un morceau",
+          "text": "Le champ de recherche filtre la liste par titre, artiste, album, genre ou chemin."
+        },
+        {
+          "title": "Ordre de la liste",
+          "text": "Un clic sur un en-tête de colonne trie la liste ; un second clic sur la même colonne inverse l’ordre. Dans les vues en aperçu, sans en-têtes, l’ordre se choisit depuis le sélecteur de tri à côté du commutateur de vue."
+        },
+        {
+          "title": "Données manquantes",
+          "text": "« Données manquantes », dans le menu de la bibliothèque, ne laisse que les morceaux sans pochette, artiste, album, année ou genre."
+        }
+      ]
+    },
+    "views": {
+      "title": "Vues, onglets et liens",
+      "where": "les deux icônes à droite de la barre, et les onglets en dessous.",
+      "figure": "Le sélecteur entre liste et vignettes, au bout de la barre.",
+      "tip": "La vue, la taille des vignettes et la disposition des colonnes sont mémorisées séparément pour chaque onglet.",
+      "sections": [
+        {
+          "title": "Façons de parcourir",
+          "text": "L’icône en lignes montre les colonnes, celle en grille montre les pochettes ; le choix est retenu. Les onglets Morceaux, Artistes, Albums et Genres rassemblent la même bibliothèque de quatre façons."
+        },
+        {
+          "title": "Morceaux associés",
+          "text": "Un clic sur un artiste, un album ou un genre ouvre la fenêtre des morceaux liés. Le bouton en haut à gauche de cette fenêtre revient en arrière et nomme l’endroit où il mène."
+        },
+        {
+          "title": "Colonnes de la liste",
+          "text": "Les colonnes affichées et leur ordre se règlent depuis « Colonnes », dans le menu de la bibliothèque."
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Modifier les métadonnées",
+      "where": "menu à trois points sur la ligne ou sur la carte, ou clic droit sur la ligne.",
+      "figure": "Le menu à trois points sur la ligne du morceau.",
+      "tip": "Une modification sur de nombreux morceaux est plus sûre après un essai sur un seul : l’écriture a lieu dans les fichiers et ne s’annule pas.",
+      "sections": [
+        {
+          "title": "Ouverture de l’éditeur",
+          "text": "Le menu à trois points, comme le clic droit sur la ligne, contient l’entrée Modifier. Le titre, l’artiste, l’album, l’année et le genre sont modifiables ; le genre se choisit parmi ceux déjà présents ou s’écrit. « Choisir une image… » remplace la pochette (PNG ou JPEG, jusqu’à 5 Mo)."
+        },
+        {
+          "title": "Enregistrement dans les fichiers",
+          "text": "« Enregistrer » écrit les modifications dans les tags du fichier, pas seulement dans la bibliothèque. Un champ laissé vide retire la donnée du fichier."
+        },
+        {
+          "title": "Modification de plusieurs morceaux",
+          "text": "Avec plusieurs morceaux sélectionnés par {ctrl} ou {shift}, « Modifier la sélection » écrit la même valeur sur tous."
+        }
+      ]
+    },
+    "files": {
+      "title": "Agir sur les fichiers",
+      "where": "menu de la bibliothèque et menu à trois points de la ligne.",
+      "tip": "Un fichier signalé manquant qui existe encore a presque toujours été déplacé : il est réimporté depuis son nouvel emplacement, et l’ancienne entrée supprimée.",
+      "sections": [
+        {
+          "title": "Contrôle des fichiers manquants",
+          "text": "« Vérifier les fichiers », dans le menu de la bibliothèque, refait le contrôle à la demande et dit combien manquent. Un morceau dont le fichier a disparu ne peut être ni modifié ni lu, mais reste listé jusqu’à son retrait."
+        },
+        {
+          "title": "Recherche des doublons",
+          "text": "« Trouver les doublons » liste les morceaux présents dans plusieurs fichiers, reconnus par le titre avec son artiste ou par le nom du fichier."
+        },
+        {
+          "title": "Retrait de la bibliothèque",
+          "text": "« Supprimer », dans le menu de la ligne, retire le morceau de la liste sans rien effacer du disque."
+        }
+      ]
+    },
+    "player": {
+      "title": "Écouter la musique",
+      "where": "double-clic sur une ligne ou une carte ; le lecteur apparaît en bas.",
+      "figure": "Le lecteur en bas, avec les commandes et la barre de progression.",
+      "tip": "Stop revient au début sans vider la file : le morceau repart depuis le début.",
+      "sections": [
+        {
+          "title": "Lancement de la lecture",
+          "text": "{gesture} sur un morceau lance la lecture. La liste affichée devient la file de lecture."
+        },
+        {
+          "title": "Commandes de lecture",
+          "text": "{play} et {pause} pilotent l’écoute. La barre de progression se fait glisser pour avancer dans le morceau, tandis que le curseur règle le volume. Lecture aléatoire et Répéter le morceau modifient la lecture de la file."
+        },
+        {
+          "title": "Lecteur plein écran",
+          "text": "La flèche en haut à droite du lecteur ouvre la vue plein écran, la croix arrête la lecture. Dans cette vue, l’artiste, l’album et le genre sont des liens : ils ouvrent les morceaux liés, d’où un autre peut être lancé."
+        }
+      ]
+    },
+    "dock": {
+      "title": "Lecteur flottant",
+      "where": "apparaît quand l’app passe dans la zone de notification pendant la lecture.",
+      "figure": "Le lecteur flottant et ses commandes.",
+      "tip": "La position du lecteur flottant est mémorisée : il revient là où il avait été laissé.",
+      "sections": [
+        {
+          "title": "Écoute en arrière-plan",
+          "text": "Le bouton au trait bas, dans la barre de titre, envoie l’app dans la zone de notification : la lecture continue. S’il y a un morceau en cours, le lecteur flottant apparaît : une petite fenêtre avec pochette, titre et commandes."
+        },
+        {
+          "title": "Position et orientation",
+          "text": "Il se déplace en le faisant glisser depuis n’importe quel endroit libre. Son menu le fait passer de l’horizontale à la verticale et décide s’il reste au premier plan."
+        },
+        {
+          "title": "Retour à la bibliothèque ou fermeture",
+          "text": "Le bouton d’agrandissement ramène l’application à l’écran et ferme le lecteur flottant. À sa fermeture, il demande s’il faut quitter l’application ou la laisser dans la zone de notification : la réponse peut être retenue."
+        }
+      ]
+    },
+    "shortcuts": {
+      "title": "Raccourcis et gestes",
+      "where": "la liste des morceaux, le lecteur et les fenêtres de détail.",
+      "tip": "Le champ de recherche porte à la fois sur le titre, l’artiste, l’album, le genre et le chemin : un seul mot suffit souvent.",
+      "sections": [
+        {
+          "title": "Lecture et menus",
+          "text": "Double-clic sur une ligne ou une carte : la lecture démarre. Clic droit sur une ligne : ouvre le même menu que les trois points."
+        },
+        {
+          "title": "Sélection et clavier",
+          "text": "{ctrl} + clic ajoute un morceau à la sélection, {shift} + clic prend toute la plage. {esc} ferme la fenêtre ouverte et, depuis la vue plein écran du lecteur, revient à la bibliothèque."
+        },
+        {
+          "title": "Glisser-déposer",
+          "text": "Déposer des fichiers ou des dossiers sur la fenêtre les importe sans passer par les boutons. Faire glisser le bord entre deux en-têtes change la largeur d’une colonne ; la commande à côté de l’engrenage les ajuste au contenu."
+        }
+      ]
+    },
+    "libraries": {
+      "title": "Plusieurs bibliothèques",
+      "where": "icône aux deux flèches près du nom, et Réglages → Bibliothèque.",
+      "figure": "L’icône aux deux flèches à côté du nom de la bibliothèque.",
+      "tip": "La bibliothèque principale est celle qui s’ouvre au démarrage : elle se règle sur celle qui sert le plus souvent.",
+      "sections": [
+        {
+          "title": "Création et changement de bibliothèque",
+          "text": "L’icône aux deux flèches près du nom ouvre le changement rapide de bibliothèque. Dans Réglages → Bibliothèque, une nouvelle bibliothèque se crée depuis le champ en haut de la section."
+        },
+        {
+          "title": "Gestion de la bibliothèque sélectionnée",
+          "text": "La sélection d’une bibliothèque dans la liste active les commandes au-dessus : exporter, renommer et définir comme principale."
+        },
+        {
+          "title": "Suppression d’une bibliothèque",
+          "text": "Supprimer une bibliothèque n’enlève que sa liste : les fichiers audio ne sont pas touchés."
+        }
+      ]
+    },
+    "transfer": {
+      "title": "Importer et exporter",
+      "where": "menu de la bibliothèque et Réglages → Bibliothèque.",
+      "figure": "La section import et export des réglages.",
+      "tip": "Pour transporter la bibliothèque sur un autre ordinateur, le fichier est exporté puis importé sur l’autre installation : les chemins doivent mener aux mêmes fichiers audio.",
+      "sections": [
+        {
+          "title": "Enregistrement d’une bibliothèque",
+          "text": "« Exporter la bibliothèque » enregistre un fichier avec la liste des morceaux et leurs données, pochettes comprises."
+        },
+        {
+          "title": "Import d’une bibliothèque",
+          "text": "L’import d’une bibliothèque demande comment la fusionner : remplacer celle qui est ouverte, n’ajouter que les nouveaux morceaux, ou mettre aussi à jour ceux déjà présents. Un récapitulatif dit ensuite combien de morceaux sont entrés, combien ont été mis à jour, combien ignorés et quels fichiers restent introuvables."
+        },
+        {
+          "title": "Export d’une liste",
+          "text": "« Exporter la liste » enregistre plutôt un fichier texte ou CSV avec les champs choisis : il sert à lire la bibliothèque ailleurs. Une liste exportée ne contient aucun audio : elle renvoie seulement à l’endroit où les fichiers se trouvent sur le disque."
+        }
+      ]
+    },
+    "appearance": {
+      "title": "Apparence",
+      "where": "Réglages → Apparence.",
+      "tip": "Si l’interface paraît lourde sur une machine lente, désactiver l’effet verre et le fond dégradé allège le dessin.",
+      "sections": [
+        {
+          "title": "Lisibilité et thème",
+          "text": "Taille du texte : quatre paliers, de très petit à grand, qui mettent toute l’interface à l’échelle. Thème : clair, sombre, ou celui du système."
+        },
+        {
+          "title": "Couleurs et surfaces",
+          "text": "Couleur d’accent : la couleur des commandes, de la sélection et du fond dégradé. Fond et effet verre : active le dégradé construit sur l’accent, choisit sa forme et son origine, et rend les surfaces translucides. Il peut aussi être porté sur les fenêtres de détail."
+        },
+        {
+          "title": "Arrière-plan du lecteur",
+          "text": "Couleur de fond d’après la pochette : le lecteur prend la couleur de la pochette du morceau ; transparence, intensité, flou, forme et origine sont réglables. Chaque choix s’applique aussitôt et est retenu pour la fois suivante."
+        }
+      ]
+    },
+    "settings": {
+      "title": "Démarrage, fenêtre et général",
+      "where": "Réglages → Général, et barre de titre.",
+      "figure": "L’engrenage de la barre de titre, qui ouvre les réglages.",
+      "tip": "Démarrer avec le système et démarrer réduit vont de pair : avec les deux, l’application attend déjà dans la zone de notification.",
+      "sections": [
+        {
+          "title": "Langue et démarrage",
+          "text": "Langue : italien, anglais, français, espagnol et allemand, avec effet immédiat. Démarrage et fenêtre : lancer l’app avec le système, démarrer réduite dans la zone de notification, et y rester à la fermeture au lieu de quitter. Depuis la zone de notification, un clic rouvre la fenêtre, un clic droit propose d’arrêter la lecture ou de quitter."
+        },
+        {
+          "title": "Préférences du lecteur",
+          "text": "Lecteur : garde le lecteur ouvert après la fermeture du morceau et règle le lecteur flottant — apparition, premier plan, disposition et effet de sa fermeture. Lecteur audio par défaut : sous Windows, ouvre les réglages du système pour associer les fichiers audio à cette application ; sous Linux, l’association appartient à l’environnement de bureau et la section affiche la commande à lancer."
+        },
+        {
+          "title": "À propos de l’application",
+          "text": "Le bouton « i » de la barre de titre ouvre les informations : version, site, projet sur GitHub, notes de version et versions publiées."
+        }
+      ]
+    },
+    "storage": {
+      "title": "Fichiers d’origine et données de l’application",
+      "where": "partout ; le cache des pochettes se trouve dans Réglages → Bibliothèque.",
+      "tip": "Vider le cache des pochettes ne perd rien : elles sont relues dans les fichiers dès qu’elles resservent.",
+      "sections": [
+        {
+          "title": "Fichiers d’origine",
+          "text": "L’importation des fichiers n’entraîne aucune copie : ils sont lus là où ils se trouvent, sans être déplacés ni renommés. La bibliothèque ne garde que la référence à leur emplacement. Retirer un morceau de la liste, comme supprimer une bibliothèque, n’efface rien du disque."
+        },
+        {
+          "title": "Modifications des métadonnées",
+          "text": "Enregistrer les métadonnées modifie les tags du fichier audio. Une nouvelle pochette est également enregistrée dans le fichier."
+        },
+        {
+          "title": "Cache des pochettes",
+          "text": "{settings} → Bibliothèque affiche l’espace occupé par les pochettes et permet de vider le cache."
+        }
+      ]
+    }
+  },
+  "index": "Sommaire",
+  "tip": "Astuce",
+  "playGesture": "Double-clic",
+  "keys": {
+    "ctrl": "Ctrl",
+    "shift": "Maj",
+    "esc": "Échap"
+  }
+}

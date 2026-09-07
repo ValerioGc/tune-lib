@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# frontend build
+dist/
+dist-ssr/
+*.local
+
+# tests and quality
+coverage/
+.scannerwork/
+src-tauri/clippy-report.json
+
+# Rust / Tauri build
+src-tauri/target/
+src-tauri/gen/
+
+# editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+npm-debug.log*
+ROADMAP.md

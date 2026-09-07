@@ -1,0 +1,579 @@
+{
+  "nav": {
+    "settings": "Einstellungen",
+    "help": "Anleitung",
+    "backToLibrary": "Zurück zur Bibliothek",
+    "about": "Info"
+  },
+  "about": {
+    "title": "Info",
+    "description": "Audioplayer und Bibliotheksverwaltung: bearbeitet Tags und Cover direkt in den Dateien, lässt sie liegen, wo sie sind, und spielt sie ab, ohne das Fenster zu verlassen.",
+    "website": "Webseite",
+    "repository": "GitHub-Projekt",
+    "changelog": "Changelog",
+    "close": "Schließen"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "loading": "Einstellungen werden geladen",
+    "subtitle": "Sprache, Aussehen und Verhalten der Anwendung und ihre Bibliotheken.",
+    "language": {
+      "title": "Sprache",
+      "description": "Sprache der Oberfläche, der Menüs und der Meldungen."
+    },
+    "startup": {
+      "title": "Start und Fenster",
+      "description": "Allgemeine Einstellungen zum Start der Anwendung und zum Verhalten des Fensters.",
+      "autostart": "Mit dem System starten",
+      "minimized": "Minimiert im Infobereich starten",
+      "closeToTray": "Beim Schließen des Fensters die Anwendung im Infobereich lassen",
+      "hint": "Wenn die Anwendung im Infobereich minimiert ist, öffnet ein Klick auf das Symbol das Fenster wieder; mit der rechten Maustaste lässt sich die Wiedergabe beenden oder die Anwendung schließen."
+    },
+    "playerBehaviour": {
+      "title": "Player",
+      "description": "Einstellungen für den Player und den schwebenden Player.",
+      "keepOpen": "Player beim Schließen des Titels geöffnet und minimiert lassen",
+      "dock": "Den schwebenden Player zeigen, wenn die App in den Infobereich geht",
+      "orientation": "Anordnung des schwebenden Players",
+      "orientations": {
+        "horizontal": "Waagerecht",
+        "vertical": "Senkrecht"
+      },
+      "closeAction": "Beim Schließen des schwebenden Players",
+      "closeActions": {
+        "ask": "Jedes Mal fragen",
+        "dock": "Nur den schwebenden Player schließen",
+        "app": "Die ganze Anwendung schließen"
+      },
+      "level": "Startstufe des schwebenden Players",
+      "levels": {
+        "compact": "Klein",
+        "expanded": "Erweitert"
+      },
+      "remembersLevel": "Zuletzt genutzte Stufe merken",
+      "progress": "Fortschrittsleiste im schwebenden Player",
+      "progressStyles": {
+        "bar": "Leiste mit Zeiten",
+        "line": "Dünne Linie",
+        "none": "Keine"
+      },
+      "gradient": "Hintergrund aus dem Cover im schwebenden Player"
+    },
+    "textSize": {
+      "title": "Textgröße",
+      "description": "Skaliert die Typografie der gesamten Oberfläche.",
+      "preview": "Vorschau des Textes in der gewählten Größe.",
+      "options": {
+        "xsmall": "Sehr klein",
+        "small": "Klein",
+        "medium": "Mittel",
+        "large": "Groß"
+      }
+    },
+    "theme": {
+      "title": "Design",
+      "description": "Helles oder dunkles Erscheinungsbild, oder automatisch.",
+      "systemHint": "Das System verwendet derzeit das Design {theme}.",
+      "options": {
+        "light": "Hell",
+        "dark": "Dunkel",
+        "system": "System"
+      }
+    },
+    "accent": {
+      "title": "Akzentfarbe",
+      "description": "Farbe der Bedienelemente, Schaltflächen und aktiven Elemente der Oberfläche.",
+      "swatch": "Farbe {color}",
+      "custom": "Benutzerdefiniert",
+      "reset": "Standard",
+      "hint": "Die Farbe wird automatisch aufgehellt oder abgedunkelt, damit sie im hellen wie im dunklen Design lesbar bleibt."
+    },
+    "ambience": {
+      "title": "Hintergrund und Glaseffekt",
+      "description": "Weicher Hintergrund auf Basis der Akzentfarbe und lichtdurchlässige Flächen für mehr Tiefe.",
+      "background": "Weicher Hintergrund aus der Akzentfarbe",
+      "style": "Art des Verlaufs",
+      "styles": {
+        "orbs": "Weiche Farbkugeln",
+        "linear": "Linearer Verlauf",
+        "spotlight": "Einzelner Lichtschein"
+      },
+      "direction": "Richtung",
+      "directions": {
+        "topLeft": "Von oben links",
+        "top": "Von oben",
+        "topRight": "Von oben rechts",
+        "left": "Von links",
+        "right": "Von rechts",
+        "bottomLeft": "Von unten links",
+        "bottom": "Von unten",
+        "bottomRight": "Von unten rechts"
+      },
+      "glass": "Glasflächen (Tabelle, Karten und Bereiche)",
+      "preview": "Vorschau",
+      "panels": "Denselben Hintergrund auch in den Detailfenstern verwenden",
+      "hint": "Die zweite Farbe des Hintergrunds leitet sich aus der Akzentfarbe ab und ändert sich mit ihr. Die beiden Optionen sind voneinander unabhängig."
+    },
+    "coverGradient": {
+      "title": "Hintergrundfarbe aus dem Cover",
+      "description": "Verwendet die vorherrschende Farbe des Covers für den Hintergrund des Players und die laufende Zeile.",
+      "toggle": "Verlauf aus dem Cover aktivieren",
+      "style": "Form des Verlaufs",
+      "direction": "Ursprung des Verlaufs",
+      "intensity": "Intensität",
+      "transparency": "Transparenz des Players",
+      "blur": "Weichzeichnen des Players"
+    },
+    "defaultPlayer": {
+      "title": "Standard-Audioplayer",
+      "description": "Audiodateien TuneLib zuordnen",
+      "message": "Windows verlangt eine manuelle Auswahl: Suchen Sie TuneLib in den Standard-Apps und weisen Sie ihm die Audioformate zu, die hier geöffnet werden sollen.",
+      "linuxMessage": "Unter Linux wird die Zuordnung von deiner Desktop-Umgebung verwaltet: Öffne deren Einstellungen für Standardanwendungen oder führe diesen Befehl in einem Terminal aus.",
+      "open": "Einstellungen öffnen",
+      "opening": "Wird geöffnet…",
+      "error": "Fehler beim Öffnen der Systemeinstellungen."
+    },
+    "tabs": {
+      "general": "Allgemein",
+      "appearance": "Erscheinungsbild",
+      "library": "Bibliothek"
+    },
+    "appearance": {
+      "application": "Anwendung",
+      "player": "Audioplayer",
+      "library": "Titelliste"
+    },
+    "libraryName": {
+      "label": "Name",
+      "placeholder": "Meine Bibliothek",
+      "save": "Namen speichern",
+      "saving": "Wird gespeichert…"
+    },
+    "importExport": {
+      "title": "Import / Export",
+      "description": "Einstellungen zum Importieren und Exportieren der Musikbibliothek.",
+      "import": "Importieren",
+      "importing": "Wird importiert…",
+      "export": "Aktive exportieren",
+      "busy": "Import läuft. Die übrigen Befehle bleiben bis zum Ende gesperrt.",
+      "strategy": {
+        "label": "Import-Strategie",
+        "options": {
+          "replace": "Aktive Bibliothek ersetzen",
+          "merge": "Zusammenführen und Duplikate aktualisieren",
+          "mergeSkipDuplicates": "Zusammenführen und Duplikate überspringen"
+        }
+      },
+      "report": {
+        "summary": "{total} Titel gelesen: {added} hinzugefügt, {updated} aktualisiert, {skipped} übersprungen, {missing} fehlende Dateien."
+      },
+      "mode": {
+        "label": "Inhalt des Exports",
+        "options": {
+          "full": "Vollständige Bibliothek",
+          "paths": "Nur Dateipfade"
+        },
+        "hints": {
+          "full": "Daten und Cover inbegriffen: eine größere Datei, die aber auch ohne die Originaltitel geöffnet werden kann.",
+          "paths": "Nur wo die Dateien liegen: Beim Import werden die Daten aus diesen Dateien gelesen, sie müssen also noch vorhanden sein."
+        }
+      }
+    },
+    "libraries": {
+      "title": "Bibliotheken",
+      "description": "Einstellungen zur Verwaltung der Musikbibliotheken."
+    },
+    "coverCache": {
+      "title": "Cover-Cache",
+      "description": "Cover werden auf der Festplatte behalten, damit sie nicht bei jedem Start neu aus den Dateien gelesen werden müssen. Der Cache kann jederzeit geleert werden: er baut sich von selbst wieder auf und die Dateien der Bibliothek bleiben unverändert.",
+      "size": "Belegter Speicher: {size}",
+      "empty": "Belegter Speicher: 0 MB",
+      "limit": "Wenn der Cache {limit} überschreitet, werden die am längsten nicht angefragten Cover automatisch entfernt.",
+      "clear": "Cache leeren",
+      "clearing": "Wird geleert…",
+      "cleared": "Cache geleert.",
+      "confirm": {
+        "title": "Cover-Cache leeren?",
+        "message": "Die auf der Festplatte abgelegten Cover werden entfernt und bei Bedarf erneut aus den Dateien gelesen. Die Titel der Bibliothek bleiben unverändert.",
+        "cancel": "Abbrechen",
+        "confirm": "Leeren"
+      },
+      "failed": "Der Cache konnte nicht geleert werden."
+    },
+    "banners": {
+      "title": "Meldungen der Bibliothek",
+      "description": "Die Zusammenfassungen oben in der Bibliothek — Importe, Prüfungen, Exporte — schließen sich nach der gewählten Zeit von selbst. Ein Balken unter der Meldung zeigt die verbleibende Zeit.",
+      "duration": "Anzeigedauer der Meldungen",
+      "seconds": "{count} Sekunden",
+      "manual": "Bis sie geschlossen werden"
+    }
+  },
+  "library": {
+    "title": "Bibliothek",
+    "loading": "Bibliothek wird geladen",
+    "name": {
+      "field": "Name der Bibliothek",
+      "placeholder": "Meine Bibliothek",
+      "save": "Namen speichern",
+      "cancel": "Änderung verwerfen",
+      "actions": "Optionen der Bibliothek",
+      "menu": {
+        "rename": "Umbenennen",
+        "columns": "Spalten",
+        "verifyAll": "Dateien prüfen",
+        "duplicates": "Duplikate finden",
+        "missingInfo": "Fehlende Angaben",
+        "exportList": "Liste exportieren",
+        "export": "Bibliothek exportieren",
+        "delete": "Bibliothek löschen"
+      }
+    },
+    "catalog": {
+      "active": "in Verwendung",
+      "trackCount": "keine Titel | 1 Titel | {count} Titel",
+      "open": "Bibliothek „{name}“ öffnen",
+      "openShort": "Öffnen",
+      "primary": "primär",
+      "primaryShort": "Primär",
+      "export": "Bibliothek „{name}“ exportieren",
+      "exportShort": "Exportieren",
+      "remove": "Bibliothek „{name}“ löschen",
+      "exported": "Bibliothek nach {path} exportiert",
+      "switcher": {
+        "open": "Bibliothek wechseln",
+        "title": "Bibliothek wählen",
+        "close": "Schließen"
+      },
+      "create": {
+        "label": "Neue Bibliothek",
+        "placeholder": "Name der neuen Bibliothek",
+        "submit": "Anlegen"
+      },
+      "delete": {
+        "title": "Bibliothek löschen?",
+        "message": "Die Bibliothek „{name}“ und ihre {count} Titel werden aus der Liste entfernt. Die Audiodateien bleiben auf der Festplatte.",
+        "cancel": "Abbrechen",
+        "confirm": "Bibliothek löschen"
+      }
+    },
+    "toolbar": {
+      "add": "Titel hinzufügen",
+      "addFiles": "Audiodateien",
+      "adding": "Wird importiert…",
+      "addingPercent": "Wird importiert… {percent}%",
+      "search": "Bibliothek durchsuchen",
+      "searchPlaceholder": "Titel, Album oder Genre",
+      "count": "keine Titel | 1 Titel | {count} Titel",
+      "missing": "1 fehlende Datei | {count} fehlende Dateien",
+      "addFolder": "Ordner hinzufügen",
+      "editSelected": "{count} ausgewählte bearbeiten",
+      "missingInfo": {
+        "active": "Fehlend: {filter}",
+        "options": {
+          "all": "Alle",
+          "file": "Datei",
+          "cover": "Cover",
+          "artist": "Interpret",
+          "album": "Album",
+          "year": "Jahr",
+          "genre": "Genre"
+        }
+      }
+    },
+    "missingInfo": {
+      "title": "Fehlende Angaben",
+      "description": "Filtert die Bibliothek nach den Angaben, die noch zu ergänzen sind. Wählen Sie Alle, um zur normalen Ansicht zurückzukehren.",
+      "label": "Angabe",
+      "result": "keine Titel gefunden | 1 Titel gefunden | {count} Titel gefunden",
+      "close": "Schließen",
+      "filtered": "Gefilterte Ansicht: Aufgeführt sind nur die Titel ohne {filter}.",
+      "reset": "Filter entfernen"
+    },
+    "defaultPlayerBanner": {
+      "title": "Sie können TuneLib als Standardplayer verwenden",
+      "message": "Öffnen Sie die Systemeinstellungen und wählen Sie diese Anwendung für MP3, FLAC, WAV und die übrigen Audioformate.",
+      "action": "Einrichten",
+      "dismiss": "Hinweis ausblenden"
+    },
+    "columns": {
+      "cover": "Cover",
+      "title": "Name",
+      "artist": "Interpret",
+      "album": "Album",
+      "year": "Jahr",
+      "genre": "Genre",
+      "format": "Format",
+      "path": "Pfad",
+      "duration": "Dauer",
+      "actions": "Aktionen",
+      "resize": "{column} in der Breite ändern"
+    },
+    "columnSettings": {
+      "title": "Spalten der Liste",
+      "description": "Wählen Sie die sichtbaren Spalten und ziehen Sie sie, um die Reihenfolge zu ändern. Cover und Name bleiben immer vorn; Dauer bleibt verpflichtend.",
+      "open": "Spalteneinstellungen",
+      "fit": "Spalten anpassen",
+      "dividers": "Senkrechte Linien zwischen den Spalten anzeigen",
+      "dividersHint": "Trennt die Spalten der Liste durch eine dünne Linie.",
+      "moveUp": "{column} nach oben verschieben",
+      "moveDown": "{column} nach unten verschieben",
+      "reset": "Zurücksetzen",
+      "close": "Fertig"
+    },
+    "sort": {
+      "sortBy": "Nach {column} sortieren",
+      "asc": "aufsteigend",
+      "desc": "absteigend",
+      "field": "Sortieren nach",
+      "ascending": "Aufsteigend",
+      "descending": "Absteigend"
+    },
+    "row": {
+      "unknown": "—",
+      "noCover": "Kein Cover",
+      "missing": "Datei nicht mehr auf der Festplatte",
+      "playing": "Wird abgespielt",
+      "actions": "Aktionen für „{title}“",
+      "remove": "„{title}“ aus der Bibliothek entfernen",
+      "edit": "Metadaten von „{title}“ bearbeiten",
+      "menu": {
+        "edit": "Bearbeiten",
+        "remove": "Löschen"
+      }
+    },
+    "empty": {
+      "title": "Die Bibliothek ist leer",
+      "message": "Fügen Sie Ihre Audiodateien hinzu: Sie bleiben, wo sie sind, hier wird nur die Liste geführt.",
+      "dropHint": "Sie können Dateien und Ordner auch auf dieses Fenster ziehen."
+    },
+    "noMatches": {
+      "title": "Keine Treffer",
+      "message": "Kein Titel entspricht der Suche „{query}“."
+    },
+    "noMissingInfo": {
+      "title": "Keine fehlenden Angaben",
+      "message": "Kein Titel entspricht dem Filter für fehlende Angaben."
+    },
+    "remove": {
+      "title": "Diesen Titel entfernen?",
+      "message": "„{title}“ verlässt die Bibliothek. Die Datei auf der Festplatte wird nicht gelöscht.",
+      "confirm": "Entfernen",
+      "cancel": "Abbrechen"
+    },
+    "report": {
+      "title": "Ergebnis des Imports",
+      "added": "1 Titel hinzugefügt | {count} Titel hinzugefügt",
+      "duplicates": "1 Datei bereits in der Bibliothek | {count} Dateien bereits in der Bibliothek",
+      "failed": "1 Datei nicht importiert | {count} Dateien nicht importiert",
+      "dismiss": "Ausblenden"
+    },
+    "duplicates": {
+      "title": "Doppelte Titel",
+      "description": "Titel, die in mehreren Dateien liegen, erkannt am Titel mit seinem Interpreten oder am Dateinamen. Eine Kopie zu entfernen nimmt sie aus der Bibliothek: die Datei bleibt auf der Festplatte.",
+      "empty": "Keine doppelten Titel: jeder Titel ist einmal vorhanden.",
+      "copies": "{count} Kopien",
+      "remove": "Diese Kopie von „{title}“ aus der Bibliothek entfernen",
+      "close": "Schließen"
+    },
+    "verification": {
+      "summary": "Prüfung abgeschlossen: {missing} fehlende Dateien von {total} Titeln."
+    },
+    "refresh": {
+      "missing": "{count} Datei ist unter dem hinterlegten Pfad nicht mehr verfügbar | {count} Dateien sind unter den hinterlegten Pfaden nicht mehr verfügbar",
+      "refreshed": "{count} außerhalb der App bearbeitete Titel wurden aktualisiert",
+      "recovered": "{count} zuvor fehlende Dateien wieder gefunden",
+      "removeMissing": "Fehlende Dateien entfernen",
+      "removeMissingTitle": "Fehlende Dateien entfernen?",
+      "removeMissingMessage": "{count} Titel werden aus der Bibliothek entfernt. Dateien auf der Festplatte werden nicht gelöscht."
+    },
+    "exportList": {
+      "title": "Titelliste exportieren",
+      "description": "Wählen Sie das Format und die Angaben, die in die Datei aufgenommen werden.",
+      "format": "Format",
+      "formats": {
+        "csv": "CSV",
+        "txt": "TXT"
+      },
+      "fieldsLabel": "Angaben",
+      "fields": {
+        "title": "Name",
+        "artist": "Interpret",
+        "album": "Album",
+        "year": "Jahr",
+        "genre": "Genre",
+        "duration": "Dauer",
+        "format": "Format",
+        "path": "Pfad",
+        "missing": "Fehlende Datei"
+      },
+      "cancel": "Abbrechen",
+      "submit": "Exportieren"
+    },
+    "errors": {
+      "shellUnavailable": "Diese Funktion steht nur in der Desktop-Anwendung zur Verfügung.",
+      "generic": "Der Vorgang ist fehlgeschlagen. Bitte erneut versuchen.",
+      "invalidLibraryName": "Der Name der Bibliothek darf nicht leer sein.",
+      "duplicateLibraryName": "Eine Bibliothek mit diesem Namen gibt es bereits."
+    },
+    "view": {
+      "label": "Ansicht",
+      "table": "Liste",
+      "preview": "Vorschauen"
+    },
+    "previewSize": {
+      "label": "Größe der Vorschauen",
+      "small": "Kleine Vorschauen",
+      "medium": "Mittlere Vorschauen",
+      "large": "Große Vorschauen"
+    },
+    "tabs": {
+      "label": "Bereiche der Bibliothek",
+      "tracks": "Titel",
+      "artists": "Interpreten",
+      "albums": "Alben",
+      "genres": "Genres"
+    },
+    "groups": {
+      "trackCount": "keine Titel | 1 Titel | {count} Titel",
+      "albumCount": "keine Alben | 1 Album | {count} Alben",
+      "artistCount": "keine Interpreten | 1 Interpret | {count} Interpreten",
+      "genreCount": "kein Genre | 1 Genre | {count} Genres",
+      "openLabel": "Titel öffnen, die mit „{name}“ verknüpft sind",
+      "albumArtist": "{artists}",
+      "variousArtists": "Verschiedene Interpreten",
+      "modalTitle": "Titel, die mit „{name}“ verknüpft sind",
+      "detailTabs": "Detail der Verknüpfungen",
+      "back": "Zurück zum vorherigen Detail",
+      "backTo": "Zurück zu „{name}“",
+      "close": "Schließen",
+      "columns": {
+        "artist": "Interpret",
+        "album": "Album",
+        "albums": "Alben",
+        "artists": "Interpreten",
+        "genre": "Genre",
+        "tracks": "Titel",
+        "duration": "Dauer",
+        "actions": "Aktionen"
+      },
+      "unknown": {
+        "artist": "Ohne Interpret",
+        "album": "Ohne Album",
+        "genre": "Ohne Genre"
+      }
+    },
+    "playback": {
+      "missingTitle": "Fehlende Datei",
+      "unavailable": "„{title}“ kann nicht wiedergegeben werden: Die Datei ist unter dem hinterlegten Pfad nicht verfügbar."
+    },
+    "importProgress": {
+      "scanning": "Dateien in Ordnern suchen…",
+      "reading": "Titel lesen…",
+      "saving": "Titel hinzufügen und Bibliothek speichern…",
+      "refreshing": "Titelliste aktualisieren…"
+    }
+  },
+  "metadata": {
+    "title": "Metadaten bearbeiten",
+    "save": "Speichern",
+    "saving": "Wird gespeichert…",
+    "cancel": "Abbrechen",
+    "bulk": {
+      "title": "{count} Titel bearbeiten",
+      "description": "Aktivieren Sie nur die Felder, die auf jeden ausgewählten Titel angewendet werden sollen. Der Name des Titels bleibt individuell."
+    },
+    "fields": {
+      "title": "Name",
+      "artist": "Interpret",
+      "album": "Album",
+      "year": "Jahr",
+      "genre": "Genre",
+      "genreCustom": "Genre wählen oder eingeben"
+    },
+    "cover": {
+      "label": "Cover",
+      "choose": "Bild wählen…",
+      "remove": "Cover entfernen",
+      "tooLarge": "Das Cover in dieser Datei wiegt {size} und ist zu groß, um angezeigt zu werden. Die Datei wurde nicht angerührt: mit einem neuen Bild ersetzen Sie es.",
+      "batch": {
+        "title": "Cover des Albums aktualisieren?",
+        "message": "Das Album \"{album}\" enthält {count} weitere Titel. Dieselbe Coveränderung auch auf diese Titel anwenden?",
+        "onlyCurrent": "Nur dieser Titel",
+        "allAlbum": "Ganzes Album"
+      }
+    },
+    "errors": {
+      "titleRequired": "Der Name darf nicht leer sein.",
+      "titleTooLong": "Der Name ist zu lang.",
+      "yearOutOfRange": "Geben Sie ein gültiges Jahr an (zwischen 1000 und dem nächsten Jahr).",
+      "coverType": "Nur PNG- oder JPEG-Bilder sind zulässig.",
+      "coverTooLarge": "Das Bild ist größer als 5 MB."
+    }
+  },
+  "player": {
+    "nowPlaying": "Wird abgespielt",
+    "expand": "Player vergrößern",
+    "collapse": "Player verkleinern",
+    "openLibrary": "Bibliothek öffnen",
+    "close": "Player schließen",
+    "play": "Abspielen",
+    "pause": "Pausieren",
+    "stop": "Stoppen",
+    "previous": "Vorheriger Titel",
+    "next": "Nächster Titel",
+    "shuffle": "Zufallswiedergabe",
+    "repeatOne": "Titel wiederholen",
+    "progress": "Fortschritt des Titels",
+    "volume": "Lautstärke",
+    "mute": "Stummschalten",
+    "unmute": "Ton einschalten",
+    "volumeValue": "Lautstärke {value} %",
+    "errors": {
+      "missing": "Die Datei dieses Titels ist nicht mehr auf der Festplatte.",
+      "unsupported": "Dieses Audioformat kann hier nicht abgespielt werden.",
+      "shellUnavailable": "Die Wiedergabe steht nur in der Desktop-Anwendung zur Verfügung.",
+      "generic": "Die Wiedergabe ist fehlgeschlagen."
+    },
+    "related": {
+      "empty": "Kein weiterer verbundener Titel in dieser Bibliothek.",
+      "play": "„{title}“ abspielen"
+    }
+  },
+  "mini": {
+    "expand": "Anwendung öffnen",
+    "close": "Schwebenden Player schließen",
+    "menu": {
+      "label": "Optionen des schwebenden Players",
+      "horizontal": "Waagerecht anordnen",
+      "vertical": "Senkrecht anordnen",
+      "settings": "Player-Einstellungen"
+    },
+    "pin": "Mini-Player immer im Vordergrund halten",
+    "unpin": "Mini-Player nicht mehr im Vordergrund halten",
+    "confirm": {
+      "title": "Mini-Player schließen?",
+      "message": "Wähle, ob nur das Mini-Player-Fenster geschlossen und die Anwendung im Infobereich gelassen oder die Anwendung vollständig beendet werden soll.",
+      "remember": "Diese Wahl merken",
+      "cancel": "Abbrechen",
+      "dockOnly": "Nur Mini-Player schließen",
+      "wholeApp": "Anwendung beenden"
+    },
+    "collapse": "Weniger Bedienelemente",
+    "expandDock": "Alle Bedienelemente zeigen"
+  },
+  "titlebar": {
+    "tray": "In den Infobereich minimieren",
+    "minimize": "Minimieren",
+    "maximize": "Maximieren oder wiederherstellen",
+    "close": "Anwendung schließen"
+  },
+  "tray": {
+    "show": "TuneLib öffnen",
+    "bringToFront": "Mini-Player in den Vordergrund",
+    "stop": "Wiedergabe beenden",
+    "quit": "Beenden"
+  },
+  "common": {
+    "loading": "Wird geladen"
+  }
+}

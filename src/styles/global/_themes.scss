@@ -1,0 +1,79 @@
+// Windows 11 / Fluent inspired palettes. Light is the default; dark is opted into through
+// the `data-theme` attribute the settings store writes on the document.
+
+:root {
+  --color_bg: #f3f3f3;
+  --color_bg_accent: #eaeaea;
+  --color_surface: #ffffff;
+  --color_surface_alt: #fbfbfb;
+  --color_surface_hover: #f5f5f5;
+  --color_border: #e2e2e2;
+  --color_border_strong: #cfcfcf;
+  --color_text: #1b1b1b;
+  --color_text_muted: #5d5d5d;
+  --color_accent: #0067c0;
+  --color_accent_hover: #005ba1;
+  --color_accent_soft: #eaf2fb;
+  --color_on_accent: #ffffff;
+  --color_danger: #c42b1c;
+  --color_danger_hover: #a02216;
+  --color_danger_soft: #fdf0ef;
+  --color_danger_border: #f0c4c0;
+  --color_on_danger: #ffffff;
+  --color_warning: #9a6700;
+  --color_warning_strong: #b78500;
+  --color_warning_soft: #fff6e0;
+  --color_warning_border: #eccc86;
+  --color_on_warning: #3d2900;
+  --color_scrollbar_thumb: #c6c6c6;
+  --color_scrollbar_thumb_hover: #9a9a9a;
+  --shadow_card: 0 1px 3px rgb(0 0 0 / 8%);
+  --shadow_raised: 0 4px 12px rgb(0 0 0 / 12%);
+
+  --surface_glass_background: var(--color_surface);
+  --surface_glass_border: var(--color_border);
+  --surface_glass_filter: none;
+  --surface_glass_shadow: var(--shadow_card);
+  --row_hover_background: var(--color_surface_hover);
+  --row_selected_background: var(--color_accent_soft);
+  --table_head_background: var(--color_surface_alt);
+}
+
+:root[data-glass='on'] {
+  --surface_glass_background: color-mix(in srgb, var(--color_surface) 68%, transparent);
+  --surface_glass_border: color-mix(in srgb, var(--color_border_strong) 55%, transparent);
+  --surface_glass_filter: blur(18px) saturate(150%);
+  --surface_glass_shadow: var(--shadow_raised);
+  --row_hover_background: color-mix(in srgb, var(--color_surface_hover) 55%, transparent);
+  --row_selected_background: color-mix(in srgb, var(--color_accent_soft) 72%, transparent);
+}
+
+:root[data-theme='dark'] {
+  --color_bg: #1f1f1f;
+  --color_bg_accent: #191919;
+  --color_surface: #2b2b2b;
+  --color_surface_alt: #272727;
+  --color_surface_hover: #343434;
+  --color_border: #3a3a3a;
+  --color_border_strong: #4a4a4a;
+  --color_text: #f7f7f7;
+  --color_text_muted: #a6a6a6;
+  --color_accent: #4cc2ff;
+  --color_accent_hover: #64cbff;
+  --color_accent_soft: #26333d;
+  --color_on_accent: #00293f;
+  --color_danger: #ff6a5e;
+  --color_danger_hover: #ff8a80;
+  --color_danger_soft: #3a2220;
+  --color_danger_border: #6b3733;
+  --color_on_danger: #2b0d0a;
+  --color_warning: #f2c14e;
+  --color_warning_strong: #ffd166;
+  --color_warning_soft: #352c17;
+  --color_warning_border: #6a5a2d;
+  --color_on_warning: #2a2004;
+  --color_scrollbar_thumb: #4d4d4d;
+  --color_scrollbar_thumb_hover: #6a6a6a;
+  --shadow_card: 0 1px 3px rgb(0 0 0 / 40%);
+  --shadow_raised: 0 4px 12px rgb(0 0 0 / 50%);
+}

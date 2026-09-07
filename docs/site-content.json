@@ -1,0 +1,475 @@
+{
+  "site": {
+    "name": "TuneLib",
+    "basePath": "https://valeriogc.github.io/tune-lib/",
+    "defaultLocale": "en",
+    "repositoryUrl": "https://github.com/ValerioGc/tune-lib"
+  },
+  "locales": {
+    "it": {
+      "languageName": "Italiano",
+      "languageLabel": "Scegli la lingua",
+      "shortName": "IT",
+      "pageTitle": "TuneLib - Gestore di librerie audio per Windows e Linux",
+      "metaDescription": "Applicazione desktop open source per gestire una libreria di file audio: modifica dei metadati, copertine, viste multiple e player integrato. Funziona interamente sul tuo computer, senza connessione e senza telemetria.",
+      "navLabel": "Navigazione del sito",
+      "downloadNav": "Download",
+      "featuresNav": "Funzionalità",
+      "formatsNav": "Formati",
+      "githubNav": "GitHub",
+      "heroKicker": "Desktop · Windows e Linux",
+      "heroTitle": "La tua libreria audio, sul tuo computer",
+      "heroLead": "TuneLib tiene traccia dei brani che aggiungi tu, ne modifica i tag e le copertine scrivendoli direttamente nei file, e li riproduce senza uscire dall'applicazione. Nessuna scansione automatica del disco, nessun account, nessuna connessione.",
+      "repoButton": "Vedi su GitHub",
+      "downloadKicker": "Ultima versione",
+      "downloadTitle": "Scarica TuneLib",
+      "downloadFor": "Scarica per",
+      "downloadLoading": "Caricamento…",
+      "downloadAll": "Tutte le versioni",
+      "downloadVersion": "Versione",
+      "downloadHashCopied": "Copiato!",
+      "summaryLabel": "In sintesi",
+      "summary": [
+        {
+          "term": "Piattaforme",
+          "detail": "Windows · Linux"
+        },
+        {
+          "term": "Internet e telemetria",
+          "detail": "Non richiesti, mai"
+        },
+        {
+          "term": "Licenza",
+          "detail": "Open source"
+        }
+      ],
+      "featuresKicker": "Cosa sa fare",
+      "featuresTitle": "Funzionalità",
+      "features": [
+        {
+          "title": "Libreria che decidi tu",
+          "body": "Nessuna scansione automatica delle cartelle: la libreria contiene solo i file che aggiungi, singolarmente o trascinandoli nella finestra. Puoi tenerne più di una e passare dall'una all'altra quando vuoi."
+        },
+        {
+          "title": "Modifica dei metadati",
+          "body": "Titolo, autore, album, anno, genere e copertina si modificano dall'app e vengono riscritti nei tag del file, non solo nel database della libreria. La modifica multipla applica lo stesso campo a più brani insieme."
+        },
+        {
+          "title": "Vista elenco e vista anteprime",
+          "body": "L'elenco mostra colonne che puoi ordinare, ridimensionare e nascondere; le anteprime dispongono le copertine su una griglia, con un ordinamento proprio. Le sezioni Autori, Album e Generi raggruppano gli stessi brani, e ogni gruppo apre un pannello che si può percorrere: dall'album al suo autore, da lì ai suoi album."
+        },
+        {
+          "title": "Player integrato",
+          "body": "Un player agganciato in fondo alla finestra, espandibile a tutta pagina, con avanzamento, volume, silenziamento, riproduzione casuale e ripetizione. La coda è l'elenco che hai davanti, filtri e ordinamento compresi, e a tutto schermo autore, album e genere sono collegamenti a tutto ciò che è legato a loro."
+        },
+        {
+          "title": "L'aspetto che scegli",
+          "body": "Tema chiaro o scuro, quattro dimensioni del testo, un colore accent a tua scelta e uno sfondo sfumato costruito su quel colore, di cui decidi forma e origine, con superfici in vetro attivabili a parte e un player che prende i colori dalla copertina in ascolto."
+        },
+        {
+          "title": "Importazione ed esportazione",
+          "body": "Una libreria si esporta in un file portabile e si reimporta altrove, con l’unione già gestita: sostituire quella aperta, aggiungere solo i brani nuovi o aggiornare anche quelli già presenti. L’esportazione può contenere tutta la libreria oppure i soli percorsi dei brani, che tiene il file leggero quando i file audio viaggiano insieme. L’elenco dei brani si esporta a parte in testo o CSV."
+        },
+        {
+          "title": "File sempre allineati",
+          "body": "All'apertura la libreria rilegge i file: i tag modificati con altri programmi arrivano da soli e i file spostati o cancellati vengono segnalati invece di sparire in silenzio. Un cercatore di duplicati raccoglie i brani presenti in più file, riconosciuti dal titolo con il suo autore o dal nome del file."
+        },
+        {
+          "title": "Player flottante e barra di sistema",
+          "body": "Riducendo l'app nella barra di sistema la musica continua, e al posto della finestra compare un player flottante: copertina, titolo e comandi in una finestrella che sposti dove vuoi, orizzontale o verticale, sempre in primo piano se lo preferisci. L'app può anche avviarsi con il sistema, già ridotta."
+        },
+        {
+          "title": "Apri i file audio con TuneLib",
+          "body": "Scegli TuneLib nelle app predefinite del sistema per aprire i file audio dal file manager. Su Windows l’app verifica le associazioni e nasconde il promemoria quando tutti i formati supportati sono già associati."
+        },
+        {
+          "title": "Una guida dentro l’app",
+          "body": "Il pulsante ? apre una guida con istruzioni brevi, icone dei comandi, scorciatoie da tastiera e suggerimenti, disponibile nelle cinque lingue dell’interfaccia."
+        }
+      ],
+      "formatsKicker": "Compatibilità",
+      "formatsTitle": "Formati supportati",
+      "formatsLabel": "Elenco dei formati audio supportati",
+      "formats": ["MP3", "FLAC", "M4A", "OGG", "WAV"],
+      "formatsNote": "La lettura e la scrittura dei tag passano dalla stessa libreria per tutti i formati. Copertina compresa: in ogni formato può essere aggiunta, sostituita e rimossa.",
+      "privacyKicker": "Privacy",
+      "privacyTitle": "Tutto resta sul tuo computer",
+      "privacyBody": "TuneLib non raccoglie dati, non invia telemetria e non ha bisogno di una connessione a internet per nessuna funzione. Le uniche cose che salva sono le tue preferenze e i file di libreria, tenuti in locale. I tuoi file audio non vengono mai copiati altrove: l'app li legge e ne riscrive i tag dove sono.",
+      "smartScreenTitle": "Avviso di Windows SmartScreen",
+      "smartScreenBody": "L'installer non è ancora firmato con un certificato a pagamento, quindi al primo avvio SmartScreen può mostrare un avviso. Scegli \"Ulteriori informazioni\" e poi \"Esegui comunque\" per procedere.",
+      "footerRepo": "Codice sorgente su GitHub"
+    },
+    "en": {
+      "languageName": "English",
+      "languageLabel": "Choose your language",
+      "shortName": "EN",
+      "pageTitle": "TuneLib - Audio library manager for Windows and Linux",
+      "metaDescription": "Open source desktop application for managing a library of audio files: metadata editing, cover art, multiple views and a built-in player. Runs entirely on your own computer, with no connection and no telemetry.",
+      "navLabel": "Site navigation",
+      "downloadNav": "Download",
+      "featuresNav": "Features",
+      "formatsNav": "Formats",
+      "githubNav": "GitHub",
+      "heroKicker": "Desktop · Windows and Linux",
+      "heroTitle": "Your audio library, on your own computer",
+      "heroLead": "TuneLib tracks the songs you add yourself, edits their tags and cover art straight into the files, and plays them without leaving the app. No automatic disk scanning, no account, no connection.",
+      "repoButton": "View on GitHub",
+      "downloadKicker": "Latest release",
+      "downloadTitle": "Download TuneLib",
+      "downloadFor": "Download for",
+      "downloadLoading": "Loading…",
+      "downloadAll": "All releases",
+      "downloadVersion": "Version",
+      "downloadHashCopied": "Copied!",
+      "summaryLabel": "At a glance",
+      "summary": [
+        {
+          "term": "Platforms",
+          "detail": "Windows · Linux"
+        },
+        {
+          "term": "Internet and telemetry",
+          "detail": "Never required"
+        },
+        {
+          "term": "Licence",
+          "detail": "Open source"
+        }
+      ],
+      "featuresKicker": "What it does",
+      "featuresTitle": "Features",
+      "features": [
+        {
+          "title": "A library you decide",
+          "body": "No automatic folder scanning: the library holds only the files you add, one by one or by dropping them on the window. You can keep several libraries and switch between them whenever you like."
+        },
+        {
+          "title": "Metadata editing",
+          "body": "Title, artist, album, year, genre and cover art are edited from the app and written back into the file's tags, not just into the library database. Bulk editing applies the same field to several tracks at once."
+        },
+        {
+          "title": "List view and preview view",
+          "body": "The list shows columns you can sort, resize and hide as you please; the previews lay the cover art on a grid, with a sort control of their own. The Artists, Albums and Genres sections group the same tracks, and each group opens a panel you can walk through: from an album to its artist, and from there to their albums."
+        },
+        {
+          "title": "Built-in player",
+          "body": "A player docked at the bottom of the window, expandable to full page, with progress, volume, mute, shuffle and repeat. The queue is the list in front of you, filters and sorting included, and in the full view the artist, the album and the genre are links to everything else connected to them."
+        },
+        {
+          "title": "Appearance you choose",
+          "body": "Light or dark theme, four text sizes, an accent colour of your choosing and a soft background built on that colour, whose shape and origin are yours, with glass surfaces you can switch on separately and a player that takes its colours from the cover playing."
+        },
+        {
+          "title": "Import and export",
+          "body": "A library exports to a portable file and imports back elsewhere, with the merge handled for you: replace what is open, add only what is new, or update what is already there. The export carries the whole library or only the paths of the tracks, which keeps the file small when the audio itself is coming along. The track list on its own exports to text or CSV."
+        },
+        {
+          "title": "Files kept in step",
+          "body": "Opening a library reads its files again: tags edited with another program arrive on their own, and files moved or deleted are reported instead of quietly disappearing. A duplicate finder gathers the songs held in more than one file, matched by title with its artist or by file name."
+        },
+        {
+          "title": "Floating player and system tray",
+          "body": "Send the app to the system tray and the music carries on, with a small floating player taking the place of the window: cover, title and controls in a window you drag where you like, horizontal or vertical, kept above the others if you want it there. The app can also start with the system, already minimized."
+        },
+        {
+          "title": "Open audio files with TuneLib",
+          "body": "Choose TuneLib in your system’s default apps to open audio files from the file manager. On Windows, the app checks associations and hides the reminder when all supported formats are already associated."
+        },
+        {
+          "title": "Help inside the app",
+          "body": "The ? button opens a guide with short instructions, control icons, keyboard shortcuts and tips, available in all five interface languages."
+        }
+      ],
+      "formatsKicker": "Compatibility",
+      "formatsTitle": "Supported formats",
+      "formatsLabel": "List of supported audio formats",
+      "formats": ["MP3", "FLAC", "M4A", "OGG", "WAV"],
+      "formatsNote": "Reading and writing tags goes through the same library for every format. The cover art included: in every one of them it can be added, replaced and removed.",
+      "privacyKicker": "Privacy",
+      "privacyTitle": "Everything stays on your computer",
+      "privacyBody": "TuneLib collects no data, sends no telemetry and needs no internet connection for any feature. The only things it stores are your preferences and the library files, kept locally. Your audio files are never copied anywhere: the app reads them and rewrites their tags where they are.",
+      "smartScreenTitle": "Windows SmartScreen notice",
+      "smartScreenBody": "The installer is not yet signed with a paid certificate, so SmartScreen may show a warning on first launch. Choose \"More info\" and then \"Run anyway\" to proceed.",
+      "footerRepo": "Source code on GitHub"
+    },
+    "fr": {
+      "languageName": "Français",
+      "languageLabel": "Choisissez votre langue",
+      "shortName": "FR",
+      "pageTitle": "TuneLib - Gestionnaire de bibliothèque audio pour Windows et Linux",
+      "metaDescription": "Application de bureau open source pour gérer une bibliothèque de fichiers audio : édition des métadonnées, pochettes, vues multiples et lecteur intégré. Tout se passe sur votre ordinateur, sans connexion et sans télémétrie.",
+      "navLabel": "Navigation du site",
+      "downloadNav": "Téléchargement",
+      "featuresNav": "Fonctionnalités",
+      "formatsNav": "Formats",
+      "githubNav": "GitHub",
+      "heroKicker": "Bureau · Windows et Linux",
+      "heroTitle": "Votre bibliothèque audio, sur votre ordinateur",
+      "heroLead": "TuneLib suit les morceaux que vous ajoutez vous-même, modifie leurs tags et leurs pochettes directement dans les fichiers, et les lit sans quitter l'application. Aucune analyse automatique du disque, aucun compte, aucune connexion.",
+      "repoButton": "Voir sur GitHub",
+      "downloadKicker": "Dernière version",
+      "downloadTitle": "Télécharger TuneLib",
+      "downloadFor": "Télécharger pour",
+      "downloadLoading": "Chargement…",
+      "downloadAll": "Toutes les versions",
+      "downloadVersion": "Version",
+      "downloadHashCopied": "Copié !",
+      "summaryLabel": "En bref",
+      "summary": [
+        {
+          "term": "Plateformes",
+          "detail": "Windows · Linux"
+        },
+        {
+          "term": "Internet et télémétrie",
+          "detail": "Jamais nécessaires"
+        },
+        {
+          "term": "Licence",
+          "detail": "Open source"
+        }
+      ],
+      "featuresKicker": "Ce qu'il fait",
+      "featuresTitle": "Fonctionnalités",
+      "features": [
+        {
+          "title": "Une bibliothèque que vous décidez",
+          "body": "Aucune analyse automatique des dossiers : la bibliothèque ne contient que les fichiers que vous ajoutez, un par un ou en les déposant sur la fenêtre. Vous pouvez en tenir plusieurs et passer de l'une à l'autre quand vous voulez."
+        },
+        {
+          "title": "Édition des métadonnées",
+          "body": "Titre, artiste, album, année, genre et pochette se modifient depuis l'application et sont réécrits dans les tags du fichier, pas seulement dans la base de la bibliothèque. L'édition multiple applique le même champ à plusieurs morceaux à la fois."
+        },
+        {
+          "title": "Vue liste et vue aperçus",
+          "body": "La liste montre des colonnes que vous pouvez trier, redimensionner et masquer ; les aperçus disposent les pochettes en grille, avec leur propre tri. Les sections Artistes, Albums et Genres regroupent les mêmes morceaux, et chaque groupe ouvre un panneau que l’on peut parcourir : de l’album à son artiste, et de là à ses albums."
+        },
+        {
+          "title": "Lecteur intégré",
+          "body": "Un lecteur ancré en bas de la fenêtre, extensible en pleine page, avec avancement, volume, coupure du son, lecture aléatoire et répétition. La file est la liste que vous avez sous les yeux, filtres et tri compris, et en plein écran l’artiste, l’album et le genre sont des liens vers tout ce qui leur est lié."
+        },
+        {
+          "title": "L’apparence que vous choisissez",
+          "body": "Thème clair ou sombre, quatre tailles de texte, une couleur d’accent à votre goût et un fond dégradé construit sur cette couleur, dont vous décidez la forme et l’origine, avec des surfaces en verre activables à part et un lecteur qui prend ses couleurs de la pochette en cours."
+        },
+        {
+          "title": "Import et export",
+          "body": "Une bibliothèque s’exporte dans un fichier portable et se réimporte ailleurs, la fusion étant déjà prise en charge : remplacer celle qui est ouverte, n’ajouter que les nouveautés, ou mettre à jour ce qui existe déjà. L’export contient toute la bibliothèque ou seulement les chemins des morceaux, ce qui garde le fichier léger quand l’audio voyage avec. La liste des morceaux s’exporte à part, en texte ou en CSV."
+        },
+        {
+          "title": "Des fichiers toujours à jour",
+          "body": "À l’ouverture, la bibliothèque relit ses fichiers : les tags modifiés avec un autre programme arrivent d’eux-mêmes, et les fichiers déplacés ou supprimés sont signalés au lieu de disparaître en silence. Un chercheur de doublons rassemble les morceaux présents dans plusieurs fichiers, reconnus par le titre avec son artiste ou par le nom du fichier."
+        },
+        {
+          "title": "Lecteur flottant et zone de notification",
+          "body": "En envoyant l’app dans la zone de notification la musique continue, et un lecteur flottant prend la place de la fenêtre : pochette, titre et commandes dans une petite fenêtre que vous déplacez à votre guise, horizontale ou verticale, au premier plan si vous le souhaitez. L’app peut aussi démarrer avec le système, déjà réduite."
+        },
+        {
+          "title": "Ouvrir les fichiers audio avec TuneLib",
+          "body": "Choisissez TuneLib dans les applications par défaut du système pour ouvrir les fichiers audio depuis le gestionnaire de fichiers. Sous Windows, l’application vérifie les associations et masque le rappel lorsque tous les formats pris en charge sont déjà associés."
+        },
+        {
+          "title": "Une aide dans l’application",
+          "body": "Le bouton ? ouvre un guide avec des instructions courtes, les icônes des commandes, des raccourcis clavier et des conseils, dans les cinq langues de l’interface."
+        }
+      ],
+      "formatsKicker": "Compatibilité",
+      "formatsTitle": "Formats pris en charge",
+      "formatsLabel": "Liste des formats audio pris en charge",
+      "formats": ["MP3", "FLAC", "M4A", "OGG", "WAV"],
+      "formatsNote": "La lecture et l'écriture des tags passent par la même bibliothèque pour tous les formats. La pochette comprise : dans chacun d'eux, elle peut être ajoutée, remplacée et retirée.",
+      "privacyKicker": "Confidentialité",
+      "privacyTitle": "Tout reste sur votre ordinateur",
+      "privacyBody": "TuneLib ne collecte aucune donnée, n'envoie aucune télémétrie et n'a besoin d'aucune connexion internet pour la moindre fonction. Les seules choses enregistrées sont vos préférences et les fichiers de bibliothèque, gardés en local. Vos fichiers audio ne sont jamais copiés ailleurs : l'application les lit et réécrit leurs tags sur place.",
+      "smartScreenTitle": "Avertissement Windows SmartScreen",
+      "smartScreenBody": "L'installeur n'est pas encore signé avec un certificat payant, SmartScreen peut donc afficher un avertissement au premier lancement. Choisissez « Informations complémentaires » puis « Exécuter quand même » pour continuer.",
+      "footerRepo": "Code source sur GitHub"
+    },
+    "es": {
+      "languageName": "Español",
+      "languageLabel": "Elige tu idioma",
+      "shortName": "ES",
+      "pageTitle": "TuneLib - Gestor de biblioteca de audio para Windows y Linux",
+      "metaDescription": "Aplicación de escritorio de código abierto para gestionar una biblioteca de archivos de audio: edición de metadatos, carátulas, varias vistas y reproductor integrado. Todo ocurre en tu ordenador, sin conexión y sin telemetría.",
+      "navLabel": "Navegación del sitio",
+      "downloadNav": "Descarga",
+      "featuresNav": "Funciones",
+      "formatsNav": "Formatos",
+      "githubNav": "GitHub",
+      "heroKicker": "Escritorio · Windows y Linux",
+      "heroTitle": "Tu biblioteca de audio, en tu ordenador",
+      "heroLead": "TuneLib registra las pistas que añades tú, edita sus etiquetas y carátulas escribiéndolas directamente en los archivos, y las reproduce sin salir de la aplicación. Sin análisis automático del disco, sin cuenta, sin conexión.",
+      "repoButton": "Ver en GitHub",
+      "downloadKicker": "Última versión",
+      "downloadTitle": "Descargar TuneLib",
+      "downloadFor": "Descargar para",
+      "downloadLoading": "Cargando…",
+      "downloadAll": "Todas las versiones",
+      "downloadVersion": "Versión",
+      "downloadHashCopied": "¡Copiado!",
+      "summaryLabel": "En resumen",
+      "summary": [
+        {
+          "term": "Plataformas",
+          "detail": "Windows · Linux"
+        },
+        {
+          "term": "Internet y telemetría",
+          "detail": "Nunca necesarios"
+        },
+        {
+          "term": "Licencia",
+          "detail": "Código abierto"
+        }
+      ],
+      "featuresKicker": "Qué hace",
+      "featuresTitle": "Funciones",
+      "features": [
+        {
+          "title": "Una biblioteca que decides tú",
+          "body": "Sin análisis automático de carpetas: la biblioteca contiene solo los archivos que añades, uno a uno o soltándolos sobre la ventana. Puedes tener varias y pasar de una a otra cuando quieras."
+        },
+        {
+          "title": "Edición de metadatos",
+          "body": "Título, artista, álbum, año, género y carátula se editan desde la aplicación y se reescriben en las etiquetas del archivo, no solo en la base de la biblioteca. La edición múltiple aplica el mismo campo a varias pistas a la vez."
+        },
+        {
+          "title": "Vista de lista y vista previa",
+          "body": "La lista muestra columnas que puedes ordenar, redimensionar y ocultar; las vistas previas disponen las carátulas en una cuadrícula, con un orden propio. Las secciones Artistas, Álbumes y Géneros agrupan las mismas pistas, y cada grupo abre un panel que se puede recorrer: del álbum a su artista, y de ahí a sus álbumes."
+        },
+        {
+          "title": "Reproductor integrado",
+          "body": "Un reproductor anclado abajo, ampliable a pantalla completa, con avance, volumen, silencio, reproducción aleatoria y repetición. La cola es la lista que tienes delante, filtros y orden incluidos, y a pantalla completa el artista, el álbum y el género son enlaces a todo lo relacionado con ellos."
+        },
+        {
+          "title": "El aspecto que elijas",
+          "body": "Tema claro u oscuro, cuatro tamaños de texto, un color de acento a tu gusto y un fondo degradado construido sobre ese color, del que decides forma y origen, con superficies de cristal activables aparte y un reproductor que toma los colores de la carátula en reproducción."
+        },
+        {
+          "title": "Importación y exportación",
+          "body": "Una biblioteca se exporta a un archivo portable y se vuelve a importar en otro sitio, con la fusión ya resuelta: sustituir la que está abierta, añadir solo lo nuevo o actualizar también lo que ya estaba. La exportación lleva toda la biblioteca o solo las rutas de las pistas, lo que mantiene el archivo ligero cuando el audio viaja con él. La lista de pistas se exporta aparte, en texto o CSV."
+        },
+        {
+          "title": "Archivos siempre al día",
+          "body": "Al abrirla, la biblioteca relee sus archivos: las etiquetas editadas con otro programa llegan solas, y los archivos movidos o borrados se avisan en vez de desaparecer en silencio. Un buscador de duplicados reúne las pistas presentes en varios archivos, reconocidas por el título con su artista o por el nombre del archivo."
+        },
+        {
+          "title": "Reproductor flotante y bandeja del sistema",
+          "body": "Al minimizar la app en la bandeja del sistema la música sigue, y en lugar de la ventana aparece un reproductor flotante: carátula, título y mandos en una ventanita que mueves donde quieras, horizontal o vertical, y en primer plano si lo prefieres. La app también puede arrancar con el sistema, ya minimizada."
+        },
+        {
+          "title": "Abrir archivos de audio con TuneLib",
+          "body": "Elige TuneLib en las aplicaciones predeterminadas del sistema para abrir archivos de audio desde el gestor de archivos. En Windows, la aplicación comprueba las asociaciones y oculta el recordatorio cuando todos los formatos compatibles ya están asociados."
+        },
+        {
+          "title": "Ayuda dentro de la aplicación",
+          "body": "El botón ? abre una guía con instrucciones breves, iconos de controles, atajos de teclado y consejos, disponible en los cinco idiomas de la interfaz."
+        }
+      ],
+      "formatsKicker": "Compatibilidad",
+      "formatsTitle": "Formatos admitidos",
+      "formatsLabel": "Lista de formatos de audio admitidos",
+      "formats": ["MP3", "FLAC", "M4A", "OGG", "WAV"],
+      "formatsNote": "La lectura y la escritura de etiquetas pasan por la misma biblioteca en todos los formatos. La carátula incluida: en cada uno de ellos puede añadirse, sustituirse y quitarse.",
+      "privacyKicker": "Privacidad",
+      "privacyTitle": "Todo se queda en tu ordenador",
+      "privacyBody": "TuneLib no recopila datos, no envía telemetría y no necesita conexión a internet para ninguna función. Lo único que guarda son tus preferencias y los archivos de biblioteca, en local. Tus archivos de audio nunca se copian a otro sitio: la aplicación los lee y reescribe sus etiquetas donde están.",
+      "smartScreenTitle": "Aviso de Windows SmartScreen",
+      "smartScreenBody": "El instalador todavía no está firmado con un certificado de pago, así que SmartScreen puede mostrar un aviso en el primer inicio. Elige «Más información» y luego «Ejecutar de todas formas» para continuar.",
+      "footerRepo": "Código fuente en GitHub"
+    },
+    "de": {
+      "languageName": "Deutsch",
+      "languageLabel": "Wählen Sie Ihre Sprache",
+      "shortName": "DE",
+      "pageTitle": "TuneLib - Verwaltung der Audiobibliothek für Windows und Linux",
+      "metaDescription": "Quelloffene Desktop-Anwendung zur Verwaltung einer Bibliothek von Audiodateien: Metadaten bearbeiten, Cover, mehrere Ansichten und ein eingebauter Player. Alles läuft auf Ihrem eigenen Rechner, ohne Verbindung und ohne Telemetrie.",
+      "navLabel": "Navigation der Website",
+      "downloadNav": "Download",
+      "featuresNav": "Funktionen",
+      "formatsNav": "Formate",
+      "githubNav": "GitHub",
+      "heroKicker": "Desktop · Windows und Linux",
+      "heroTitle": "Ihre Audiobibliothek, auf Ihrem eigenen Rechner",
+      "heroLead": "TuneLib führt die Titel, die Sie selbst hinzufügen, bearbeitet ihre Tags und Cover direkt in den Dateien und spielt sie ab, ohne die Anwendung zu verlassen. Kein automatisches Durchsuchen der Festplatte, kein Konto, keine Verbindung.",
+      "repoButton": "Auf GitHub ansehen",
+      "downloadKicker": "Neueste Version",
+      "downloadTitle": "TuneLib herunterladen",
+      "downloadFor": "Herunterladen für",
+      "downloadLoading": "Wird geladen…",
+      "downloadAll": "Alle Versionen",
+      "downloadVersion": "Version",
+      "downloadHashCopied": "Kopiert!",
+      "summaryLabel": "Auf einen Blick",
+      "summary": [
+        {
+          "term": "Plattformen",
+          "detail": "Windows · Linux"
+        },
+        {
+          "term": "Internet und Telemetrie",
+          "detail": "Nie erforderlich"
+        },
+        {
+          "term": "Lizenz",
+          "detail": "Open Source"
+        }
+      ],
+      "featuresKicker": "Was sie kann",
+      "featuresTitle": "Funktionen",
+      "features": [
+        {
+          "title": "Eine Bibliothek nach Ihrer Wahl",
+          "body": "Kein automatisches Durchsuchen von Ordnern: Die Bibliothek enthält nur die Dateien, die Sie hinzufügen, einzeln oder per Ziehen auf das Fenster. Sie können mehrere führen und jederzeit zwischen ihnen wechseln."
+        },
+        {
+          "title": "Metadaten bearbeiten",
+          "body": "Titel, Interpret, Album, Jahr, Genre und Cover werden in der Anwendung bearbeitet und in die Tags der Datei zurückgeschrieben, nicht nur in die Datenbank der Bibliothek. Die Mehrfachbearbeitung wendet dasselbe Feld auf mehrere Titel zugleich an."
+        },
+        {
+          "title": "Listenansicht und Kachelansicht",
+          "body": "Die Liste zeigt Spalten, die du sortieren, in der Breite ändern und ausblenden kannst; die Kacheln legen die Cover auf ein Raster, mit eigener Sortierung. Die Bereiche Interpreten, Alben und Genres fassen dieselben Titel zusammen, und jede Gruppe öffnet eine Ansicht, durch die man wandern kann: vom Album zum Interpreten und von dort zu seinen Alben."
+        },
+        {
+          "title": "Eingebauter Player",
+          "body": "Ein Player am unteren Rand, auf ganze Seite erweiterbar, mit Fortschritt, Lautstärke, Stummschaltung, Zufallswiedergabe und Wiederholung. Die Warteschlange ist die Liste vor dir, Filter und Sortierung eingeschlossen, und im Vollbild sind Interpret, Album und Genre Verweise auf alles, was mit ihnen verbunden ist."
+        },
+        {
+          "title": "Das Aussehen deiner Wahl",
+          "body": "Helles oder dunkles Thema, vier Textgrößen, eine Akzentfarbe nach deinem Geschmack und ein weicher Hintergrund aus dieser Farbe, dessen Form und Ursprung du bestimmst, mit getrennt zuschaltbaren Glasflächen und einem Player, der seine Farben vom laufenden Cover nimmt."
+        },
+        {
+          "title": "Import und Export",
+          "body": "Eine Bibliothek wird in eine portable Datei exportiert und anderswo wieder importiert, das Zusammenführen inbegriffen: die geöffnete ersetzen, nur Neues hinzufügen oder auch Vorhandenes aktualisieren. Der Export enthält die ganze Bibliothek oder nur die Pfade der Titel, was die Datei klein hält, wenn die Audiodateien mitreisen. Die Titelliste wird gesondert als Text oder CSV exportiert."
+        },
+        {
+          "title": "Dateien bleiben im Takt",
+          "body": "Beim Öffnen liest die Bibliothek ihre Dateien erneut: mit anderen Programmen geänderte Tags kommen von allein an, verschobene oder gelöschte Dateien werden gemeldet statt stillschweigend zu verschwinden. Eine Duplikatsuche sammelt Titel, die in mehreren Dateien liegen, erkannt am Titel mit seinem Interpreten oder am Dateinamen."
+        },
+        {
+          "title": "Schwebender Player und Infobereich",
+          "body": "Geht die App in den Infobereich, läuft die Musik weiter, und an die Stelle des Fensters tritt ein schwebender Player: Cover, Titel und Bedienelemente in einem kleinen Fenster, das du hinziehst, wo du willst, waagerecht oder senkrecht, auf Wunsch immer im Vordergrund. Die App kann auch mit dem System starten, bereits minimiert."
+        },
+        {
+          "title": "Audiodateien mit TuneLib öffnen",
+          "body": "Wähle TuneLib in den Standard-Apps des Systems, um Audiodateien aus dem Dateimanager zu öffnen. Unter Windows prüft die App die Zuordnungen und blendet den Hinweis aus, wenn alle unterstützten Formate bereits zugeordnet sind."
+        },
+        {
+          "title": "Hilfe direkt in der App",
+          "body": "Die Schaltfläche ? öffnet eine Anleitung mit kurzen Beschreibungen, Steuersymbolen, Tastenkürzeln und Tipps in allen fünf Sprachen der Oberfläche."
+        }
+      ],
+      "formatsKicker": "Kompatibilität",
+      "formatsTitle": "Unterstützte Formate",
+      "formatsLabel": "Liste der unterstützten Audioformate",
+      "formats": ["MP3", "FLAC", "M4A", "OGG", "WAV"],
+      "formatsNote": "Das Lesen und Schreiben der Tags läuft bei allen Formaten über dieselbe Bibliothek. Das Cover eingeschlossen: in jedem von ihnen lässt es sich hinzufügen, ersetzen und entfernen.",
+      "privacyKicker": "Datenschutz",
+      "privacyTitle": "Alles bleibt auf Ihrem Rechner",
+      "privacyBody": "TuneLib erhebt keine Daten, sendet keine Telemetrie und benötigt für keine Funktion eine Internetverbindung. Gespeichert werden nur Ihre Einstellungen und die Bibliotheksdateien, lokal. Ihre Audiodateien werden nie anderswohin kopiert: Die Anwendung liest sie und schreibt ihre Tags dort, wo sie liegen.",
+      "smartScreenTitle": "Hinweis von Windows SmartScreen",
+      "smartScreenBody": "Der Installer ist noch nicht mit einem kostenpflichtigen Zertifikat signiert, daher kann SmartScreen beim ersten Start eine Warnung anzeigen. Wählen Sie „Weitere Informationen“ und dann „Trotzdem ausführen“, um fortzufahren.",
+      "footerRepo": "Quellcode auf GitHub"
+    }
+  }
+}
