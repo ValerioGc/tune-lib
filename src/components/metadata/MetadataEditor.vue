@@ -30,8 +30,12 @@ const filename = ref('');
 const renameError = ref<string | null>(null);
 const isRenaming = ref(false);
 const originalFilename = computed(() => props.track.path.split(/[\\/]/u).pop() ?? '');
-const filenameError = computed(() => validateFilename(filename.value, originalFilename.value) ?? renameError.value);
-watch(filename, () => { renameError.value = null; });
+const filenameError = computed(
+  () => validateFilename(filename.value, originalFilename.value) ?? renameError.value,
+);
+watch(filename, () => {
+  renameError.value = null;
+});
 
 const draft = ref<DraftMetadata>(fromTrack(props.track));
 const coverPreview = ref<string | null>(null);
@@ -82,7 +86,12 @@ const heavyCover = computed(() => {
 
 const errors = computed(() => draftErrors(draft.value));
 const canSave = computed(
-  () => isDraftValid(draft.value) && filenameError.value === null && !isRenaming.value && !library.isSaving && !isBatchSaving.value,
+  () =>
+    isDraftValid(draft.value) &&
+    filenameError.value === null &&
+    !isRenaming.value &&
+    !library.isSaving &&
+    !isBatchSaving.value,
 );
 
 function messageFor(key: string | null) {
@@ -162,8 +171,10 @@ async function save() {
       const renamed = await library.renameTrackFile(props.track.id, filename.value);
       await player.updateRenamedTrack({ ...renamed, missing: false });
     } catch (error) {
-      renameError.value = ['filenameRequired', 'filenameInvalid', 'filenameExtension', 'filenameExists']
-        .find((key) => String(error).includes(key)) ?? 'filenameRenameFailed';
+      renameError.value =
+        ['filenameRequired', 'filenameInvalid', 'filenameExtension', 'filenameExists'].find((key) =>
+          String(error).includes(key),
+        ) ?? 'filenameRenameFailed';
       return;
     } finally {
       isRenaming.value = false;

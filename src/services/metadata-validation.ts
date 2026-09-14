@@ -16,14 +16,22 @@ export function validateFilename(filename: string, original: string): string | n
   if (filename.trim() === '') {
     return 'filenameRequired';
   }
-  if (filename !== filename.trim() || filename.endsWith('.') || filename.length > 255
-    || new TextEncoder().encode(filename).length > 255
-    || [...filename].some((character) => character.charCodeAt(0) < 32 || '<>:"/\\|?*'.includes(character))
-    || /^(con|prn|aux|nul|com[1-9¹²³]|lpt[1-9¹²³])(?:\.|$)/iu.test(filename)) {
+  if (
+    filename !== filename.trim() ||
+    filename.endsWith('.') ||
+    filename.length > 255 ||
+    new TextEncoder().encode(filename).length > 255 ||
+    [...filename].some(
+      (character) => character.charCodeAt(0) < 32 || '<>:"/\\|?*'.includes(character),
+    ) ||
+    /^(con|prn|aux|nul|com[1-9¹²³]|lpt[1-9¹²³])(?:\.|$)/iu.test(filename)
+  ) {
     return 'filenameInvalid';
   }
-  if (!filename.slice(0, filename.lastIndexOf('.')).trim()
-    || filename.slice(filename.lastIndexOf('.')) !== original.slice(original.lastIndexOf('.'))) {
+  if (
+    !filename.slice(0, filename.lastIndexOf('.')).trim() ||
+    filename.slice(filename.lastIndexOf('.')) !== original.slice(original.lastIndexOf('.'))
+  ) {
     return 'filenameExtension';
   }
   return null;

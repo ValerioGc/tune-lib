@@ -239,8 +239,8 @@ export const usePlayerStore = defineStore('player', () => {
     const at = position.value;
     const playing = isPlaying.value;
     cancelPreload();
-    queue.value = queue.value.map((item) => item.id === track.id ? track : item);
-    sourceQueue.value = sourceQueue.value.map((item) => item.id === track.id ? track : item);
+    queue.value = queue.value.map((item) => (item.id === track.id ? track : item));
+    sourceQueue.value = sourceQueue.value.map((item) => (item.id === track.id ? track : item));
     if (current) {
       playbackRequest += 1;
       engine?.release();
